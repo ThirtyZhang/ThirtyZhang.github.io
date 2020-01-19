@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>韦阳的博客</title>
+  <title>张磊的博客</title>
   
   <subtitle>godweiyang</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://godweiyang.com/"/>
+  <link href="https://thirtyzhang.github.io/"/>
   <updated>2020-01-19T19:31:00.305Z</updated>
-  <id>https://godweiyang.com/</id>
+  <id>https://thirtyzhang.github.io/</id>
   
   <author>
-    <name>韦阳</name>
+    <name>张磊</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>二零一七年终总结</title>
-    <link href="https://godweiyang.com/2018/01/22/2017-conclusion/"/>
-    <id>https://godweiyang.com/2018/01/22/2017-conclusion/</id>
+    <link href="https://thirtyzhang.github.io/2018/01/22/2017-conclusion/"/>
+    <id>https://thirtyzhang.github.io/2018/01/22/2017-conclusion/</id>
     <published>2018-01-22T04:32:09.000Z</published>
     <updated>2020-01-19T19:31:00.305Z</updated>
     
@@ -35,10 +35,10 @@
     
     </summary>
     
-      <category term="随笔" scheme="https://godweiyang.com/categories/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="https://thirtyzhang.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="随笔" scheme="https://godweiyang.com/tags/%E9%9A%8F%E7%AC%94/"/>
+      <category term="随笔" scheme="https://thirtyzhang.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
