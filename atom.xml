@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-01-19T21:55:14.253Z</updated>
+  <updated>2020-01-19T22:03:47.474Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://thirtyzhang.github.io/2020/01/20/yu-xi-lu-xian/"/>
     <id>https://thirtyzhang.github.io/2020/01/20/yu-xi-lu-xian/</id>
     <published>2020-01-19T21:41:09.000Z</published>
-    <updated>2020-01-19T21:55:14.253Z</updated>
+    <updated>2020-01-19T22:03:47.474Z</updated>
     
     <summary type="html">
     
@@ -35,6 +35,10 @@
     
     </summary>
     
+      <category term="学习" scheme="https://thirtyzhang.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="学习" scheme="https://thirtyzhang.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
