@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>张磊的博客</title>
+  <title>张磊Blog</title>
   
   <subtitle>ThirtyZhang</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-01-20T12:40:04.824Z</updated>
+  <updated>2020-01-20T16:10:42.416Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://thirtyzhang.github.io/2020/01/20/yu-xi-lu-xian/"/>
     <id>https://thirtyzhang.github.io/2020/01/20/yu-xi-lu-xian/</id>
     <published>2020-01-19T21:41:09.000Z</published>
-    <updated>2020-01-20T12:40:04.824Z</updated>
+    <updated>2020-01-20T16:10:42.416Z</updated>
     
     <summary type="html">
     
