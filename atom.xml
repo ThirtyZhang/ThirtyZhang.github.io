@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-01-20T16:10:42.416Z</updated>
+  <updated>2020-01-20T19:57:04.655Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Markdown语法</title>
+    <link href="https://thirtyzhang.github.io/2020/01/21/markdown-yu-fa/"/>
+    <id>https://thirtyzhang.github.io/2020/01/21/markdown-yu-fa/</id>
+    <published>2020-01-20T17:44:56.000Z</published>
+    <updated>2020-01-20T19:57:04.655Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div align=&quot;middle&quot;&gt; &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="效率" scheme="https://thirtyzhang.github.io/categories/%E6%95%88%E7%8E%87/"/>
+    
+    
+      <category term="工具" scheme="https://thirtyzhang.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
     <title>预习路线</title>
     <link href="https://thirtyzhang.github.io/2020/01/20/yu-xi-lu-xian/"/>
     <id>https://thirtyzhang.github.io/2020/01/20/yu-xi-lu-xian/</id>
     <published>2020-01-19T21:41:09.000Z</published>
-    <updated>2020-01-20T16:10:42.416Z</updated>
+    <updated>2020-01-20T19:59:51.519Z</updated>
     
     <summary type="html">
     
