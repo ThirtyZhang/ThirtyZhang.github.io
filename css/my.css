@@ -1,1 +1,20 @@
 /* Here is your custom css styles. */
+.nav-wrapper li:hover {
+    background-color: #fff;
+}
+.nav-wrapper li:hover a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f40;
+}
+.brand-logo{
+    padding: 0.5rem!important;
+    /* border-radius: 1.8rem!important; */
+    line-height: 2.6rem;
+}
+.brand-logo:hover {
+    background-color: #fff;
+}
+.brand-logo:hover .logo-span{
+    color: #f40;
+}
