@@ -4,22 +4,16 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="预习路线, 前端开发">
+    <meta name="keywords" content="git快速上手, 前端开发">
     <meta name="baidu-site-verification" content>
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
-    <meta name="description" content="
+    <meta name="description" content="Git教程
+如果之前了解过想复习一下,直接看总结就可以了
 
-
-
-预习路线
-ajax  —  node  —  vue  — 小程序 — react 
-
-AJAXPart1不看php可以从第37个视频开始看
-Part2
-课件网盘链接 – 提取码:mc10
-这个ajax的视频比较老了,,,
-又另外找">
+安装设置Name和Email地址安装完成后，还需要最后一步设置，在命令行输入：
+$ git config --global user.name &#34;Your Name&#34;
+$ git ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -27,7 +21,7 @@ Part2
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>预习路线 | 张磊Blog</title>
+    <title>git快速上手 | 张磊Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -301,13 +295,13 @@ Part2
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        预习路线
+                        git快速上手
                     </div>
                 </div>
             </div>
@@ -418,8 +412,8 @@ Part2
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/学习/" target="_blank">
-                            <span class="chip bg-color">学习</span>
+                        <a href="/tags/工具/" target="_blank">
+                            <span class="chip bg-color">工具</span>
                         </a>
                         
                     </div>
@@ -430,8 +424,8 @@ Part2
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                        <a href="/categories/学习/" class="post-category" target="_blank">
-                            学习
+                        <a href="/categories/效率/" class="post-category" target="_blank">
+                            效率
                         </a>
                         
                     </div>
@@ -442,7 +436,7 @@ Part2
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-01-20
+                    2020-01-21
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -456,14 +450,14 @@ Part2
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    314
+                    4.5k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    16 分
                 </div>
                 
                 
@@ -479,53 +473,227 @@ Part2
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=28285910&auto=1&height=66"></iframe></div>
-
-
-
-<h1 id="预习路线"><a href="#预习路线" class="headerlink" title="预习路线"></a>预习路线</h1><ul>
-<li>ajax  —  node  —  vue  — 小程序 — react </li>
+                <h1 id="Git教程"><a href="#Git教程" class="headerlink" title="Git教程"></a>Git教程</h1><blockquote>
+<p>如果之前了解过想复习一下,直接看总结就可以了</p>
+</blockquote>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h2 id="设置Name和Email地址"><a href="#设置Name和Email地址" class="headerlink" title="设置Name和Email地址"></a>设置Name和Email地址</h2><p>安装完成后，还需要最后一步设置，在命令行输入：</p>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>name <span class="token string">"Your Name"</span>
+$ git config <span class="token operator">--</span>global user<span class="token punctuation">.</span>email <span class="token string">"email@example.com"</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<blockquote>
+<p>因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。你也许会担心，如果有人故意冒充别人怎么办？这个不必担心，首先我们相信大家都是善良无知的群众，其次，真的有冒充的也是有办法可查的。</p>
+<p>注意<code>git config</code>命令的<code>--global</code>参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。</p>
+</blockquote>
+<h1 id="本地版本库"><a href="#本地版本库" class="headerlink" title="本地版本库"></a>本地版本库</h1><p>选择一个合适的地方，创建一个空目录：</p>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ mkdir learngit
+$ cd learngit
+$ <span class="token function">pwd</span>
+<span class="token operator">/</span>Users<span class="token operator">/</span>michael<span class="token operator">/</span>learngit<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<blockquote>
+<p><code>pwd</code>命令用于显示当前目录。在我的Mac上，这个仓库位于<code>/Users/michael/learngit</code>。</p>
+<p> <strong>如果你使用Windows系统，为了避免遇到各种莫名其妙的问题，请确保目录名（包括父目录）不包含中文。</strong> </p>
+</blockquote>
+<p>通过<code>git init</code>命令把这个目录变成Git可以管理的仓库：</p>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ git init
+Initialized empty Git repository in <span class="token operator">/</span>Users<span class="token operator">/</span>michael<span class="token operator">/</span>learngit<span class="token operator">/</span><span class="token punctuation">.</span>git<span class="token operator">/</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<blockquote>
+<p>瞬间Git就把仓库建好了，而且告诉你是一个空的仓库（empty Git repository），细心的读者可以发现当前目录下多了一个<code>.git</code>的目录，这个目录是Git来跟踪管理版本库的，没事千万不要手动修改这个目录里面的文件，不然改乱了，就把Git仓库给破坏了。</p>
+<p>如果你没有看到<code>.git</code>目录，那是因为这个目录默认是隐藏的，用<code>ls -ah</code>命令就可以看见。</p>
+<p><strong>也不一定必须在空目录下创建Git仓库，选择一个已经有东西的目录也是可以的。不过，不建议你使用自己正在开发的公司项目来学习Git，否则造成的一切后果概不负责。</strong> </p>
+</blockquote>
+<h2 id="把文件添加到版本库"><a href="#把文件添加到版本库" class="headerlink" title="把文件添加到版本库"></a>把文件添加到版本库</h2><blockquote>
+<p>首先这里再明确一下，所有的版本控制系统，其实只能跟踪文本文件的改动，比如TXT文件，网页，所有的程序代码等等，Git也不例外。版本控制系统可以告诉你每次的改动，比如在第5行加了一个单词“Linux”，在第8行删了一个单词“Windows”。而图片、视频这些二进制文件，虽然也能由版本控制系统管理，但没法跟踪文件的变化，只能把二进制文件每次改动串起来，也就是只知道图片从100KB改成了120KB，但到底改了啥，版本控制系统不知道，也没法知道。</p>
+<p>不幸的是，Microsoft的Word格式是二进制格式，因此，版本控制系统是没法跟踪Word文件的改动的，前面我们举的例子只是为了演示，如果要真正使用版本控制系统，就要以纯文本方式编写文件。</p>
+<p>因为文本是有编码的，比如中文有常用的GBK编码，日文有Shift_JIS编码，如果没有历史遗留问题，强烈建议使用标准的UTF-8编码，所有语言使用同一种编码，既没有冲突，又被所有平台所支持。</p>
+<p>使用Windows的童鞋要特别注意：</p>
+<p>千万不要使用Windows自带的<strong>记事本</strong>编辑任何文本文件。原因是Microsoft开发记事本的团队使用了一个非常弱智的行为来保存UTF-8编码的文件，他们自作聪明地在每个文件开头添加了0xefbbbf（十六进制）的字符，你会遇到很多不可思议的问题，比如，网页第一行可能会显示一个“?”，明明正确的程序一编译就报语法错误，等等，都是由记事本的弱智行为带来的。建议你下载<a href="http://notepad-plus-plus.org/" target="_blank" rel="noopener">Notepad++</a>代替记事本，不但功能强大，而且免费！记得把Notepad++的默认编码设置为UTF-8 without BOM即可：</p>
+</blockquote>
+<p>先添加:</p>
+<pre class="line-numbers language-powershell"><code class="language-powershell"><span class="token comment" spellcheck="true"># 单个文件</span>
+$ git add readme<span class="token punctuation">.</span>txt 
+<span class="token comment" spellcheck="true"># 多个文件</span>
+$ git add readme<span class="token punctuation">.</span>txt readmeCN<span class="token punctuation">.</span>txt
+<span class="token comment" spellcheck="true"># 全部添加</span>
+$ git add <span class="token punctuation">.</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="把文件提交到本地版本库"><a href="#把文件提交到本地版本库" class="headerlink" title="把文件提交到本地版本库"></a>把文件提交到本地版本库</h2><p>再提交:</p>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ git commit <span class="token operator">-</span>m <span class="token string">"wrote a readme file"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<blockquote>
+<p>简单解释一下<code>git commit</code>命令，<code>-m</code>后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录。</p>
+<p>嫌麻烦不想输入<code>-m &quot;xxx&quot;</code>行不行？确实有办法可以这么干，但是强烈不建议你这么干，因为输入说明对自己对别人阅读都很重要。实在不想输入说明的童鞋请自行Google，我不告诉你这个参数。</p>
+</blockquote>
+<blockquote>
+<p>为什么Git添加文件需要<code>add</code>，<code>commit</code>一共两步呢？因为<code>commit</code>可以一次提交很多文件，所以你可以多次<code>add</code>不同的文件，比如：</p>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ git add file1<span class="token punctuation">.</span>txt
+$ git add file2<span class="token punctuation">.</span>txt file3<span class="token punctuation">.</span>txt
+$ git commit <span class="token operator">-</span>m <span class="token string">"add 3 files."</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+</blockquote>
+<h2 id="撤销操作"><a href="#撤销操作" class="headerlink" title="撤销操作"></a>撤销操作</h2><pre class="line-numbers language-powershell"><code class="language-powershell"><span class="token comment" spellcheck="true"># 查看本地库文件状态</span>
+$ git status
+<span class="token comment" spellcheck="true"># 文件当前文件改了什么,查看一下再提交就比较放心</span>
+$ git <span class="token function">diff</span> readme<span class="token punctuation">.</span>txt <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+<blockquote>
+<ul>
+<li>要随时掌握工作区的状态，使用<code>git status</code>命令。</li>
+<li>如果<code>git status</code>告诉你有文件被修改过，用<code>git diff</code>可以查看修改内容。</li>
 </ul>
-<h2 id="AJAX"><a href="#AJAX" class="headerlink" title="AJAX"></a>AJAX</h2><p><strong><a href="https://www.bilibili.com/video/av15657082" target="_blank" rel="noopener">Part1</a></strong>不看php可以从第37个视频开始看</p>
-<p><strong><a href="https://www.bilibili.com/video/av15866060/?spm_id_from=333.788.videocard.0" target="_blank" rel="noopener">Part2</a></strong></p>
-<p><a href="https://pan.baidu.com/s/1w-lcQCMTNLuSEg0e_hpKuQ" target="_blank" rel="noopener">课件网盘链接</a> – 提取码:mc10</p>
-<p>这个ajax的视频比较老了,,,</p>
-<p>又另外找了一个备看</p>
-<p><a href="https://www.bilibili.com/video/av22807707/?spm_id_from=333.788.videocard.4" target="_blank" rel="noopener">李南江亲授-jQuery+Ajax从放弃到知根知底</a></p>
-<h2 id="Node"><a href="#Node" class="headerlink" title="Node"></a>Node</h2><p><a href="https://www.bilibili.com/video/av81455397" target="_blank" rel="noopener">NodeJs全套视频教程</a></p>
-<p><a href="https://pan.baidu.com/s/1DuXusxfxaiUscfvDb0a9LA" target="_blank" rel="noopener">课件网盘链接</a> – 提取码: nzys </p>
-<h2 id="VUE"><a href="#VUE" class="headerlink" title="VUE"></a>VUE</h2><p><strong><a href="https://www.bilibili.com/video/av75420619/?spm_id_from=333.788.videocard.2" target="_blank" rel="noopener">Pink 老师推荐-Vue.js快速入门课程</a></strong> </p>
-<p><strong><a href="https://www.bilibili.com/video/av50680998" target="_blank" rel="noopener">Vue-黑马程序员视频</a></strong> —&gt;p1–p199是2018经典vue基础+项目实战教程—p200至最后是2019年最新的vue全家桶(包含了比较流行的新技术)+项目实战教程</p>
-<h1 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h1><p><a href="https://thirtyzhang.github.io/git">Git</a></p>
-<p><a href="https://naotu.baidu.com/" target="_blank" rel="noopener">百度脑图</a></p>
-<p><a href="https://www.bootcdn.cn/" target="_blank" rel="noopener">BootCDN</a></p>
-<p><a href="https://www.html.cn/doc/underscore/#throttle" target="_blank" rel="noopener">Underscore.js (1.9.1) 中文文档 </a></p>
-<p><a href="https://aui.github.io/art-template/zh-cn/" target="_blank" rel="noopener">模板引擎</a></p>
-<p><a href="https://www.bypass.cn/" target="_blank" rel="noopener">Bypass-分流抢票</a></p>
-<h2 id="学习站点"><a href="#学习站点" class="headerlink" title="学习站点"></a>学习站点</h2><p><a href="https://www.liaoxuefeng.com/" target="_blank" rel="noopener">廖雪峰</a></p>
-<p><a href="http://www.ruanyifeng.com/blog/" target="_blank" rel="noopener">阮一峰</a></p>
-<p>git - 典型错误</p>
-<p><img src="1.png" alt="png"></p>
-<h2 id="手动封装数组方法"><a href="#手动封装数组方法" class="headerlink" title="手动封装数组方法"></a>手动封装数组方法</h2><pre class="line-numbers language-js"><code class="language-js">        <span class="token keyword">var</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-        <span class="token keyword">function</span> <span class="token function">myForEach</span><span class="token punctuation">(</span>fn<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span> <span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-                <span class="token function">fn</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>i<span class="token punctuation">,</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//循环调用回调函数,遍历数组中的值</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-
-        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>myForEach<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        Array<span class="token punctuation">.</span>prototype<span class="token punctuation">.</span>myForEach <span class="token operator">=</span> myForEach<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//把函数添加为Array的原型方法</span>
-
-        <span class="token comment" spellcheck="true">//调用</span>
-        arr<span class="token punctuation">.</span><span class="token function">myForEach</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span>item<span class="token punctuation">,</span>index<span class="token punctuation">,</span>arr<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>item<span class="token punctuation">,</span>index<span class="token punctuation">,</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="典型错误"><a href="#典型错误" class="headerlink" title="典型错误"></a>典型错误</h2><p><strong>npm install</strong> 的时候出现错误：</p>
-<p>npm ERR! Unexpected end of JSON input while parsing near ‘…”,”webpack-dev-server’<br>1<br>解决方案：</p>
-<p>第一步：</p>
-<p>npm cache clean –force<br>1<br>第二步：（再安装）</p>
-<p>npm install</p>
+</blockquote>
+<h2 id="版本回退"><a href="#版本回退" class="headerlink" title="版本回退"></a>版本回退</h2><pre class="line-numbers language-powershell"><code class="language-powershell"><span class="token comment" spellcheck="true"># 回退到上一版</span>
+$ git reset <span class="token operator">--</span>hard HEAD^
+<span class="token comment" spellcheck="true"># 回退到上上一版</span>
+$ git reset <span class="token operator">--</span>hard HEAD^^
+<span class="token comment" spellcheck="true"># 回退到指定版</span>
+$ git reset <span class="token operator">--</span>hard commit_id<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<blockquote>
+<ul>
+<li><code>HEAD</code>指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令<code>git reset --hard commit_id</code>。</li>
+<li>穿梭前，用<code>git log</code>可以查看提交历史，以便确定要回退到哪个版本。</li>
+<li>要重返未来，用<code>git reflog</code>查看命令历史，以便确定要回到未来的哪个版本。</li>
+<li>用<code>HEAD</code>表示当前版本，也就是最新的提交<code>1094adb...</code>（注意我的提交ID和你的肯定不一样），上一个版本就是<code>HEAD^</code>，上上一个版本就是<code>HEAD^^</code>，当然往上100个版本写100个<code>^</code>比较容易数不过来，所以写成<code>HEAD~100</code>。 </li>
+</ul>
+</blockquote>
+<h2 id="工作区和暂存区"><a href="#工作区和暂存区" class="headerlink" title="工作区和暂存区"></a>工作区和暂存区</h2><blockquote>
+<p>前面讲了我们把文件往Git版本库里添加的时候，是分两步执行的：</p>
+<p>第一步是用<code>git add</code>把文件添加进去，实际上就是把文件修改添加到暂存区；</p>
+<p>第二步是用<code>git commit</code>提交更改，实际上就是把暂存区的所有内容提交到当前分支。</p>
+<p>因为我们创建Git版本库时，Git自动为我们创建了唯一一个<code>master</code>分支，所以，现在，<code>git commit</code>就是往<code>master</code>分支上提交更改。</p>
+<p>你可以简单理解为，需要提交的文件修改通通放到暂存区，然后，一次性提交暂存区的所有修改。</p>
+</blockquote>
+<h2 id="撤销修改"><a href="#撤销修改" class="headerlink" title="撤销修改"></a>撤销修改</h2><pre class="line-numbers language-powershell"><code class="language-powershell">$ git checkout <span class="token operator">--</span> readme<span class="token punctuation">.</span>txt<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<blockquote>
+<p>命令<code>git checkout -- readme.txt</code>意思就是，把<code>readme.txt</code>文件在工作区的修改全部撤销，这里有两种情况：</p>
+<p>一种是<code>readme.txt</code>自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；</p>
+<p>一种是<code>readme.txt</code>已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。</p>
+<p>总之，就是让这个文件回到最近一次<code>git commit</code>或<code>git add</code>时的状态。</p>
+</blockquote>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ git reset HEAD readme<span class="token punctuation">.</span>txt<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<blockquote>
+<p>场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令<code>git checkout -- file</code>。</p>
+<p>场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令<code>git reset HEAD &lt;file&gt;</code>，就回到了场景1，第二步按场景1操作。</p>
+<p>场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考<a href="https://www.liaoxuefeng.com/wiki/896043488029600/897013573512192" target="_blank" rel="noopener">版本回退</a>一节，不过前提是没有推送到远程库。</p>
+</blockquote>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结 :"></a>总结 :</h1><blockquote>
+<p>Git管理的文件分为：工作区，版本库，版本库又分为暂存区stage和暂存区分支master(仓库)</p>
+<p>工作区&gt;&gt;&gt;&gt;暂存区&gt;&gt;&gt;&gt;仓库</p>
+<p>git add把文件从工作区&gt;&gt;&gt;&gt;暂存区，git commit把文件从暂存区&gt;&gt;&gt;&gt;仓库，</p>
+<p>git diff查看工作区和暂存区差异，</p>
+<p>git diff –cached查看暂存区和仓库差异，</p>
+<p>git diff HEAD 查看工作区和仓库的差异，</p>
+<p>git add的反向命令git checkout，撤销工作区修改，即把暂存区最新版本转移到工作区，</p>
+<p>git commit的反向命令git reset HEAD，就是把仓库最新版本转移到暂存区。</p>
+</blockquote>
+<h2 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h2><pre class="line-numbers language-powershell"><code class="language-powershell">$ <span class="token function">rm</span> file
+<span class="token comment" spellcheck="true"># 删除工作区 , 可以直接用用git checkout -- &lt;file> 恢复</span>
+$ git <span class="token function">rm</span> file
+<span class="token comment" spellcheck="true"># 不仅删除了工作区文件，而且还添加到了暂存区，需要先git reset HEAD &lt;file>，然后再git checkout -- &lt;file></span>
+&amp; git <span class="token function">rm</span> file
+&amp; git commit <span class="token operator">-</span>m <span class="token string">"说明注释"</span>
+<span class="token comment" spellcheck="true"># 彻底删除 , 先删除工作区和暂存区,再提交到master分支(仓库)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<blockquote>
+<p>如果你用的rm删除文件，那就相当于只删除了工作区的文件，如果想要恢复，直接用git checkout – <file>就可以 2.如果你用的是git rm删除文件，那就相当于不仅删除了文件，而且还添加到了暂存区，需要先git reset HEAD <file>，然后再git checkout – <file> 3.如果你想彻底把版本库的删除掉，先git rm，再git commit 就ok了 </file></file></file></p>
+</blockquote>
+<h1 id="本地仓库总结"><a href="#本地仓库总结" class="headerlink" title="本地仓库总结"></a>本地仓库总结</h1><blockquote>
+<p><strong>新建git本地仓库：</strong></p>
+<p><code>git init</code> </p>
+<p>新建一个.git文件，有这个文件就是一个git仓库</p>
+<p><strong>git本地仓库分三个区来区别操作（这个思路太重要了）：</strong> </p>
+<p><strong>工作区：</strong> 就是一个多了.git文件的文件夹，不要想太多，就按Linux操作文件夹的方法正常操作 </p>
+<p><strong>暂存区：</strong> 暂时讲了两种操作暂存区的方法：</p>
+<p> 1.存入暂存区:</p>
+<p><code>git add filename</code>  //添加文件</p>
+<p><code>git rm filename</code>   //删除文件</p>
+<p> 这两条都是修改暂存区 </p>
+<p>2.递交暂存区</p>
+<p> <code>git commit -m &quot;log说明一般写改动是什么&quot;</code> </p>
+<p>别忘了正常来说一般对暂存区修改以后一定要commit一下<br><strong>版本库：</strong><code>git commit</code>以后的最终版本存入地方，git最重要的一个地方，因为只有版本库的修改才可以跟踪</p>
+<p>另外有几个命令查看状态也很重要： </p>
+<p><code>git status</code></p>
+<p>查看当前git仓库与上一次commit之后的版本库的一切修改，包括工作区的修改和暂存区的修改（这种信息是不详细的） 很人性化的是，<code>git status</code>会提示你下一步可能会做的事，比如你对工作区做了修改，他可能会提示下一步要git add或者</p>
+<p><code>git checkout  filename</code></p>
+<p>， 你刚执行完git add以后，git status跟踪的暂存区的修改，他又会提示你下一步可能要提交git commit或者</p>
+<p><code>git reset HEAD &lt; filename &gt;</code> </p>
+<p><code>git diff filename</code></p>
+<p>这个命令返回的是你对工作区的修改，别想太多，和什么对比并不重要，你只要知道什么时候他会有信息返回，返回什么信息！什么时候有返回呢！你对工作区已经存在的文件修改<!--（但是没有存入暂存区，也就是说没有git add或者git rm，所以一定要纠结的话，他比较的的确是暂存区和工作区的区别）-->的话有返回<strong>（新建文件git diff看不到）</strong>，返回什么，返回修改的详细信息，+是新添的行-是删去的行</p>
+<p> <code>git diff --cached filename</code></p>
+<p>这个命令是查看你对暂存区的修改，也就是你<code>git add</code>或者<code>git rm</code>以后，<code>git diff</code>的返回信息就用<code>git diff --cached</code>来用了（这也是为什么这两个命令一样，只有参数不一样的原因，因为其实干的都是一件事，只是<code>git diff</code>针对的对象是工作区，<code>git diff --cached</code>针对的对象是暂存区） </p>
+<p><code>git log</code></p>
+<p><strong>当前版本之前</strong>的commit日志记录，也就是说当前版本是回退回来的版本的话，当前版本之后的提交与回退都看不到（有个很重要的commit ID）</p>
+<p><code>git reflog</code></p>
+<p>包括版本回退、版本提交的日志，信息相较于<code>git log</code>会比较简单 </p>
+<p><strong>这样把命令的针对对象分为三个区来理解，现在看撤销操作就很容易了：</strong></p>
+<p> 1.针对工作区的撤销（必须保证没有git add/git rm之前）： </p>
+<p><code>git checkout -- filename</code> </p>
+<p>2.针对暂存区的撤销（必须是git add/git rm以后才行） </p>
+<p><code>git reset HEAD filename</code> </p>
+<p>顺便想起git reset的另一种用法，参数不一样啦，那肯定也是撤销操作，当然就是撤销提交，回退版本啦</p>
+<p><code>git reset --hard （HEAD^^^^）/commit id</code></p>
+</blockquote>
+<h1 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h1><blockquote>
+<p>Git是分布式版本控制系统，同一个Git仓库，可以分布到不同的机器上。怎么分布呢？最早，肯定只有一台机器有一个原始版本库，此后，别的机器可以“克隆”这个原始版本库，而且每台机器的版本库其实都是一样的，并没有主次之分。 </p>
+</blockquote>
+<p><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> 提供Git仓库托管服务 , 注册一个GitHub账号，就可以免费获得Git远程仓库 ,自行点击链接注册</p>
+<blockquote>
+<p>本地Git仓库和GitHub仓库之间的传输是通过SSH加密的 ,所以需要设置下SSH Key</p>
+</blockquote>
+<blockquote>
+<p>第1步：<strong>创建SSH Key</strong>。在用户主目录下<code>C:\Users\zl</code><!--用户主目录在windows中就是 C:\Users\Administrator\，或者你新建了一个用户，那就是 C:\Users\用户名\--> ，看看有没有.ssh目录，如果有，再看看这个目录下有没有<code>id_rsa</code>和<code>id_rsa.pub</code>这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key：</p>
+</blockquote>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ ssh<span class="token operator">-</span>keygen <span class="token operator">-</span>t rsa <span class="token operator">-</span>C <span class="token string">"youremail@example.com"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<blockquote>
+<p>你需要把邮件地址换成你自己的邮件地址，然后一路回车，使用默认值即可，由于这个Key也不是用于军事目的，所以也无需设置密码。</p>
+<p>如果一切顺利的话，可以在用户主目录里找到<code>.ssh</code>目录，里面有<code>id_rsa</code>和<code>id_rsa.pub</code>两个文件，这两个就是SSH Key的秘钥对，<code>id_rsa</code>是私钥，不能泄露出去，<code>id_rsa.pub</code>是公钥，可以放心地告诉任何人。</p>
+<p>第2步：登陆GitHub，打开“Account settings”，“SSH Keys”页面：</p>
+<p>然后，点“<strong>Add SSH Key”</strong>，填上任意Title，在Key文本框里粘贴<code>id_rsa.pub</code>文件的内容：</p>
+</blockquote>
+<h2 id="本地文件添加到远程仓库"><a href="#本地文件添加到远程仓库" class="headerlink" title="本地文件添加到远程仓库"></a>本地文件添加到远程仓库</h2><ul>
+<li>找到“Create a new repo”按钮，创建一个新的仓库： </li>
+<li>在Repository name填入名称</li>
+<li>其他保持默认设置，点击“Create repository”按钮，就成功地创建了一个新的Git仓库 </li>
+</ul>
+<p>在本地的<code>learngit</code>仓库下运行命令：</p>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ git remote add origin git@github<span class="token punctuation">.</span>com:michaelliao<span class="token operator">/</span>learngit<span class="token punctuation">.</span>git<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<blockquote>
+<p>请千万注意，把上面的<code>michaelliao</code>替换成你自己的GitHub账户名，否则，你在本地关联的就是我的远程库，关联没有问题，但是你以后推送是推不上去的，因为你的SSH Key公钥不在我的账户列表中。</p>
+<p>添加后，远程库的名字就是<code>origin</code>，这是Git默认的叫法，也可以改成别的，但是<code>origin</code>这个名字一看就知道是远程库。</p>
+<p>下一步，就可以把本地库的所有内容推送到远程库上：</p>
+</blockquote>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ git push <span class="token operator">-</span>u origin master<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<blockquote>
+<p>把本地库的内容推送到远程，用<code>git push</code>命令，实际上是把当前分支<code>master</code>推送到远程。</p>
+<p>由于远程库是空的，我们第一次推送<code>master</code>分支时，加上了<code>-u</code>参数，Git不但会把本地的<code>master</code>分支内容推送的远程新的<code>master</code>分支，还会把本地的<code>master</code>分支和远程的<code>master</code>分支关联起来，在以后的推送或者拉取时就可以简化命令。</p>
+<p>推送成功后，可以立刻在GitHub页面中看到远程库的内容已经和本地一模一样 </p>
+</blockquote>
+<blockquote>
+<p>从现在起，只要本地作了提交，就可以通过命令：</p>
+</blockquote>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ git push origin master<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="SSH警告"><a href="#SSH警告" class="headerlink" title="SSH警告"></a>SSH警告</h2><blockquote>
+<p>当你第一次使用Git的<code>clone</code>或者<code>push</code>命令连接GitHub时，会得到一个警告：</p>
+<pre><code>The authenticity of host &#39;github.com (xx.xx.xx.xx)&#39; can&#39;t be established.
+RSA key fingerprint is xx.xx.xx.xx.xx.
+Are you sure you want to continue connecting (yes/no)?</code></pre><p>这是因为Git使用SSH连接，而SSH连接在第一次验证GitHub服务器的Key时，需要你确认GitHub的Key的指纹信息是否真的来自GitHub的服务器，输入<code>yes</code>回车即可。</p>
+<p>Git会输出一个警告，告诉你已经把GitHub的Key添加到本机的一个信任列表里了：</p>
+<pre><code>Warning: Permanently added &#39;github.com&#39; (RSA) to the list of known hosts.</code></pre><p>这个警告只会出现一次，后面的操作就不会有任何警告了。</p>
+<p>如果你实在担心有人冒充GitHub服务器，输入<code>yes</code>前可以对照<a href="https://help.github.com/articles/what-are-github-s-ssh-key-fingerprints/" target="_blank" rel="noopener">GitHub的RSA Key的指纹信息</a>是否与SSH连接给出的一致。</p>
+</blockquote>
+<blockquote>
+<p>要关联一个远程库，使用命令<code>git remote add origin git@server-name:path/repo-name.git</code>；</p>
+<p>关联后，使用命令<code>git push -u origin master</code>第一次推送master分支的所有内容；</p>
+<p>此后，每次本地提交后，只要有必要，就可以使用命令<code>git push origin master</code>推送最新修改；</p>
+<p>分布式版本系统的最大好处之一是在本地工作完全不需要考虑远程库的存在，也就是有没有联网都可以正常工作，而SVN在没有联网的时候是拒绝干活的！当有网络的时候，再把本地提交推送一下就完成了同步，真是太方便了！</p>
+</blockquote>
+<h2 id="从远程库克隆到本地"><a href="#从远程库克隆到本地" class="headerlink" title="从远程库克隆到本地"></a>从远程库克隆到本地</h2><ul>
+<li>第一步<ul>
+<li>新建一个仓库,勾选<code>Initialize this repository with a README</code>，这样GitHub会自动为我们创建一个<code>README.md</code>文件。创建完毕后，可以看到<code>README.md</code>文件： </li>
+</ul>
+</li>
+<li>第二步<ul>
+<li><code>$ git clone 仓库的URL</code></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>URL我们一般选取SSH 相较于 http 而言 方便不用每次都输入用户名密码,而且传输速度快</p>
+<p>除非公司只支持 http 才会选用</p>
+</blockquote>
 
             </div>
             <hr />
@@ -684,9 +852,9 @@ Part2
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《预习路线》
+                    《git快速上手》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/01/20/yu-xi-lu-xian/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/01/21/git-kuai-su-shang-shou/" property="cc:attributionName"
                rel="cc:attributionURL">
                 张磊
             </a> 采用
@@ -727,7 +895,7 @@ Part2
         repo: 'thirtyzhang.github.io',
         owner: 'thirtyzhang',
         admin: "thirtyzhang",
-        id: '2020/01/20/yu-xi-lu-xian/',
+        id: '2020/01/21/git-kuai-su-shang-shou/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1010,29 +1178,30 @@ Part2
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/01/21/markdown-yu-fa/">
+                <a href="/2020/01/21/git-kuai-su-shang-shou/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="Markdown语法">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="git快速上手">
                         
-                        <span class="card-title">Markdown语法</span>
+                        <span class="card-title">git快速上手</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            简单介绍下Markdown语法和书写工具及快捷键
+                            Git是目前世界上最先进的分布式版本控制系统（没有之一）
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-01-21
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-01-21
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -1045,6 +1214,7 @@ Part2
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1063,44 +1233,32 @@ Part2
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/01/22/2017-conclusion/">
+                <a href="/2020/01/21/vue-wen-dang-feng-ge-de-typora-zhu-ti/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="标题">
+                        <img src="/medias/featureimages/2.jpg" class="responsive-img" alt="Vue文档风格的Typora主题">
                         
-                        <span class="card-title">标题</span>
+                        <span class="card-title">Vue文档风格的Typora主题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            副标题。
+                            
+typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风格的主题。
+
+简介Typora是一款支持实时预览的 Markdown 编辑器和阅读器，支持Windows、macOS、Linux三大平台。
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-01-22
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-01-21
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/随笔/" class="post-category" target="_blank">
-                                    随笔
-                                </a>
-                            
-                            
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/随笔/" target="_blank">
-                        <span class="chip bg-color">随笔</span>
-                    </a>
-                    
                 </div>
                 
             </div>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-01-20T20:15:25.036Z</updated>
+  <updated>2020-01-21T11:39:08.056Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -15,6 +15,110 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git快速上手</title>
+    <link href="https://thirtyzhang.github.io/2020/01/21/git-kuai-su-shang-shou/"/>
+    <id>https://thirtyzhang.github.io/2020/01/21/git-kuai-su-shang-shou/</id>
+    <published>2020-01-21T09:42:53.000Z</published>
+    <updated>2020-01-21T11:39:08.056Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Git教程&quot;&gt;&lt;a href=&quot;#Git教程&quot; class=&quot;headerlink&quot; title=&quot;Git教程&quot;&gt;&lt;/a&gt;Git教程&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;如果之前了解过想复习一下,直接看总结就可以了&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+      <category term="效率" scheme="https://thirtyzhang.github.io/categories/%E6%95%88%E7%8E%87/"/>
+    
+    
+      <category term="工具" scheme="https://thirtyzhang.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue文档风格的Typora主题</title>
+    <link href="https://thirtyzhang.github.io/2020/01/21/vue-wen-dang-feng-ge-de-typora-zhu-ti/"/>
+    <id>https://thirtyzhang.github.io/2020/01/21/vue-wen-dang-feng-ge-de-typora-zhu-ti/</id>
+    <published>2020-01-21T09:20:20.000Z</published>
+    <updated>2020-01-21T09:41:49.187Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/ThirtyZhang/ypora-vue-theme&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;typora-vue-theme&lt;/a&gt;是 Typora
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>EasyHexo博客框架</title>
+    <link href="https://thirtyzhang.github.io/2020/01/21/easyhexo-bo-ke-kuang-jia/"/>
+    <id>https://thirtyzhang.github.io/2020/01/21/easyhexo-bo-ke-kuang-jia/</id>
+    <published>2020-01-21T08:58:04.000Z</published>
+    <updated>2020-01-21T09:09:06.508Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;安装与配置&quot;&gt;&lt;a href=&quot;#安装与配置&quot; class=&quot;headerlink&quot; title=&quot;安装与配置&quot;&gt;&lt;/a&gt;安装与配置&lt;/h1&gt;&lt;h2 id=&quot;认识-Hexo&quot;&gt;&lt;a href=&quot;#认识-Hexo&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="效率" scheme="https://thirtyzhang.github.io/categories/%E6%95%88%E7%8E%87/"/>
+    
+    
+      <category term="框架" scheme="https://thirtyzhang.github.io/tags/%E6%A1%86%E6%9E%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github国内访问加速</title>
+    <link href="https://thirtyzhang.github.io/2020/01/21/github-guo-nei-fang-wen-jia-su/"/>
+    <id>https://thirtyzhang.github.io/2020/01/21/github-guo-nei-fang-wen-jia-su/</id>
+    <published>2020-01-21T02:46:53.000Z</published>
+    <updated>2020-01-21T08:46:57.150Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Github加速&quot;&gt;&lt;a href=&quot;#Github加速&quot; class=&quot;headerlink&quot; title=&quot;Github加速&quot;&gt;&lt;/a&gt;Github加速&lt;/h1&gt;&lt;h2 id=&quot;原理&quot;&gt;&lt;a href=&quot;#原理&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="效率" scheme="https://thirtyzhang.github.io/categories/%E6%95%88%E7%8E%87/"/>
+    
+    
+      <category term="工具" scheme="https://thirtyzhang.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown语法</title>
@@ -47,7 +151,7 @@
     <link href="https://thirtyzhang.github.io/2020/01/20/yu-xi-lu-xian/"/>
     <id>https://thirtyzhang.github.io/2020/01/20/yu-xi-lu-xian/</id>
     <published>2020-01-19T21:41:09.000Z</published>
-    <updated>2020-01-20T19:59:51.519Z</updated>
+    <updated>2020-01-20T20:21:18.900Z</updated>
     
     <summary type="html">
     
