@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-01-21T11:39:08.056Z</updated>
+  <updated>2020-01-21T14:16:46.531Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>git快速上手</title>
+    <title>Git快速上手</title>
     <link href="https://thirtyzhang.github.io/2020/01/21/git-kuai-su-shang-shou/"/>
     <id>https://thirtyzhang.github.io/2020/01/21/git-kuai-su-shang-shou/</id>
     <published>2020-01-21T09:42:53.000Z</published>
-    <updated>2020-01-21T11:39:08.056Z</updated>
+    <updated>2020-01-21T14:16:46.531Z</updated>
     
     <summary type="html">
     
@@ -50,7 +50,7 @@
     <link href="https://thirtyzhang.github.io/2020/01/21/vue-wen-dang-feng-ge-de-typora-zhu-ti/"/>
     <id>https://thirtyzhang.github.io/2020/01/21/vue-wen-dang-feng-ge-de-typora-zhu-ti/</id>
     <published>2020-01-21T09:20:20.000Z</published>
-    <updated>2020-01-21T09:41:49.187Z</updated>
+    <updated>2020-01-21T13:16:14.607Z</updated>
     
     <summary type="html">
     
@@ -65,6 +65,10 @@
     
     </summary>
     
+      <category term="效率" scheme="https://thirtyzhang.github.io/categories/%E6%95%88%E7%8E%87/"/>
+    
+    
+      <category term="工具" scheme="https://thirtyzhang.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
@@ -73,7 +77,7 @@
     <link href="https://thirtyzhang.github.io/2020/01/21/easyhexo-bo-ke-kuang-jia/"/>
     <id>https://thirtyzhang.github.io/2020/01/21/easyhexo-bo-ke-kuang-jia/</id>
     <published>2020-01-21T08:58:04.000Z</published>
-    <updated>2020-01-21T12:00:28.554Z</updated>
+    <updated>2020-01-21T14:36:47.399Z</updated>
     
     <summary type="html">
     
@@ -95,11 +99,11 @@
   </entry>
   
   <entry>
-    <title>Github国内访问加速</title>
+    <title>GitHub国内访问加速</title>
     <link href="https://thirtyzhang.github.io/2020/01/21/github-guo-nei-fang-wen-jia-su/"/>
     <id>https://thirtyzhang.github.io/2020/01/21/github-guo-nei-fang-wen-jia-su/</id>
     <published>2020-01-21T02:46:53.000Z</published>
-    <updated>2020-01-21T08:46:57.150Z</updated>
+    <updated>2020-01-21T13:12:05.983Z</updated>
     
     <summary type="html">
     

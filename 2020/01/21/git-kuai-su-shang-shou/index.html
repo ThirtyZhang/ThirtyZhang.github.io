@@ -4,7 +4,7 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="git快速上手, 前端开发">
+    <meta name="keywords" content="Git快速上手, 前端开发">
     <meta name="baidu-site-verification" content>
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
@@ -21,7 +21,7 @@ $ git ">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>git快速上手 | 张磊Blog</title>
+    <title>Git快速上手 | 张磊Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -295,13 +295,13 @@ $ git ">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        git快速上手
+                        Git快速上手
                     </div>
                 </div>
             </div>
@@ -450,14 +450,14 @@ $ git ">
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    4.5k
+                    4.6k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    16 分
+                    17 分
                 </div>
                 
                 
@@ -570,16 +570,6 @@ $ git reset <span class="token operator">--</span>hard commit_id<span aria-hidde
 <p>场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令<code>git reset HEAD &lt;file&gt;</code>，就回到了场景1，第二步按场景1操作。</p>
 <p>场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考<a href="https://www.liaoxuefeng.com/wiki/896043488029600/897013573512192" target="_blank" rel="noopener">版本回退</a>一节，不过前提是没有推送到远程库。</p>
 </blockquote>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结 :"></a>总结 :</h1><blockquote>
-<p>Git管理的文件分为：工作区，版本库，版本库又分为暂存区stage和暂存区分支master(仓库)</p>
-<p>工作区&gt;&gt;&gt;&gt;暂存区&gt;&gt;&gt;&gt;仓库</p>
-<p>git add把文件从工作区&gt;&gt;&gt;&gt;暂存区，git commit把文件从暂存区&gt;&gt;&gt;&gt;仓库，</p>
-<p>git diff查看工作区和暂存区差异，</p>
-<p>git diff –cached查看暂存区和仓库差异，</p>
-<p>git diff HEAD 查看工作区和仓库的差异，</p>
-<p>git add的反向命令git checkout，撤销工作区修改，即把暂存区最新版本转移到工作区，</p>
-<p>git commit的反向命令git reset HEAD，就是把仓库最新版本转移到暂存区。</p>
-</blockquote>
 <h2 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h2><pre class="line-numbers language-powershell"><code class="language-powershell">$ <span class="token function">rm</span> file
 <span class="token comment" spellcheck="true"># 删除工作区 , 可以直接用用git checkout -- &lt;file> 恢复</span>
 $ git <span class="token function">rm</span> file
@@ -591,6 +581,16 @@ $ git <span class="token function">rm</span> file
 <p>如果你用的rm删除文件，那就相当于只删除了工作区的文件，如果想要恢复，直接用git checkout – <file>就可以 2.如果你用的是git rm删除文件，那就相当于不仅删除了文件，而且还添加到了暂存区，需要先git reset HEAD <file>，然后再git checkout – <file> 3.如果你想彻底把版本库的删除掉，先git rm，再git commit 就ok了 </file></file></file></p>
 </blockquote>
 <h1 id="本地仓库总结"><a href="#本地仓库总结" class="headerlink" title="本地仓库总结"></a>本地仓库总结</h1><blockquote>
+<p>Git管理的文件分为：工作区，版本库，版本库又分为暂存区stage和暂存区分支master(仓库)</p>
+<p>工作区&gt;&gt;&gt;&gt;暂存区&gt;&gt;&gt;&gt;仓库</p>
+<p>git add把文件从工作区&gt;&gt;&gt;&gt;暂存区，git commit把文件从暂存区&gt;&gt;&gt;&gt;仓库，</p>
+<p>git diff查看工作区和暂存区差异，</p>
+<p>git diff –cached查看暂存区和仓库差异，</p>
+<p>git diff HEAD 查看工作区和仓库的差异，</p>
+<p>git add的反向命令git checkout，撤销工作区修改，即把暂存区最新版本转移到工作区，</p>
+<p>git commit的反向命令git reset HEAD，就是把仓库最新版本转移到暂存区。</p>
+</blockquote>
+<blockquote>
 <p><strong>新建git本地仓库：</strong></p>
 <p><code>git init</code> </p>
 <p>新建一个.git文件，有这个文件就是一个git仓库</p>
@@ -665,6 +665,17 @@ $ git <span class="token function">rm</span> file
 <p>从现在起，只要本地作了提交，就可以通过命令：</p>
 </blockquote>
 <pre class="line-numbers language-powershell"><code class="language-powershell">$ git push origin master<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="克隆别人的Git远程仓库到自己的仓库"><a href="#克隆别人的Git远程仓库到自己的仓库" class="headerlink" title="克隆别人的Git远程仓库到自己的仓库"></a>克隆别人的Git远程仓库到自己的仓库</h2><ul>
+<li>在本地新建文件夹克隆下来</li>
+<li>删除<code>.git</code>文件</li>
+<li>然后在自己的GitHub上新建一个仓库</li>
+<li>在本地仓库执行</li>
+</ul>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ git init
+$ git remote add origin 新建的仓库地址
+$ git add <span class="token punctuation">.</span>
+$ git commit <span class="token operator">-</span>m <span class="token string">"提交全部"</span>
+$ git push <span class="token operator">-</span>u origin master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <h2 id="SSH警告"><a href="#SSH警告" class="headerlink" title="SSH警告"></a>SSH警告</h2><blockquote>
 <p>当你第一次使用Git的<code>clone</code>或者<code>push</code>命令连接GitHub时，会得到一个警告：</p>
 <pre><code>The authenticity of host &#39;github.com (xx.xx.xx.xx)&#39; can&#39;t be established.
@@ -852,7 +863,7 @@ Are you sure you want to continue connecting (yes/no)?</code></pre><p>这是因�
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《git快速上手》
+                    《Git快速上手》
                 </span> 由
             <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/01/21/git-kuai-su-shang-shou/" property="cc:attributionName"
                rel="cc:attributionURL">
@@ -1187,15 +1198,15 @@ Are you sure you want to continue connecting (yes/no)?</code></pre><p>这是因�
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="git快速上手">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Git快速上手">
                         
-                        <span class="card-title">git快速上手</span>
+                        <span class="card-title">Git快速上手</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Git是目前世界上最先进的分布式版本控制系统（没有之一）
+                            Git是目前世界上最先进的分布式版本控制系统
                         
                     </div>
                     <div class="publish-info">
@@ -1245,10 +1256,7 @@ Are you sure you want to continue connecting (yes/no)?</code></pre><p>这是因�
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风格的主题。
-
-简介Typora是一款支持实时预览的 Markdown 编辑器和阅读器，支持Windows、macOS、Linux三大平台。
+                            Typora编辑器中一款Vue文档风格的主题
                         
                     </div>
                     <div class="publish-info">
@@ -1257,8 +1265,23 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
                             </span>
                         <span class="publish-author">
                             
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/效率/" class="post-category" target="_blank">
+                                    效率
+                                </a>
+                            
+                            
                         </span>
                     </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/工具/" target="_blank">
+                        <span class="chip bg-color">工具</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -1418,7 +1441,7 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">6.9k</span>
+            <span class="white-color">7.2k</span>
             
 
             <br>
@@ -1597,6 +1620,8 @@ $(function () {
     
 
     <!-- 雪花特效 -->
+    
+    <script type="text/javascript" src="/libs/others/snow.js"></script>
     
 
 </body>
