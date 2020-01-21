@@ -452,7 +452,7 @@ Hexo 支持 GFM (Gi">
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    527
+                    627
                 </div>
                 
 
@@ -513,11 +513,23 @@ Hexo 支持 GFM (Gi">
 <p>如果你是 CentOS 服务器上的，可以直接使用 <a href="https://github.com/PasserByJia/HexoOneClickInstallation" target="_blank" rel="noopener">HexoOneClickInstallation</a> 这个脚本快速安装 Hexo。</p>
 <h2 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h2><p>安装 Node.js 的最佳方式是使用 <a href="https://github.com/creationix/nvm" target="_blank" rel="noopener">nvm</a>。</p>
 <p>cURL:</p>
-<pre><code>$ curl https://raw.github.com/creationix/nvm/v0.33.11/install.sh | sh</code></pre><p>Wget:</p>
-<pre><code>$ wget -qO- https://raw.github.com/creationix/nvm/v0.33.11/install.sh | sh</code></pre><p>安装完成后，重启终端并执行下列命令即可安装 Node.js。</p>
-<pre><code>$ nvm install stable</code></pre><p>或者您也可以下载 <a href="http://nodejs.org/" target="_blank" rel="noopener">安装程序</a> 来安装。</p>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ curl https:<span class="token operator">/</span><span class="token operator">/</span>raw<span class="token punctuation">.</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>creationix<span class="token operator">/</span>nvm<span class="token operator">/</span>v0<span class="token punctuation">.</span>33<span class="token punctuation">.</span>11<span class="token operator">/</span>install<span class="token punctuation">.</span>sh <span class="token punctuation">|</span> sh<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Wget:</p>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ wget <span class="token operator">-</span>qO<span class="token operator">-</span> https:<span class="token operator">/</span><span class="token operator">/</span>raw<span class="token punctuation">.</span>github<span class="token punctuation">.</span>com<span class="token operator">/</span>creationix<span class="token operator">/</span>nvm<span class="token operator">/</span>v0<span class="token punctuation">.</span>33<span class="token punctuation">.</span>11<span class="token operator">/</span>install<span class="token punctuation">.</span>sh <span class="token punctuation">|</span> sh<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>安装完成后，重启终端并执行下列命令即可安装 Node.js。</p>
+<pre class="line-numbers language-powershell"><code class="language-powershell">$ nvm install stable<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>或者您也可以下载 <a href="http://nodejs.org/" target="_blank" rel="noopener">安装程序</a> 来安装。</p>
 <h2 id="安装-Hexo-1"><a href="#安装-Hexo-1" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><p>安装好后，即可使用 npm 完成 Hexo 的安装。</p>
-<pre><code>$ npm install -g hexo-cli</code></pre>
+<pre class="line-numbers language-powershell"><code class="language-powershell"><span class="token comment" spellcheck="true"># 下面这两个命令好像是一样的效果,任选一个就可以了</span>
+$ npm install <span class="token operator">-</span>g hexo<span class="token operator">-</span><span class="token function">cli</span>
+$ npm install hexo<span class="token operator">-</span><span class="token function">cli</span> <span class="token operator">-</span>g<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h2 id="建立网站"><a href="#建立网站" class="headerlink" title="建立网站"></a>建立网站</h2><p>安装好 Hexo 后即可建立你的网站。</p>
+<p>首先建立一个文件夹。</p>
+<pre class="line-numbers language-powershell"><code class="language-powershell">mkdir &lt;your_blog_name>  <span class="token comment" spellcheck="true"># 建立你的网站根目录，名字可以自己修改</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>然后往这个文件夹里安装 Hexo。</p>
+<pre class="line-numbers language-powershell"><code class="language-powershell">hexo init &lt;your_blog_name><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>这样就建立好网站了！</p>
+
             </div>
             <hr />
 
@@ -1239,7 +1251,7 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">6.8k</span>
+            <span class="white-color">6.9k</span>
             
 
             <br>
