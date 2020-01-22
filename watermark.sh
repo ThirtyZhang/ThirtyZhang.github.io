@@ -1,6 +1,6 @@
-# 运行python3 watermark.py postname添加水印，如果第一次运行要给所有文章添加水印，可以运行python3 watermark.py all
+# 运行python watermark.py postname添加水印，如果第一次运行要给所有文章添加水印，可以运行python watermark.py all
 
-python3 watermark.py postname
+python watermark.py postname
 
 :'
 图片添加水印

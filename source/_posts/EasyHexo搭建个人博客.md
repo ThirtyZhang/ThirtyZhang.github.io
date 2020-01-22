@@ -601,13 +601,25 @@ $ npm install hexo-deployer-git --save
 
 ##  每次hexo d 提交到GitHub 都会发送警告邮件
 
+**Page build warning：Cannot use CNAMEs ending with github.io or github.com**
+
 总结写在前面,如果你没有绑定域名,而是克隆的别人的文件,直接删除掉就可以了
 
 路径 : `博客根目录/source`
 
 ![CNAME](1579706750493.png)
 
-Page build warning：Cannot use CNAMEs ending with github.io or github.com
+然后重新依次执行:
+
+```powershell
+hexo clean
+hexo g
+hexo d
+```
+
+就不会受到警告邮件了.
+
+
 
 ​       在设计自己blog的时候，大家都会先借鉴一下[jkell模板](http://jekyllthemes.org/)吧。我的这个blog也先clone了别人的架构，接下来慢慢修改填充自己的想法。
 
@@ -627,7 +639,7 @@ Page build warning：Cannot use CNAMEs ending with github.io or github.com
 
 ​       于是乎好好研究了下jekyll的目录结构以及CNAME，原来CNAME是用来绑定域名的。
 
-## 绑定到一级域名
+**绑定到一级域名**
 
 1. 首先在项目根目录下创建一个叫CNAME文件，里面写上自己的以及一级域名(www.youdomain.com)
 2. 在你的域名管理页或者是DNS解析的地方，增加一个记录，记录类别为CNAME(Alias)类型。i.e.在DNS中为自己的域名增加一条A记录，指向207.97.227.245（github服务器）。
@@ -635,10 +647,16 @@ Page build warning：Cannot use CNAMEs ending with github.io or github.com
 4. baseurl应该为”/”
 5. 访问自己的域名,check一下
 
-## 绑定到二级域名
+**绑定到二级域名**
 
 ​       需要额外在DNS中增加一条CNAME，指向(github用户名).github.io，然后再CNAME文件中修改为自己的二级域名即可
 
 ​       有关这个问题的[github官方帮助文档](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)
 
 ​       之前clone jekyll模板的时候在项目中有个CNAME文件，刚开始不知道它的而作用就保留了。我还没有申请域名，现在看来这个文件不仅unnecessary而且是trouble maker。删除这个文件就没有警告了。O(∩_∩)O
+
+## python3安装PIL失败
+
+PIL其实只是python2的专利，它并没有跟随python的进化而进化。有大师为此，专门写了一个针对python3的pillow模块。
+
+所以，如果需要安装python3对应的PIL，应该选择安装`pillow`。
