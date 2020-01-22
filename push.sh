@@ -1,4 +1,4 @@
 git add .
-git commit -m '备份'
+git commit -m 'backup file'
 git push origin hexo
 hexo s
