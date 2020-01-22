@@ -449,14 +449,14 @@ $ npm config set registry https://registry.npm.taobao.org
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3.6k
+                    4.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    14 分
+                    16 分
                 </div>
                 
                 
@@ -968,7 +968,32 @@ $ git config --global user.email &quot;Your_email@example.com&quot;</code></pre>
 <pre><code>$ hexo s -p 5000</code></pre><h2 id="未安装git部署插件"><a href="#未安装git部署插件" class="headerlink" title="未安装git部署插件"></a>未安装git部署插件</h2><ul>
 <li>提示“ERROR Deployer not found: git”<br>解决办法：</li>
 </ul>
-<pre><code>$ npm install hexo-deployer-git --save</code></pre>
+<pre><code>$ npm install hexo-deployer-git --save</code></pre><h2 id="每次hexo-d-提交到GitHub-都会发送警告邮件"><a href="#每次hexo-d-提交到GitHub-都会发送警告邮件" class="headerlink" title="每次hexo d 提交到GitHub 都会发送警告邮件"></a>每次hexo d 提交到GitHub 都会发送警告邮件</h2><p>总结写在前面,如果你没有绑定域名,而是克隆的别人的文件,直接删除掉就可以了</p>
+<p>路径 : <code>博客根目录/source</code></p>
+<p><img src="1579706750493.png" alt="CNAME"></p>
+<p>Page build warning：Cannot use CNAMEs ending with github.io or github.com</p>
+<p>​       在设计自己blog的时候，大家都会先借鉴一下<a href="http://jekyllthemes.org/" target="_blank" rel="noopener">jkell模板</a>吧。我的这个blog也先clone了别人的架构，接下来慢慢修改填充自己的想法。</p>
+<p>​       在我每次向github的远程仓库提交更新的时候，总会收到一封邮件：</p>
+<blockquote>
+<p> The page build completed successfully, but returned the following warning for the <code>master</code> branch:You cannot use CNAMEs ending with github.io or github.com. Instead, create a repository named ThirtyZhang.github.io. See <a href="https://help.github.com/articles/setting-up-your-pages-site-repository/" target="_blank" rel="noopener">https://help.github.com/articles/setting-up-your-pages-site-repository/</a></p>
+<p> For information on troubleshooting Jekyll see:</p>
+<p> <a href="https://help.github.com/articles/troubleshooting-jekyll-builds" target="_blank" rel="noopener">https://help.github.com/articles/troubleshooting-jekyll-builds</a></p>
+<p> If you have any questions you can contact us by replying to this email.</p>
+</blockquote>
+<p>大概就是表示您不能使用以<code>github.io</code> 或者 <code>github.com</code> 结尾的CNAMEs文件 ,创建一个名为ThirtyZhang.github.io的存储库代替</p>
+<p>刚接触<a href="http://jekyll.bootcss.com/" target="_blank" rel="noopener">jekyll</a>不久，对它的构建结构和语法都不是特别熟悉。访问了邮件中的链接，我发现这并不能解决我的问题。虽然有warning但是无伤大雅，毕竟程序员不怎么care warning。But 每次更新代码，都要收到github的邮件，我是不能忍受的！！！(<em>&gt;﹏&lt;</em>)</p>
+<p>​       于是乎好好研究了下jekyll的目录结构以及CNAME，原来CNAME是用来绑定域名的。</p>
+<h2 id="绑定到一级域名"><a href="#绑定到一级域名" class="headerlink" title="绑定到一级域名"></a>绑定到一级域名</h2><ol>
+<li>首先在项目根目录下创建一个叫CNAME文件，里面写上自己的以及一级域名(<a href="http://www.youdomain.com" target="_blank" rel="noopener">www.youdomain.com</a>)</li>
+<li>在你的域名管理页或者是DNS解析的地方，增加一个记录，记录类别为CNAME(Alias)类型。i.e.在DNS中为自己的域名增加一条A记录，指向207.97.227.245（github服务器）。</li>
+<li>将项目提交到github上, wait a minute</li>
+<li>baseurl应该为”/”</li>
+<li>访问自己的域名,check一下</li>
+</ol>
+<h2 id="绑定到二级域名"><a href="#绑定到二级域名" class="headerlink" title="绑定到二级域名"></a>绑定到二级域名</h2><p>​       需要额外在DNS中增加一条CNAME，指向(github用户名).github.io，然后再CNAME文件中修改为自己的二级域名即可</p>
+<p>​       有关这个问题的<a href="https://help.github.com/articles/using-a-custom-domain-with-github-pages/" target="_blank" rel="noopener">github官方帮助文档</a></p>
+<p>​       之前clone jekyll模板的时候在项目中有个CNAME文件，刚开始不知道它的而作用就保留了。我还没有申请域名，现在看来这个文件不仅unnecessary而且是trouble maker。删除这个文件就没有警告了。O(∩_∩)O</p>
+
             </div>
             <hr />
 
@@ -1702,7 +1727,7 @@ $ git config --global user.email &quot;Your_email@example.com&quot;</code></pre>
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">10k</span>
+            <span class="white-color">10.6k</span>
             
 
             <br>
