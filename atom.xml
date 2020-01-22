@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-01-21T14:16:46.531Z</updated>
+  <updated>2020-01-22T23:18:22.398Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript同步和异步</title>
+    <link href="https://thirtyzhang.github.io/2020/01/23/javascript-tong-bu-he-yi-bu/"/>
+    <id>https://thirtyzhang.github.io/2020/01/23/javascript-tong-bu-he-yi-bu/</id>
+    <published>2020-01-22T23:14:57.000Z</published>
+    <updated>2020-01-22T23:18:22.398Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;同步和异步&quot;&gt;&lt;a href=&quot;#同步和异步&quot; class=&quot;headerlink&quot; title=&quot;同步和异步&quot;&gt;&lt;/a&gt;同步和异步&lt;/h1&gt;&lt;h2 id=&quot;同步&quot;&gt;&lt;a href=&quot;#同步&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JavaScript" scheme="https://thirtyzhang.github.io/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>Git快速上手</title>

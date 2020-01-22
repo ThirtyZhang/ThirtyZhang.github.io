@@ -4,22 +4,15 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="预习路线, 前端开发">
+    <meta name="keywords" content="JavaScript同步和异步, 前端开发">
     <meta name="baidu-site-verification" content>
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
-    <meta name="description" content="
+    <meta name="description" content="同步和异步同步
+所谓同步编程,就是计算机一行一行按顺序依次执行代码,是一种典型的请求-响应模型.
+当前代码比较耗时会阻塞后续代码的执行,当请求调用一个函数或者方法后,需等待其响应返回,然后执行后续代码.
 
-
-
-预习路线
-ajax  —  node  —  vue  — 小程序 — react 
-
-AJAXPart1不看php可以从第37个视频开始看
-Part2
-课件网盘链接 – 提取码:mc10
-这个ajax的视频比较老了,,,
-又另外找">
+类似于生活中规范的排队,及时前面的">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -27,7 +20,7 @@ Part2
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>预习路线 | 张磊Blog</title>
+    <title>JavaScript同步和异步 | 张磊Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -301,13 +294,13 @@ Part2
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/20.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        预习路线
+                        JavaScript同步和异步
                     </div>
                 </div>
             </div>
@@ -418,8 +411,8 @@ Part2
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/学习/" target="_blank">
-                            <span class="chip bg-color">学习</span>
+                        <a href="/tags/JavaScript/" target="_blank">
+                            <span class="chip bg-color">JavaScript</span>
                         </a>
                         
                     </div>
@@ -430,8 +423,8 @@ Part2
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                        <a href="/categories/学习/" class="post-category" target="_blank">
-                            学习
+                        <a href="/categories/前端/" class="post-category" target="_blank">
+                            前端
                         </a>
                         
                     </div>
@@ -442,7 +435,7 @@ Part2
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-01-20
+                    2020-01-23
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -456,14 +449,14 @@ Part2
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    314
+                    2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    6 分
                 </div>
                 
                 
@@ -479,53 +472,91 @@ Part2
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=28285910&auto=1&height=66"></iframe></div>
-
-
-
-<h1 id="预习路线"><a href="#预习路线" class="headerlink" title="预习路线"></a>预习路线</h1><ul>
-<li>ajax  —  node  —  vue  — 小程序 — react </li>
+                <h1 id="同步和异步"><a href="#同步和异步" class="headerlink" title="同步和异步"></a>同步和异步</h1><h2 id="同步"><a href="#同步" class="headerlink" title="同步"></a>同步</h2><blockquote>
+<p>所谓同步编程,就是计算机一行一行按顺序依次执行代码,是一种典型的请求-响应模型.</p>
+<p>当前代码比较耗时会阻塞后续代码的执行,当请求调用一个函数或者方法后,需等待其响应返回,然后执行后续代码.</p>
+</blockquote>
+<p><strong>类似于生活中规范的排队,及时前面的人动作很慢,后面的人也要等着.</strong></p>
+<h2 id="异步"><a href="#异步" class="headerlink" title="异步"></a>异步</h2><blockquote>
+<p>一般情况下,同步编程,代码依次执行能很好的保证程序的执行,</p>
+<p>但是在某些场景中,比如读取文件内容,或者请求服务器接口数据,这些请求需要根据返回的数据内容执行后续操作,</p>
+<p>等待数据返回的时间中,JavaScript是不能处理页面交互,滚动等操作的,</p>
+<p>所以需要异步编程来解决这个问题,JavaScript执行异步任务时,不需要等待响应返回,可以继续执行其他任务,</p>
+<p>而在响应返回时,会得到通知,并执行回调或者事件处理程序.</p>
+<p>CPU不用等待而继续执行,其实是交给,硬盘,光驱,声卡,网卡,显卡这些硬件是可以不消耗CPU资源而自动与内存交换数据的，这也是实现异步的基本条件，当数据交互完成，会告诉CPU执行完了,再触发指定的回调函数</p>
+<p>就像打游戏要买一块好的显卡,因为涉及到大量的I/O操作应该就是为了对CPU能力的补充</p>
+<p>当处理CPU走不开的异步操作就要通过线程池开启一个新的线程去完成,就变成了多线程</p>
+</blockquote>
+<p><strong>类似于排队的人有的人没带钱,需要找朋友来帮他付钱,需要时间比较长,就让后面的人先买,等他朋友来了再付钱,朋友就类似于硬盘和显卡.</strong></p>
+<h1 id="单线程和多线程"><a href="#单线程和多线程" class="headerlink" title="单线程和多线程"></a>单线程和多线程</h1><blockquote>
+<p>说道这里稍微提一下单线程和多线程,</p>
+<p>单线程就可以理解为你自己排队买吃的.</p>
+<p>多线程就是你这边在排队买东西,你想买很多东西,但是排一次队只能买一个,</p>
+<p>但是买东西的窗口有很多个,你就让你朋友去帮你排队买另一个这就形成了多线程</p>
+<p>线程就可以理解为买东西排的队伍.</p>
+<p>把你比作一个程序的话,通过朋友你就实现了同时占用的两个线程</p>
+<p>如果地方足够大的话,你还可以让你的家人帮你排别的队伍.</p>
+<p>买东西的地方就可以理解为CPU.</p>
+<p>线程补充介绍 : <a href="https://blog.csdn.net/hr10230322/article/details/78642898" target="_blank" rel="noopener">点击链接</a></p>
+</blockquote>
+<hr>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ul>
+<li>多线程<ul>
+<li>最大的问题在于线程本身的调度和运行需要很多的时间,因此不建议创建太大量的线程;</li>
+<li>共享资源的调度比较难,涉及到<a href="https://blog.csdn.net/hd12370/article/details/82814348" target="_blank" rel="noopener">死锁</a>,上锁等相关的概念</li>
 </ul>
-<h2 id="AJAX"><a href="#AJAX" class="headerlink" title="AJAX"></a>AJAX</h2><p><strong><a href="https://www.bilibili.com/video/av15657082" target="_blank" rel="noopener">Part1</a></strong>不看php可以从第37个视频开始看</p>
-<p><strong><a href="https://www.bilibili.com/video/av15866060/?spm_id_from=333.788.videocard.0" target="_blank" rel="noopener">Part2</a></strong></p>
-<p><a href="https://pan.baidu.com/s/1w-lcQCMTNLuSEg0e_hpKuQ" target="_blank" rel="noopener">课件网盘链接</a> – 提取码:mc10</p>
-<p>这个ajax的视频比较老了,,,</p>
-<p>又另外找了一个备看</p>
-<p><a href="https://www.bilibili.com/video/av22807707/?spm_id_from=333.788.videocard.4" target="_blank" rel="noopener">李南江亲授-jQuery+Ajax从放弃到知根知底</a></p>
-<h2 id="Node"><a href="#Node" class="headerlink" title="Node"></a>Node</h2><p><a href="https://www.bilibili.com/video/av81455397" target="_blank" rel="noopener">NodeJs全套视频教程</a></p>
-<p><a href="https://pan.baidu.com/s/1DuXusxfxaiUscfvDb0a9LA" target="_blank" rel="noopener">课件网盘链接</a> – 提取码: nzys </p>
-<h2 id="VUE"><a href="#VUE" class="headerlink" title="VUE"></a>VUE</h2><p><strong><a href="https://www.bilibili.com/video/av75420619/?spm_id_from=333.788.videocard.2" target="_blank" rel="noopener">Pink 老师推荐-Vue.js快速入门课程</a></strong> </p>
-<p><strong><a href="https://www.bilibili.com/video/av50680998" target="_blank" rel="noopener">Vue-黑马程序员视频</a></strong> —&gt;p1–p199是2018经典vue基础+项目实战教程—p200至最后是2019年最新的vue全家桶(包含了比较流行的新技术)+项目实战教程</p>
-<h1 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h1><p><a href="https://thirtyzhang.github.io/git">Git</a></p>
-<p><a href="https://naotu.baidu.com/" target="_blank" rel="noopener">百度脑图</a></p>
-<p><a href="https://www.bootcdn.cn/" target="_blank" rel="noopener">BootCDN</a></p>
-<p><a href="https://www.html.cn/doc/underscore/#throttle" target="_blank" rel="noopener">Underscore.js (1.9.1) 中文文档 </a></p>
-<p><a href="https://aui.github.io/art-template/zh-cn/" target="_blank" rel="noopener">模板引擎</a></p>
-<p><a href="https://www.bypass.cn/" target="_blank" rel="noopener">Bypass-分流抢票</a></p>
-<h2 id="学习站点"><a href="#学习站点" class="headerlink" title="学习站点"></a>学习站点</h2><p><a href="https://www.liaoxuefeng.com/" target="_blank" rel="noopener">廖雪峰</a></p>
-<p><a href="http://www.ruanyifeng.com/blog/" target="_blank" rel="noopener">阮一峰</a></p>
-<p>git - 典型错误</p>
-<p><img src="1.png" alt="png"></p>
-<h2 id="手动封装数组方法"><a href="#手动封装数组方法" class="headerlink" title="手动封装数组方法"></a>手动封装数组方法</h2><pre class="line-numbers language-js"><code class="language-js">        <span class="token keyword">var</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">5</span><span class="token punctuation">,</span><span class="token number">6</span><span class="token punctuation">,</span><span class="token number">7</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-        <span class="token keyword">function</span> <span class="token function">myForEach</span><span class="token punctuation">(</span>fn<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">for</span><span class="token punctuation">(</span><span class="token keyword">var</span> i <span class="token operator">=</span> <span class="token number">0</span> <span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token keyword">this</span><span class="token punctuation">.</span>length<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
-                <span class="token function">fn</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">,</span>i<span class="token punctuation">,</span><span class="token keyword">this</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//循环调用回调函数,遍历数组中的值</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
+</li>
+<li>异步<ul>
+<li>最大的问题在于回调,这增加了软件设计上的难度</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>在实际设计时,我们可以将两者结合起来:</p>
+<blockquote>
+<p>当需要执行I/O操作时,使用异步操作比使用线程 + 同步I/O操作更合适</p>
+<p>I/O操作不仅包括了直接的文件,网络的读写,还包括数据库操作,WebServer,HttpRequest以及.netRemoting等跨进程的调用</p>
+<p>异步特别适用于大多数I/O密集型的应用程序</p>
+</blockquote>
+<blockquote>
+<p>而线程的适用范围则是那种需要长时间CPU运算的场合,例如耗时较长的图形处理和算法执行</p>
+<p>但是往往由于适用线程编程的简单和符合习惯,所以很多朋友往往会使用线程来执行耗时较长的I/O操作</p>
+<p>这样在只有少数举个并发操作的时候还无伤大雅,如果需要处理大量的并发操作时就不合适了</p>
+</blockquote>
+</blockquote>
+<h1 id="并行和并发"><a href="#并行和并发" class="headerlink" title="并行和并发"></a>并行和并发</h1><p><strong>而JavaScript其实是单线程的(只有一个队伍),但是又想实现多线程的效果,所以有了异步</strong></p>
+<h2 id="并行"><a href="#并行" class="headerlink" title="并行"></a>并行</h2><p><strong>多线程可以实现边走路边打电话,* 也就是同一时刻多任务同时进行 ,也就是并行</strong></p>
+<h2 id="并发"><a href="#并发" class="headerlink" title="并发"></a>并发</h2><p><em><em>而异步则是跑步跑不动了,但是我还没跑完,在我恢复体力之前去吃点东西,等恢复体力了再回来跑 , 虽然我不能同时吃饭和跑步,但是吃饭和跑步事件都发生了,也就是并发 </em></em></p>
+<h1 id="并发模型"><a href="#并发模型" class="headerlink" title="并发模型"></a>并发模型</h1><h2 id="相关概念"><a href="#相关概念" class="headerlink" title="相关概念"></a>相关概念</h2><p>异步编程实现并发执行的的基础是基于事件循环的并发模型</p>
+<p>再讲并发模型之前先简单介绍下堆栈与队列</p>
+<p><img src="1579733173618.png" alt="堆栈与队列"></p>
+<h3 id="堆-heap"><a href="#堆-heap" class="headerlink" title="堆(heap)"></a>堆(heap)</h3><p>随便堆砌数据,没有顺序,通常存储对象(引用类型)</p>
+<h3 id="栈-stack"><a href="#栈-stack" class="headerlink" title="栈(stack)"></a>栈(stack)</h3><p>类似于口袋,先放进去的在最底下,想拿出来就要把后放进去的一个一个拿出来(先进后出),</p>
+<p>通常存储函数参数和基本类型值变量(按值访问)</p>
+<h3 id="队列-queue"><a href="#队列-queue" class="headerlink" title="队列(queue)"></a>队列(queue)</h3><p>先进先出的顺序存储数据结构</p>
+<p><strong>待处理消息的列表，每条消息都关联一个回调函数。</strong></p>
+<p>　　<strong>JavaScript是单线程的（多进程/多线程往往有更大的内存开销、上下文切换开销和数据竞争问题等），这意味着需要有一个队列保存异步执行的代码。</strong></p>
+<p>　　I、入队操作。例如，某个按钮被按下时，它的事件处理器代码被添加到队列；接收到某个Ajax响应时，回调函数的代码被添加到队列；<strong>对于定时器，当指定时间过去后将其回调函数的代码添加到队列。</strong></p>
+<p>　　II、出队操作。<strong>队列中没有任何代码是立刻执行的，但一旦进程空闲（此时栈为空）则尽快执行</strong>。进程每次从队列中取出一条消息并调用其回调函数（<strong>异步操作的结果通过回调函数获得</strong>）。这使得栈变为非空。当栈再次变为空时，表示该消息处理完毕。</p>
+<h3 id="事件循环"><a href="#事件循环" class="headerlink" title="事件循环"></a>事件循环</h3><p>得名于它通常的实现方式：</p>
+<pre><code>// 所谓事件循环，就像代码从一个循环中不断取出而运行一样
+while (queue.waitForMessage()) { queue.processNextMessage(); }  // waitForMessage()：当前没有消息时执行同步等待</code></pre><h2 id="模型特点："><a href="#模型特点：" class="headerlink" title="模型特点："></a>模型特点：</h2><h3 id="完整运行（Run-to-completion）："><a href="#完整运行（Run-to-completion）：" class="headerlink" title="完整运行（Run-to-completion）："></a><strong>完整运行</strong>（Run-to-completion）：</h3><p>每条消息处理完成后，再处理其他消息。</p>
+<p>　　进入一个函数后，只有在它完整运行后才会“切换”到其他代码，从而无需担心函数操作的数据被意外修改。</p>
+<p>　　不足之处在于，如果一条消息处理时间过长，则Web应用程序无法响应用户的交互操作，浏览器将提示”a script is taking too long to run”。一个好的做法是缩短消息处理过程，并尽可能把一条消息“切分”为多条。</p>
+<p>　　例子：</p>
+<pre><code>setTimeout(function cb() { console.log(&#39;5 seconds timeout&#39;); }, 5000);
+setTimeout(function cb() { console.log(&#39;9 seconds timeout&#39;); }, 9000);
+setTimeout(function cb() { console.log(&#39;7 seconds timeout&#39;); }, 7000);
+setTimeout(function cb() { console.log(&#39;3 seconds timeout&#39;); }, 3000);
 
-        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>myForEach<span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-        Array<span class="token punctuation">.</span>prototype<span class="token punctuation">.</span>myForEach <span class="token operator">=</span> myForEach<span class="token punctuation">;</span> <span class="token comment" spellcheck="true">//把函数添加为Array的原型方法</span>
-
-        <span class="token comment" spellcheck="true">//调用</span>
-        arr<span class="token punctuation">.</span><span class="token function">myForEach</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span>item<span class="token punctuation">,</span>index<span class="token punctuation">,</span>arr<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>item<span class="token punctuation">,</span>index<span class="token punctuation">,</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="典型错误"><a href="#典型错误" class="headerlink" title="典型错误"></a>典型错误</h2><p><strong>npm install</strong> 的时候出现错误：</p>
-<p>npm ERR! Unexpected end of JSON input while parsing near ‘…”,”webpack-dev-server’<br>1<br>解决方案：</p>
-<p>第一步：</p>
-<p>npm cache clean –force<br>1<br>第二步：（再安装）</p>
-<p>npm install</p>
+for(var start = +new Date; +new Date - start &lt;= 10000; ) {}  // “模拟”睡眠</code></pre><p>　　运行大约10s后，输出：</p>
+<pre><code>3 seconds timeout
+5 seconds timeout
+7 seconds timeout
+9 seconds timeout</code></pre><h3 id="从不阻塞"><a href="#从不阻塞" class="headerlink" title="从不阻塞"></a>从不阻塞</h3><p>（也有例外，如alert或同步XHR，但最好避免使用它们）：I/O的处理一般借助于事件和回调函数，因此当应用程序在等待一个IndexedDB查询或一个XHR请求返回时，它仍可以处理其他事情。</p>
+<h1 id="JS执行环境中的两个结构"><a href="#JS执行环境中的两个结构" class="headerlink" title="JS执行环境中的两个结构"></a>JS执行环境中的两个结构</h1><p><a href="https://www.jianshu.com/p/36a7775b04ec" target="_blank" rel="noopener">消息队列(messagequeue)</a></p>
+<p>消息队列也叫任务队列(taskqueue) : 存储待处理消息及对应的回调函数或事件处理程序.</p>
+<p><a href="https://blog.csdn.net/qq_41973396/article/details/88696343" target="_blank" rel="noopener">执行栈(executioncontextstack)</a></p>
 
             </div>
             <hr />
@@ -684,9 +715,9 @@ Part2
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《预习路线》
+                    《JavaScript同步和异步》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/01/20/yu-xi-lu-xian/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/01/23/javascript-tong-bu-he-yi-bu/" property="cc:attributionName"
                rel="cc:attributionURL">
                 张磊
             </a> 采用
@@ -727,7 +758,7 @@ Part2
         repo: 'thirtyzhang.github.io',
         owner: 'thirtyzhang',
         admin: "thirtyzhang",
-        id: '2020/01/20/yu-xi-lu-xian/',
+        id: '2020/01/23/javascript-tong-bu-he-yi-bu/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1010,29 +1041,84 @@ Part2
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/01/21/markdown-yu-fa/">
+                <a href="/2020/01/23/javascript-tong-bu-he-yi-bu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="Markdown语法">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="JavaScript同步和异步">
                         
-                        <span class="card-title">Markdown语法</span>
+                        <span class="card-title">JavaScript同步和异步</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            简单介绍下Markdown语法和书写工具及快捷键
+                            同步和异步同步
+所谓同步编程,就是计算机一行一行按顺序依次执行代码,是一种典型的请求-响应模型.
+当前代码比较耗时会阻塞后续代码的执行,当请求调用一个函数或者方法后,需等待其响应返回,然后执行后续代码.
+
+类似于生活中规范的排队,及时前面的
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-01-21
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-01-23
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/前端/" class="post-category" target="_blank">
+                                    前端
+                                </a>
+                            
+                            
                         </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/JavaScript/" target="_blank">
+                        <span class="chip bg-color">JavaScript</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2020/01/21/git-kuai-su-shang-shou/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Git快速上手">
+                        
+                        <span class="card-title">Git快速上手</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Git是目前世界上最先进的分布式版本控制系统
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-01-21
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -1050,55 +1136,6 @@ Part2
                     
                     <a href="/tags/工具/" target="_blank">
                         <span class="chip bg-color">工具</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2018/01/22/2017-conclusion/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="标题">
-                        
-                        <span class="card-title">标题</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            副标题。
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-01-22
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/随笔/" class="post-category" target="_blank">
-                                    随笔
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/随笔/" target="_blank">
-                        <span class="chip bg-color">随笔</span>
                     </a>
                     
                 </div>
