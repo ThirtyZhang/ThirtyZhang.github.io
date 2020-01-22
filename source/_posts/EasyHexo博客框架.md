@@ -13,6 +13,10 @@ categories:
 - 效率
 ---
 
+
+
+<div  align = "center"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=864622002&auto=1&height=66"></iframe></div>
+
 # 安装与配置
 
 ## 认识 Hexo
@@ -107,13 +111,33 @@ mkdir <your_blog_name>  # 建立你的网站根目录，名字可以自己修改
 hexo init <your_blog_name>
 ```
 
+再执行
+
+```powershell
+hexo s
+```
+
+浏览器输入
+
+```powershell
+http://localhost:4000/
+```
+
+就可以本地访问了
+
 这样就建立好网站了！
+
+[easyhexo](https://easyhexo.com/1-Hexo-install-and-config/1-3-config-hexo.html#%E9%85%8D%E7%BD%AE-hexo-2)
+
+
 
 # 主题链接
 
 [自己克隆的](https://github.com/ThirtyZhang/hexo-theme-matery)
 
 [原版的](https://github.com/blinkfox/hexo-theme-matery )
+
+下载后将 `hexo-theme-matery` 的文件夹复制到你 Hexo 的 `themes` 文件夹中即可
 
 # 收藏博客
 

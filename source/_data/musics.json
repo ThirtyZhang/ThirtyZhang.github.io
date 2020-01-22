@@ -1,5 +1,11 @@
 [
 	{
+		"name": "aloha heja he",
+		"artist": " - 群星",
+		"url": "/medias/music/1.m4a",
+		"cover": "/medias/music/avatars/7.jpg"
+	},
+	{
 		"name": "稻香",
 		"artist": "周杰伦",
 		"url": "/medias/music/daoxiang.mp3",
@@ -11,7 +17,7 @@
 		"cover": "/medias/music/avatars/2.jpg"
 	},{
 		"name": "起床进行曲",
-		"artist": "Young Rising Sons",
+		"artist": "钱晨航",
 		"url": "/medias/music/起床进行曲.m4a",
 		"cover": "/medias/music/avatars/3.jpg"
 	},{
@@ -29,12 +35,8 @@
 		"artist": "小果酱",
 		"url": "/medias/music/夜空中最亮的星.m4a",
 		"cover": "/medias/music/avatars/6.jpg"
-	},{
-		"name": "年少有为",
-		"artist": "李荣浩",
-		"url": "/medias/music/年少有为.mp3",
-		"cover": "/medias/music/avatars/7.jpg"
-	},{
+	}
+	,{
 		"name": "CountingStars",
 		"artist": "OneRepublic",
 		"url": "/medias/music/CountingStars.m4a",
@@ -61,3 +63,6 @@
 		"cover": "/medias/music/avatars/12.jpg"
 	}
 ]
+
+
+	

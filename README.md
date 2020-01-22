@@ -15,3 +15,45 @@
 * 还缺一个字体（为图片添加水印需要用到），去`C:\Windows\Fonts`下找到`STSong Regular`，复制到`hexo-matery-modified`文件夹下。
 
 这样所有准备工作就做好啦，剩下的工作就直接去看我的教程[https://godweiyang.com/2018/04/13/hexo-blog/](https://godweiyang.com/2018/04/13/hexo-blog/)
+
+
+
+# 我的记录
+
+然后输入`hexo new post "article title"`，新建一篇文章 `hexo g`生成静态网页，然后输入`hexo s`可以本地预览效果，最后输入`hexo d`上传到github上 
+
+
+
+## 备份博客源文件
+
+有时候我们想换一台电脑继续写博客，这时候就可以将博客目录下的所有源文件都上传到github上面。
+
+首先在github博客仓库下新建一个分支`hexo`，然后`git clone`到本地，把`.git`文件夹拿出来，放在博客根目录下。
+
+然后`git checkout hexo`切换到`hexo`分支，然后`git add .`，然后`git commit -m "xxx"`，最后`git push origin hexo`提交就行了。
+
+
+
+## 文章头设置
+
+首先为了新建文章方便，建议将`/scaffolds/post.md`修改为如下代码：
+
+```
+---
+title: {{ title }}
+date: {{ date }}
+top: false
+cover: false
+password:
+toc: true
+mathjax: true
+summary:
+tags:
+categories:
+---
+```
+## 修改首页音乐
+
+E:\ThirtyZhang.github.io\source\_data\musics.json
+
+E:\ThirtyZhang.github.io\themes\matery\source\medias\music
