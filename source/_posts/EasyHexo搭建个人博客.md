@@ -19,6 +19,14 @@ categories:
 
 # 安装
 
+## 添加国内镜像源
+
+如果没有梯子的话，可以使用阿里的国内镜像进行加速,不使用的话可能会有下载过慢或下载失败的问题
+
+```powershell
+$ npm config set registry https://registry.npm.taobao.org
+```
+
 ## 认识 Hexo
 
 > Hexo 是一个快速、简洁且高效的博客框架，可以让你快速建立一个博客。
@@ -431,7 +439,7 @@ $ npm install hexo-server --save
 
 ```
 $ git config --global user.name "Your_user_name"
-$ git config --global user.email Your_email@example.com
+$ git config --global user.email "Your_email@example.com"
 ```
 
 提醒
@@ -443,7 +451,7 @@ $ git config --global user.email Your_email@example.com
 ### 然后生成密钥SSH key：
 
 ```
-ssh-keygen -t rsa -C "792321264@qq.com"
+ssh-keygen -t rsa -C "Your_email@example.com"
 ```
 
 打开[github](https://github.com/)，在头像下面点击`settings`，再点击`SSH and GPG keys`，新建一个SSH，名字随便。
@@ -473,11 +481,11 @@ deploy:
 ```
 deploy:
   type: git
-  repository: https://github.com/godweiyang/godweiyang.github.io
+  repository: git@github.com:ThirtyZhang/ThirtyZhang.github.io.git
   branch: master
 ```
 
-repository修改为你自己的github项目地址。
+repository修改为你自己的github项目地址。**(最好使用SSH的地址,因为使用Http更换电脑后可能找不到该git地址)**
 
 ### 发布到 GitHub
 
@@ -564,3 +572,33 @@ $ hexo clean && hexo d -g
 
 **更多细节可查看官方文档** : [hexo](https://hexo.io/zh-cn/docs/configuration)
 
+
+
+# 遇到的问题解决办法
+
+## 端口占用
+
+- 提示“FATAL Port 4000 has been used. Try other port instead.”
+   在使用了$ hexo s命令预览博客效果后使用Control+C关闭
+   解决办法：
+
+还不行就重新手动制定端口号
+
+```
+$ hexo s -p 5000
+```
+
+##   未安装git部署插件
+
+- 提示“ERROR Deployer not found: git”
+  解决办法：
+
+```
+$ npm install hexo-deployer-git --save
+```
+
+ 
+
+ 
+
+ 
