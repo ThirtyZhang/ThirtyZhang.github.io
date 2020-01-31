@@ -12,7 +12,7 @@
 所谓同步编程,就是计算机一行一行按顺序依次执行代码,是一种典型的请求-响应模型.
 当前代码比较耗时会阻塞后续代码的执行,当请求调用一个函数或者方法后,需等待其响应返回,然后执行后续代码.
 
-类似于生活中规范的排队,及时前面的">
+类似于生活中规范的排队,即使前面的">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -294,7 +294,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/14.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -449,14 +449,14 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2k
+                    2.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    6 分
+                    7 分
                 </div>
                 
                 
@@ -476,25 +476,29 @@
 <p>所谓同步编程,就是计算机一行一行按顺序依次执行代码,是一种典型的请求-响应模型.</p>
 <p>当前代码比较耗时会阻塞后续代码的执行,当请求调用一个函数或者方法后,需等待其响应返回,然后执行后续代码.</p>
 </blockquote>
-<p><strong>类似于生活中规范的排队,及时前面的人动作很慢,后面的人也要等着.</strong></p>
+<p><strong>类似于生活中规范的排队,即使前面的人动作很慢,后面的人也要等着.</strong></p>
 <h2 id="异步"><a href="#异步" class="headerlink" title="异步"></a>异步</h2><blockquote>
 <p>一般情况下,同步编程,代码依次执行能很好的保证程序的执行,</p>
-<p>但是在某些场景中,比如读取文件内容,或者请求服务器接口数据,这些请求需要根据返回的数据内容执行后续操作,</p>
+<p>但是在某些场景中,比如读取文件内容,或者请求服务器接口数据,这些请求需要根据返回的数据内容,来执行后续操作,</p>
 <p>等待数据返回的时间中,JavaScript是不能处理页面交互,滚动等操作的,</p>
 <p>所以需要异步编程来解决这个问题,JavaScript执行异步任务时,不需要等待响应返回,可以继续执行其他任务,</p>
 <p>而在响应返回时,会得到通知,并执行回调或者事件处理程序.</p>
-<p>CPU不用等待而继续执行,其实是交给,硬盘,光驱,声卡,网卡,显卡这些硬件是可以不消耗CPU资源而自动与内存交换数据的，这也是实现异步的基本条件，当数据交互完成，会告诉CPU执行完了,再触发指定的回调函数</p>
+<p>CPU不用等待而继续执行,  其实是交给,硬盘,光驱,声卡,网卡,显卡这些硬件, 他们是可以不消耗CPU资源而自动与内存交换数据的，这也是实现异步的基本条件，当数据交互完成，会告诉CPU执行完了,再触发指定的回调函数</p>
 <p>就像打游戏要买一块好的显卡,因为涉及到大量的I/O操作应该就是为了对CPU能力的补充</p>
 <p>当处理CPU走不开的异步操作就要通过线程池开启一个新的线程去完成,就变成了多线程</p>
 </blockquote>
 <p><strong>类似于排队的人有的人没带钱,需要找朋友来帮他付钱,需要时间比较长,就让后面的人先买,等他朋友来了再付钱,朋友就类似于硬盘和显卡.</strong></p>
+<blockquote>
+<p>简单描述下线程池:</p>
+<p>线程池：基本思想还是一种对象池的思想，开辟一块内存空间，里面存放了众多(未死亡)的线程，池中线程执行调度由池管理器来处理。当有线程任务时，从池中取一个，执行完成后线程对象归池，这样可以避免反复创建线程对象所带来的性能开销，节省了系统的资源。</p>
+</blockquote>
 <h1 id="单线程和多线程"><a href="#单线程和多线程" class="headerlink" title="单线程和多线程"></a>单线程和多线程</h1><blockquote>
 <p>说道这里稍微提一下单线程和多线程,</p>
 <p>单线程就可以理解为你自己排队买吃的.</p>
 <p>多线程就是你这边在排队买东西,你想买很多东西,但是排一次队只能买一个,</p>
 <p>但是买东西的窗口有很多个,你就让你朋友去帮你排队买另一个这就形成了多线程</p>
 <p>线程就可以理解为买东西排的队伍.</p>
-<p>把你比作一个程序的话,通过朋友你就实现了同时占用的两个线程</p>
+<p>把你比作一个程序的话,通过朋友你就实现了同时占用两个线程</p>
 <p>如果地方足够大的话,你还可以让你的家人帮你排别的队伍.</p>
 <p>买东西的地方就可以理解为CPU.</p>
 <p>线程补充介绍 : <a href="https://blog.csdn.net/hr10230322/article/details/78642898" target="_blank" rel="noopener">点击链接</a></p>
@@ -521,19 +525,19 @@
 <blockquote>
 <p>而线程的适用范围则是那种需要长时间CPU运算的场合,例如耗时较长的图形处理和算法执行</p>
 <p>但是往往由于适用线程编程的简单和符合习惯,所以很多朋友往往会使用线程来执行耗时较长的I/O操作</p>
-<p>这样在只有少数举个并发操作的时候还无伤大雅,如果需要处理大量的并发操作时就不合适了</p>
+<p>这样在只有少数几个并发操作的时候还无伤大雅,如果需要处理大量的并发操作时就不合适了</p>
 </blockquote>
 </blockquote>
-<h1 id="并行和并发"><a href="#并行和并发" class="headerlink" title="并行和并发"></a>并行和并发</h1><p><strong>而JavaScript其实是单线程的(只有一个队伍),但是又想实现多线程的效果,所以有了异步</strong></p>
-<h2 id="并行"><a href="#并行" class="headerlink" title="并行"></a>并行</h2><p><strong>多线程可以实现边走路边打电话,* 也就是同一时刻多任务同时进行 ,也就是并行</strong></p>
+<h1 id="并行和并发"><a href="#并行和并发" class="headerlink" title="并行和并发"></a>并行和并发</h1><p><strong>而JavaScript其实是单线程的<code>(只有一个队伍)</code>,但是又想实现多线程的效果,所以有了异步</strong></p>
+<h2 id="并行"><a href="#并行" class="headerlink" title="并行"></a>并行</h2><p><strong>多线程可以实现边走路边打电话, 也就是同一时刻多任务同时进行 ,也就是并行</strong></p>
 <h2 id="并发"><a href="#并发" class="headerlink" title="并发"></a>并发</h2><p><em><em>而异步则是跑步跑不动了,但是我还没跑完,在我恢复体力之前去吃点东西,等恢复体力了再回来跑 , 虽然我不能同时吃饭和跑步,但是吃饭和跑步事件都发生了,也就是并发 </em></em></p>
 <h1 id="并发模型"><a href="#并发模型" class="headerlink" title="并发模型"></a>并发模型</h1><h2 id="相关概念"><a href="#相关概念" class="headerlink" title="相关概念"></a>相关概念</h2><p>异步编程实现并发执行的的基础是基于事件循环的并发模型</p>
 <p>再讲并发模型之前先简单介绍下堆栈与队列</p>
 <p><img src="1579733173618.png" alt="堆栈与队列"></p>
 <h3 id="堆-heap"><a href="#堆-heap" class="headerlink" title="堆(heap)"></a>堆(heap)</h3><p>随便堆砌数据,没有顺序,通常存储对象(引用类型)</p>
-<h3 id="栈-stack"><a href="#栈-stack" class="headerlink" title="栈(stack)"></a>栈(stack)</h3><p>类似于口袋,先放进去的在最底下,想拿出来就要把后放进去的一个一个拿出来(先进后出),</p>
-<p>通常存储函数参数和基本类型值变量(按值访问)</p>
-<h3 id="队列-queue"><a href="#队列-queue" class="headerlink" title="队列(queue)"></a>队列(queue)</h3><p>先进先出的顺序存储数据结构</p>
+<h3 id="栈-stack"><a href="#栈-stack" class="headerlink" title="栈(stack)"></a>栈(stack)</h3><p>类似于口袋,先放进去的在最底下,想拿出来就要把后放进去的一个一个拿出来<code>(先进后出)</code>,</p>
+<p>通常存储函数参数和基本类型值变量<code>(按值访问)</code></p>
+<h3 id="队列-queue"><a href="#队列-queue" class="headerlink" title="队列(queue)"></a>队列(queue)</h3><p><code>先进先出</code>的顺序存储数据结构</p>
 <p><strong>待处理消息的列表，每条消息都关联一个回调函数。</strong></p>
 <p>　　<strong>JavaScript是单线程的（多进程/多线程往往有更大的内存开销、上下文切换开销和数据竞争问题等），这意味着需要有一个队列保存异步执行的代码。</strong></p>
 <p>　　I、入队操作。例如，某个按钮被按下时，它的事件处理器代码被添加到队列；接收到某个Ajax响应时，回调函数的代码被添加到队列；<strong>对于定时器，当指定时间过去后将其回调函数的代码添加到队列。</strong></p>
@@ -1050,7 +1054,7 @@ for(var start = +new Date; +new Date - start &lt;= 10000; ) {}  // “模拟”�
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="JavaScript同步和异步">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="JavaScript同步和异步">
                         
                         <span class="card-title">JavaScript同步和异步</span>
                     </div>
@@ -1062,7 +1066,7 @@ for(var start = +new Date; +new Date - start &lt;= 10000; ) {}  // “模拟”�
 所谓同步编程,就是计算机一行一行按顺序依次执行代码,是一种典型的请求-响应模型.
 当前代码比较耗时会阻塞后续代码的执行,当请求调用一个函数或者方法后,需等待其响应返回,然后执行后续代码.
 
-类似于生活中规范的排队,及时前面的
+类似于生活中规范的排队,即使前面的
                         
                     </div>
                     <div class="publish-info">
@@ -1104,7 +1108,7 @@ for(var start = +new Date; +new Date - start &lt;= 10000; ) {}  // “模拟”�
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Git快速上手">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Git快速上手">
                         
                         <span class="card-title">Git快速上手</span>
                     </div>
@@ -1297,7 +1301,7 @@ for(var start = +new Date; +new Date - start &lt;= 10000; ) {}  // “模拟”�
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">12.7k</span>
+            <span class="white-color">12.8k</span>
             
 
             <br>
