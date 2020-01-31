@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>张磊Blog</title>
+  <title>张磊博客</title>
   
-  <subtitle>ThirtyZhang</subtitle>
+  <subtitle>你见过凌晨四点的洛杉矶吗?</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
