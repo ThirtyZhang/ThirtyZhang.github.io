@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-01-24T03:55:15.226Z</updated>
+  <updated>2020-01-31T05:25:53.729Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>浏览器音乐插件 - Listen 1</title>
+    <link href="https://thirtyzhang.github.io/2020/01/31/yin-le-cha-jian/"/>
+    <id>https://thirtyzhang.github.io/2020/01/31/yin-le-cha-jian/</id>
+    <published>2020-01-31T05:10:37.000Z</published>
+    <updated>2020-01-31T05:25:53.729Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Listen-1-Chrome-Extension-V2-5-1&quot;&gt;&lt;a href=&quot;#Listen-1-Chrome-Extension-V2-5-1&quot; class=&quot;headerlink&quot; title=&quot;Listen 1 (Chrome Extension)
+        
+      
+    
+    </summary>
+    
+      <category term="音乐" scheme="https://thirtyzhang.github.io/categories/%E9%9F%B3%E4%B9%90/"/>
+    
+    
+      <category term="工具" scheme="https://thirtyzhang.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaScript同步和异步</title>
