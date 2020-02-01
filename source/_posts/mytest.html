@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<SCript>
+    var obj = {
+        foo:'bar',
+        func:function(){
+            var self = this;
+            console.log("outer func: this.foo = " + this.foo);  //bar
+            console.log("outer func: this.selt = " + self.foo); //bar
+            (function(){
+                console.log("inner func : this.foo = " +this.foo); //undefined
+                console.log("inner func : self.foo = " +self.foo); //bar
+            }());
+        }
+    }
+    obj.func();
+</SCript>
+</html>

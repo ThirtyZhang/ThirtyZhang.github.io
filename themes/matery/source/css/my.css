@@ -18,3 +18,8 @@
 .brand-logo:hover .logo-span{
     color: #f40;
 } */
+.block-with-text{ 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
