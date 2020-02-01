@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2020/02/01/mytest/"/>
+      <url>/2020/02/01/mytest/</url>
+      
+        <content type="html"><![CDATA[<!DOCTYPE html><html lang="en"><head><meta name="generator" content="Hexo 3.9.0">    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta http-equiv="X-UA-Compatible" content="ie=edge">    <title>Document</title><link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"><link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body>    </body><script>    var obj = {        foo:'bar',        func:function(){            var self = this;            console.log("outer func: this.foo = " + this.foo);  //bar            console.log("outer func: this.selt = " + self.foo); //bar            (function(){                console.log("inner func : this.foo = " +this.foo); //undefined                console.log("inner func : self.foo = " +self.foo); //bar            }());        }    }    obj.func();</script></html>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>浏览器音乐插件 - Listen 1</title>
       <link href="/2020/01/31/yin-le-cha-jian/"/>
       <url>/2020/01/31/yin-le-cha-jian/</url>
