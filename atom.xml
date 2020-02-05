@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-01-31T06:50:59.362Z</updated>
+  <updated>2020-02-05T15:16:35.547Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaScript模式</title>
+    <link href="https://thirtyzhang.github.io/2020/02/05/javascript-mo-shi/"/>
+    <id>https://thirtyzhang.github.io/2020/02/05/javascript-mo-shi/</id>
+    <published>2020-02-05T15:09:46.000Z</published>
+    <updated>2020-02-05T15:16:35.547Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;JavaScript模式&quot;&gt;&lt;a href=&quot;#JavaScript模式&quot; class=&quot;headerlink&quot; title=&quot;JavaScript模式&quot;&gt;&lt;/a&gt;JavaScript模式&lt;/h1&gt;&lt;h2 id=&quot;for循环优化&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JavaScript" scheme="https://thirtyzhang.github.io/tags/JavaScript/"/>
+    
+  </entry>
   
   <entry>
     <title>浏览器音乐插件 - Listen 1</title>
