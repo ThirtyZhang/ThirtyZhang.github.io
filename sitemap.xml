@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://thirtyzhang.github.io/2020/01/21/github-guo-nei-fang-wen-jia-su/</loc>
+    
+    <lastmod>2020-02-10T08:08:55.428Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://thirtyzhang.github.io/2020/02/05/javascript-mo-shi/</loc>
     
     <lastmod>2020-02-05T15:16:35.547Z</lastmod>
@@ -51,13 +58,6 @@
   </url>
   
   <url>
-    <loc>https://thirtyzhang.github.io/2020/01/21/github-guo-nei-fang-wen-jia-su/</loc>
-    
-    <lastmod>2020-01-21T13:12:05.983Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://thirtyzhang.github.io/about/index.html</loc>
     
     <lastmod>2020-01-21T08:13:56.821Z</lastmod>
@@ -100,14 +100,14 @@
   </url>
   
   <url>
-    <loc>https://thirtyzhang.github.io/archives/index.html</loc>
+    <loc>https://thirtyzhang.github.io/categories/index.html</loc>
     
     <lastmod>2020-01-19T19:31:00.313Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://thirtyzhang.github.io/categories/index.html</loc>
+    <loc>https://thirtyzhang.github.io/archives/index.html</loc>
     
     <lastmod>2020-01-19T19:31:00.313Z</lastmod>
     
