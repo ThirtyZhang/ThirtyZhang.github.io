@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-02-05T15:16:35.547Z</updated>
+  <updated>2020-02-29T16:50:17.534Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -15,6 +15,125 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vscode-效率提升</title>
+    <link href="https://thirtyzhang.github.io/2020/03/01/vscode-xiao-lu-ti-sheng/"/>
+    <id>https://thirtyzhang.github.io/2020/03/01/vscode-xiao-lu-ti-sheng/</id>
+    <published>2020-02-29T16:46:21.000Z</published>
+    <updated>2020-02-29T16:50:17.534Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;vscode效率提升&quot;&gt;&lt;a href=&quot;#vscode效率提升&quot; class=&quot;headerlink&quot; title=&quot;vscode效率提升&quot;&gt;&lt;/a&gt;vscode效率提升&lt;/h1&gt;&lt;h2 id=&quot;快捷键&quot;&gt;&lt;a href=&quot;#快捷键&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="工具" scheme="https://thirtyzhang.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript-预编译</title>
+    <link href="https://thirtyzhang.github.io/2020/02/22/javascript-yu-bian-yi/"/>
+    <id>https://thirtyzhang.github.io/2020/02/22/javascript-yu-bian-yi/</id>
+    <published>2020-02-21T18:07:06.000Z</published>
+    <updated>2020-02-21T19:13:12.160Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;预编译&quot;&gt;&lt;a href=&quot;#预编译&quot; class=&quot;headerlink&quot; title=&quot;预编译&quot;&gt;&lt;/a&gt;预编译&lt;/h1&gt;&lt;h2 id=&quot;前奏&quot;&gt;&lt;a href=&quot;#前奏&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JavaScript" scheme="https://thirtyzhang.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript-正则表达式</title>
+    <link href="https://thirtyzhang.github.io/2020/02/18/javascript-zheng-ze-biao-da-shi/"/>
+    <id>https://thirtyzhang.github.io/2020/02/18/javascript-zheng-ze-biao-da-shi/</id>
+    <published>2020-02-18T08:33:37.000Z</published>
+    <updated>2020-02-18T15:48:30.112Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;正则表达式-RegExp&quot;&gt;&lt;a href=&quot;#正则表达式-RegExp&quot; class=&quot;headerlink&quot; title=&quot;正则表达式(RegExp)&quot;&gt;&lt;/a&gt;正则表达式(RegExp)&lt;/h1&gt;&lt;h2 id=&quot;创建&quot;&gt;&lt;a href=&quot;#创建&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JavaScript" scheme="https://thirtyzhang.github.io/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>express 框架</title>
+    <link href="https://thirtyzhang.github.io/2020/02/16/express-kuang-jia/"/>
+    <id>https://thirtyzhang.github.io/2020/02/16/express-kuang-jia/</id>
+    <published>2020-02-16T10:01:43.000Z</published>
+    <updated>2020-02-16T10:01:43.775Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JS定时器</title>
+    <link href="https://thirtyzhang.github.io/2020/02/13/javascript-ding-shi-qi/"/>
+    <id>https://thirtyzhang.github.io/2020/02/13/javascript-ding-shi-qi/</id>
+    <published>2020-02-12T16:03:06.000Z</published>
+    <updated>2020-02-13T08:04:28.858Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;定时器&quot;&gt;&lt;a href=&quot;#定时器&quot; class=&quot;headerlink&quot; title=&quot;定时器&quot;&gt;&lt;/a&gt;定时器&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;都是全局对象window上的方法 ,
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="JavaScripe" scheme="https://thirtyzhang.github.io/tags/JavaScripe/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaScript模式</title>
@@ -181,7 +300,7 @@
     <link href="https://thirtyzhang.github.io/2020/01/21/github-guo-nei-fang-wen-jia-su/"/>
     <id>https://thirtyzhang.github.io/2020/01/21/github-guo-nei-fang-wen-jia-su/</id>
     <published>2020-01-21T02:46:53.000Z</published>
-    <updated>2020-02-10T08:08:55.428Z</updated>
+    <updated>2020-02-10T08:11:46.027Z</updated>
     
     <summary type="html">
     

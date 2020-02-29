@@ -2,9 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://thirtyzhang.github.io/2020/03/01/vscode-xiao-lu-ti-sheng/</loc>
+    
+    <lastmod>2020-02-29T16:50:17.534Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thirtyzhang.github.io/2020/02/22/javascript-yu-bian-yi/</loc>
+    
+    <lastmod>2020-02-21T19:13:12.160Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thirtyzhang.github.io/2020/02/18/javascript-zheng-ze-biao-da-shi/</loc>
+    
+    <lastmod>2020-02-18T15:48:30.112Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thirtyzhang.github.io/2020/02/16/express-kuang-jia/</loc>
+    
+    <lastmod>2020-02-16T10:01:43.775Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thirtyzhang.github.io/2020/02/13/javascript-ding-shi-qi/</loc>
+    
+    <lastmod>2020-02-13T08:04:28.858Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://thirtyzhang.github.io/2020/01/21/github-guo-nei-fang-wen-jia-su/</loc>
     
-    <lastmod>2020-02-10T08:08:55.428Z</lastmod>
+    <lastmod>2020-02-10T08:11:46.027Z</lastmod>
     
   </url>
   
@@ -100,14 +135,14 @@
   </url>
   
   <url>
-    <loc>https://thirtyzhang.github.io/categories/index.html</loc>
+    <loc>https://thirtyzhang.github.io/archives/index.html</loc>
     
     <lastmod>2020-01-19T19:31:00.313Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://thirtyzhang.github.io/archives/index.html</loc>
+    <loc>https://thirtyzhang.github.io/categories/index.html</loc>
     
     <lastmod>2020-01-19T19:31:00.313Z</lastmod>
     
