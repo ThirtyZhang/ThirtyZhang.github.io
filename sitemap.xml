@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://thirtyzhang.github.io/2020/01/21/hexo-da-jian-ge-ren-bo-ke/</loc>
+    
+    <lastmod>2020-02-29T17:06:00.858Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://thirtyzhang.github.io/2020/01/21/vue-wen-dang-feng-ge-de-typora-zhu-ti/</loc>
     
     <lastmod>2020-02-29T17:03:31.754Z</lastmod>
@@ -72,13 +79,6 @@
   </url>
   
   <url>
-    <loc>https://thirtyzhang.github.io/2020/01/21/easyhexo-da-jian-ge-ren-bo-ke/</loc>
-    
-    <lastmod>2020-01-22T15:59:22.811Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://thirtyzhang.github.io/2020/01/21/git-kuai-su-shang-shou/</loc>
     
     <lastmod>2020-01-21T14:16:46.531Z</lastmod>
@@ -128,14 +128,14 @@
   </url>
   
   <url>
-    <loc>https://thirtyzhang.github.io/archives/index.html</loc>
+    <loc>https://thirtyzhang.github.io/categories/index.html</loc>
     
     <lastmod>2020-01-19T19:31:00.313Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://thirtyzhang.github.io/categories/index.html</loc>
+    <loc>https://thirtyzhang.github.io/archives/index.html</loc>
     
     <lastmod>2020-01-19T19:31:00.313Z</lastmod>
     
