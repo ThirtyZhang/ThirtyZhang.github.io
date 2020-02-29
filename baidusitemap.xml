@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://thirtyzhang.github.io/2020/01/21/markdown-yu-fa/</loc>
+    <lastmod>2020-02-29</lastmod>
+  </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/03/01/vscode-xiao-lu-ti-sheng/</loc>
     <lastmod>2020-02-29</lastmod>
   </url>  <url>
@@ -26,9 +29,6 @@
     <lastmod>2020-01-31</lastmod>
   </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/01/21/easyhexo-da-jian-ge-ren-bo-ke/</loc>
-    <lastmod>2020-01-22</lastmod>
-  </url>  <url>
-    <loc>https://thirtyzhang.github.io/2020/01/21/markdown-yu-fa/</loc>
     <lastmod>2020-01-22</lastmod>
   </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/01/21/git-kuai-su-shang-shou/</loc>
