@@ -36,7 +36,7 @@ SEO => 搜索引擎优化 => H5页面 => 百度/头条 => 爬虫爬取网页的�
 
 > 上述的效果可通过查看 黑马头条的网页元素进行验证
 >
-> ![image-20200402095640332](assets/image-20200402095640332.png)
+> ![image-20200402095640332](image-20200402095640332.png)
 
 ## SSR渲染的演示和特点-服务端渲染
 
@@ -64,7 +64,7 @@ ASP => 服务端渲染 => 服务端标签  => 完成数据的替换 => html =>  
 
 >服务端页面返回的内容直接是Html文档结构,不用等到下载完js,再通过js去渲染
 >
->![image-20200402095657205](assets/image-20200402095657205.png)
+>![image-20200402095657205](image-20200402095657205.png)
 
 ## Vue的SSR介绍及示例演示
 
@@ -120,7 +120,7 @@ renderer.renderToString(app).then(html => {
 $ node app
 ```
 
-![image-20200213222737986](assets/image-20200213222737986.png)
+![image-20200213222737986](image-20200213222737986.png)
 
 >试着写一些动态内容
 
@@ -145,7 +145,7 @@ SSR.renderToString(app).then(html => {
 // 我们要将这个结果 返回浏览器  浏览器直接显示这个结构  这就是服务端渲染
 ```
 
-![image-20200213222907433](assets/image-20200213222907433.png)
+![image-20200213222907433](image-20200213222907433.png)
 
 > 我们发现代码动态数据直接渲染成了真正的字符串
 
@@ -440,7 +440,7 @@ Nuxt.js  =>  asyncData事件  => 会在服务端渲染初始化的时候 调用
 
 `asyncData`方法会在组件（**`限于页面组件,在pages下的组件`**）**`每次加载之前`**被调用。它可以在服务端或路由更新之前被调用。 在这个方法被调用的时候，第一个参数被设定为当前页面的[上下文对象](https://zh.nuxtjs.org/api#上下文对象)，你可以利用 `asyncData`方法来获取数据，Nuxt.js 会将 `asyncData` 返回的数据融合组件 `data` 方法返回的数据一并返回给当前组件。
 
-![image-20200215142417144](assets/image-20200215142417144.png)
+![image-20200215142417144](image-20200215142417144.png)
 
 **`注意`**：由于`asyncData`方法是在组件 **`初始化前`** 被调用的，所以在方法内是没有办法通过 `this` 来引用组件的实例对象。  这个asyncData方法 是相当于在后端调用发起了请求,并将数据和data中的数据进行了融合, 这些数据会返回前端,**`交接`**给前端的交互
 
@@ -595,7 +595,7 @@ $ npm i less less-loader # 安装less 和less-loader
       <!-- 表单内容 -->
       <!-- 头部logo部分 -->
       <div class="title">
-        <img src="../../assets/img/logo_index.png" alt="">
+        <img src="../../img/logo_index.png" alt="">
       </div>
       <!-- 表单 绑定model属性  绑定rules属性(表单验证规则) ref 给el-form一个属性-->
       <el-form ref="loginForm" :model="loginForm" :rules="loginRules" style="margin-top:20px">

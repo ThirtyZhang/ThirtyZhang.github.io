@@ -15,7 +15,7 @@ categories:
 
 ## MVVM-介绍和演示
 
-![MVVM](./assets/mvvm-3510948.png)
+![MVVM](mvvm-3510948.png)
 
 >面试过程中,面试官一定会问你 描述一下 你所知道的MVVM?
 >
