@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-04-07T03:58:55.463Z</updated>
+  <updated>2020-04-07T04:06:25.393Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>Vue部分相关的面试题</title>
     <link href="https://thirtyzhang.github.io/2020/04/07/vue-xiang-guan-yi-nan/"/>
     <id>https://thirtyzhang.github.io/2020/04/07/vue-xiang-guan-yi-nan/</id>
-    <published>2020-04-07T03:55:21.924Z</published>
-    <updated>2020-04-07T03:58:55.463Z</updated>
+    <published>2020-04-07T04:01:56.000Z</published>
+    <updated>2020-04-07T04:06:25.393Z</updated>
     
     <summary type="html">
     
@@ -29,65 +29,25 @@
       
         
         
-          &lt;h1 id=&quot;Vue部分相关的面试题&quot;&gt;&lt;a href=&quot;#Vue部分相关的面试题&quot; class=&quot;headerlink&quot; title=&quot;Vue部分相关的面试题&quot;&gt;&lt;/a&gt;Vue部分相关的面试题&lt;/h1&gt;&lt;h2 id=&quot;如何在组件中监听Vuex的数据变化&quot;&gt;&lt;a
+          &lt;div align=&quot;middle&quot;&gt; &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot;
         
       
     
     </summary>
     
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
     
   </entry>
   
   <entry>
-    <title></title>
-    <link href="https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-fu-wu-duan-xuan-ran-ssr/"/>
-    <id>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-fu-wu-duan-xuan-ran-ssr/</id>
-    <published>2020-04-07T03:39:43.384Z</published>
-    <updated>2020-04-04T04:02:10.487Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;CSR演示和特点-客户端渲染&quot;&gt;&lt;a href=&quot;#CSR演示和特点-客户端渲染&quot; class=&quot;headerlink&quot; title=&quot;CSR演示和特点 - 客户端渲染&quot;&gt;&lt;/a&gt;CSR演示和特点 -
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-mvvm-shi-xian-yuan-li/"/>
-    <id>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-mvvm-shi-xian-yuan-li/</id>
-    <published>2020-04-07T03:39:43.333Z</published>
-    <updated>2020-04-04T04:02:10.484Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;MVVM-介绍和演示&quot;&gt;&lt;a href=&quot;#MVVM-介绍和演示&quot; class=&quot;headerlink&quot; title=&quot;MVVM-介绍和演示&quot;&gt;&lt;/a&gt;MVVM-介绍和演示&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;./assets/mvvm-3510948.png&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
+    <title>开发与打包</title>
     <link href="https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-app-kai-fa-he-da-bao/"/>
     <id>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-app-kai-fa-he-da-bao/</id>
-    <published>2020-04-07T03:39:43.311Z</published>
-    <updated>2020-04-04T04:02:10.471Z</updated>
+    <published>2020-04-07T04:01:56.000Z</published>
+    <updated>2020-04-07T04:06:18.684Z</updated>
     
     <summary type="html">
     
@@ -102,6 +62,62 @@
     
     </summary>
     
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MVVM</title>
+    <link href="https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-mvvm-shi-xian-yuan-li/"/>
+    <id>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-mvvm-shi-xian-yuan-li/</id>
+    <published>2020-04-07T04:01:56.000Z</published>
+    <updated>2020-04-07T04:05:38.529Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;MVVM-介绍和演示&quot;&gt;&lt;a href=&quot;#MVVM-介绍和演示&quot; class=&quot;headerlink&quot; title=&quot;MVVM-介绍和演示&quot;&gt;&lt;/a&gt;MVVM-介绍和演示&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;./assets/mvvm-3510948.png&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>服务端渲染</title>
+    <link href="https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-fu-wu-duan-xuan-ran-ssr/"/>
+    <id>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-fu-wu-duan-xuan-ran-ssr/</id>
+    <published>2020-04-07T04:01:56.000Z</published>
+    <updated>2020-04-07T04:05:46.656Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;CSR演示和特点-客户端渲染&quot;&gt;&lt;a href=&quot;#CSR演示和特点-客户端渲染&quot; class=&quot;headerlink&quot; title=&quot;CSR演示和特点 - 客户端渲染&quot;&gt;&lt;/a&gt;CSR演示和特点 -
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
     
   </entry>
   
