@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-04-07T04:06:25.393Z</updated>
+  <updated>2020-04-07T04:31:02.092Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>开发与打包</title>
+    <link href="https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-app-kai-fa-he-da-bao/"/>
+    <id>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-app-kai-fa-he-da-bao/</id>
+    <published>2020-04-07T04:01:56.000Z</published>
+    <updated>2020-04-07T04:31:02.092Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Vue进阶&quot;&gt;&lt;a href=&quot;#Vue进阶&quot; class=&quot;headerlink&quot; title=&quot;Vue进阶&quot;&gt;&lt;/a&gt;Vue进阶&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue部分相关的面试题</title>
@@ -43,11 +70,11 @@
   </entry>
   
   <entry>
-    <title>开发与打包</title>
-    <link href="https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-app-kai-fa-he-da-bao/"/>
-    <id>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-app-kai-fa-he-da-bao/</id>
+    <title>服务端渲染</title>
+    <link href="https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-fu-wu-duan-xuan-ran-ssr/"/>
+    <id>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-fu-wu-duan-xuan-ran-ssr/</id>
     <published>2020-04-07T04:01:56.000Z</published>
-    <updated>2020-04-07T04:22:33.055Z</updated>
+    <updated>2020-04-07T04:15:38.489Z</updated>
     
     <summary type="html">
     
@@ -55,8 +82,7 @@
       
         
         
-          &lt;h1 id=&quot;Vue进阶&quot;&gt;&lt;a href=&quot;#Vue进阶&quot; class=&quot;headerlink&quot; title=&quot;Vue进阶&quot;&gt;&lt;/a&gt;Vue进阶&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt;
+          &lt;h2 id=&quot;CSR演示和特点-客户端渲染&quot;&gt;&lt;a href=&quot;#CSR演示和特点-客户端渲染&quot; class=&quot;headerlink&quot; title=&quot;CSR演示和特点 - 客户端渲染&quot;&gt;&lt;/a&gt;CSR演示和特点 -
         
       
     
@@ -83,32 +109,6 @@
         
         
           &lt;h2 id=&quot;MVVM-介绍和演示&quot;&gt;&lt;a href=&quot;#MVVM-介绍和演示&quot; class=&quot;headerlink&quot; title=&quot;MVVM-介绍和演示&quot;&gt;&lt;/a&gt;MVVM-介绍和演示&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;mvvm-3510948.png&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>服务端渲染</title>
-    <link href="https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-fu-wu-duan-xuan-ran-ssr/"/>
-    <id>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-fu-wu-duan-xuan-ran-ssr/</id>
-    <published>2020-04-07T04:01:56.000Z</published>
-    <updated>2020-04-07T04:15:38.489Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;CSR演示和特点-客户端渲染&quot;&gt;&lt;a href=&quot;#CSR演示和特点-客户端渲染&quot; class=&quot;headerlink&quot; title=&quot;CSR演示和特点 - 客户端渲染&quot;&gt;&lt;/a&gt;CSR演示和特点 -
         
       
     

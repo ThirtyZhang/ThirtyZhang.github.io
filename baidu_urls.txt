@@ -1,7 +1,7 @@
-https://thirtyzhang.github.io/2020/04/07/vue-xiang-guan-yi-nan/
 https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-app-kai-fa-he-da-bao/
-https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-mvvm-shi-xian-yuan-li/
+https://thirtyzhang.github.io/2020/04/07/vue-xiang-guan-yi-nan/
 https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-fu-wu-duan-xuan-ran-ssr/
+https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-mvvm-shi-xian-yuan-li/
 https://thirtyzhang.github.io/2020/03/31/test/
 https://thirtyzhang.github.io/2020/03/01/vscode-xiao-lu-ti-sheng/
 https://thirtyzhang.github.io/2020/02/22/javascript-yu-bian-yi/
