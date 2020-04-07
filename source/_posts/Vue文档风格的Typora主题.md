@@ -1,6 +1,6 @@
 ---
 title: Vue文档风格的Typora主题
-top: false
+top: true
 cover: false
 toc: true
 mathjax: true

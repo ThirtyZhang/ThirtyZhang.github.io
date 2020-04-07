@@ -33,10 +33,22 @@ categories:
 185.199.108.153    github.github.io
 151.101.72.133     assets-cdn.github.com
 151.101.185.194    github.global.ssl.fastly.net
+203.98.7.65 gist.github.com 
+13.229.189.0 codeload.github.com 
+185.199.109.153 desktop.github.com 
+185.199.108.153 guides.github.com 
+185.199.108.153 blog.github.com 
+18.204.240.114 status.github.com 
+185.199.108.153 developer.github.com 
+185.199.108.153 services.github.com 
+192.30.253.175 enterprise.github.com 
+34.195.49.195 education.github.com 
+185.199.108.153 pages.github.com 
+34.196.237.103 classroom.github.com
 # Github加速结束
 ```
 
-刷新系统DNS缓存 ****
+**刷新系统DNS缓存** 
 
 > 打开`cmd console:`
 >

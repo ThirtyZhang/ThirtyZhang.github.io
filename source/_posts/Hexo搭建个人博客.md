@@ -1,5 +1,5 @@
 ---
-title: EasyHexo搭建个人博客
+title: Hexo搭建个人博客
 top: true
 cover: true
 toc: true
