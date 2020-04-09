@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://thirtyzhang.github.io/2020/04/07/vuex/</loc>
-    <lastmod>2020-04-09</lastmod>
-  </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/04/07/vuerouter-lu-you/</loc>
     <lastmod>2020-04-09</lastmod>
   </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/04/07/vue-xiang-guan-yi-nan/</loc>
+    <lastmod>2020-04-09</lastmod>
+  </url>  <url>
+    <loc>https://thirtyzhang.github.io/2020/04/07/vuex/</loc>
     <lastmod>2020-04-09</lastmod>
   </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/03/01/vscode-xiao-lu-ti-sheng/</loc>

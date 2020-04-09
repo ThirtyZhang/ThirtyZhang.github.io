@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-04-09T17:42:30.464Z</updated>
+  <updated>2020-04-09T17:56:05.067Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://thirtyzhang.github.io/2020/04/07/vue-xiang-guan-yi-nan/"/>
     <id>https://thirtyzhang.github.io/2020/04/07/vue-xiang-guan-yi-nan/</id>
     <published>2020-04-07T04:01:56.000Z</published>
-    <updated>2020-04-09T17:42:30.464Z</updated>
+    <updated>2020-04-09T17:56:05.067Z</updated>
     
     <summary type="html">
     
@@ -30,6 +30,32 @@
         
         
           &lt;h1 id=&quot;Vue部分相关的面试题&quot;&gt;&lt;a href=&quot;#Vue部分相关的面试题&quot; class=&quot;headerlink&quot; title=&quot;Vue部分相关的面试题&quot;&gt;&lt;/a&gt;Vue部分相关的面试题&lt;/h1&gt;&lt;h2 id=&quot;如何在组件中监听Vuex的数据变化&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue-router</title>
+    <link href="https://thirtyzhang.github.io/2020/04/07/vuerouter-lu-you/"/>
+    <id>https://thirtyzhang.github.io/2020/04/07/vuerouter-lu-you/</id>
+    <published>2020-04-06T17:01:56.000Z</published>
+    <updated>2020-04-09T17:56:29.698Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Vue-router&quot;&gt;&lt;a href=&quot;#Vue-router&quot; class=&quot;headerlink&quot; title=&quot;Vue-router&quot;&gt;&lt;/a&gt;Vue-router&lt;/h1&gt;&lt;h2 id=&quot;路由的概念与原理&quot;&gt;&lt;a href=&quot;#路由的概念与原理&quot;
         
       
     
@@ -56,32 +82,6 @@
         
         
           &lt;h1 id=&quot;Vuex&quot;&gt;&lt;a href=&quot;#Vuex&quot; class=&quot;headerlink&quot; title=&quot;Vuex&quot;&gt;&lt;/a&gt;Vuex&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Vue-router</title>
-    <link href="https://thirtyzhang.github.io/2020/04/07/vuerouter-lu-you/"/>
-    <id>https://thirtyzhang.github.io/2020/04/07/vuerouter-lu-you/</id>
-    <published>2020-04-06T17:01:56.000Z</published>
-    <updated>2020-04-09T17:46:11.555Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Vue-router&quot;&gt;&lt;a href=&quot;#Vue-router&quot; class=&quot;headerlink&quot; title=&quot;Vue-router&quot;&gt;&lt;/a&gt;Vue-router&lt;/h1&gt;&lt;h2 id=&quot;路由的概念与原理&quot;&gt;&lt;a href=&quot;#路由的概念与原理&quot;
         
       
     

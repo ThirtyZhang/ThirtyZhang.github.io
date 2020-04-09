@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://thirtyzhang.github.io/2020/04/07/vuex/</loc>
-    
-    <lastmod>2020-04-09T17:54:54.776Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://thirtyzhang.github.io/2020/04/07/vuerouter-lu-you/</loc>
     
-    <lastmod>2020-04-09T17:46:11.555Z</lastmod>
+    <lastmod>2020-04-09T17:56:29.698Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://thirtyzhang.github.io/2020/04/07/vue-xiang-guan-yi-nan/</loc>
     
-    <lastmod>2020-04-09T17:42:30.464Z</lastmod>
+    <lastmod>2020-04-09T17:56:05.067Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thirtyzhang.github.io/2020/04/07/vuex/</loc>
+    
+    <lastmod>2020-04-09T17:54:54.776Z</lastmod>
     
   </url>
   
