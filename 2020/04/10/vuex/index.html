@@ -4,14 +4,15 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Vue文档风格的Typora主题, 前端开发">
+    <meta name="keywords" content="前端开发">
     <meta name="baidu-site-verification" content>
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
-    <meta name="description" content="
-typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风格的主题。
-
-简介Typora是一款支持实时预览的 Markdown 编辑器和阅读器，支持Windows、macOS、Linux三大平台。">
+    <meta name="description" content="Vuex安装npm install vues --save
+导入import Vuex from &amp;#39;vuex&amp;#39;
+Vue.use(Vuex)
+创建store对象const store = new Vuex.store({
+  ">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -19,7 +20,7 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Vue文档风格的Typora主题 | 张磊博客</title>
+    <title>张磊博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -299,7 +300,7 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Vue文档风格的Typora主题
+                        
                     </div>
                 </div>
             </div>
@@ -409,24 +410,11 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
                 <div class="col s7">
                     
                     <div class="article-tag">
-                        
-                        <a href="/tags/工具/" target="_blank">
-                            <span class="chip bg-color">工具</span>
-                        </a>
-                        
+                        <span class="chip bg-color">无标签</span>
                     </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fa fa-bookmark fa-fw icon-category"></i>
-                        
-                        <a href="/categories/效率/" class="post-category" target="_blank">
-                            效率
-                        </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -434,7 +422,7 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-01-21
+                    2020-04-10
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -448,14 +436,14 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    259
+                    899
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
                 
@@ -471,16 +459,192 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <blockquote>
-<p><a href="https://github.com/ThirtyZhang/ypora-vue-theme" target="_blank" rel="noopener">typora-vue-theme</a>是 Typora Markdown 文档编辑器中一款类似<a href="https://vuejs.org/" target="_blank" rel="noopener">Vue</a>文档风格的主题。</p>
+                <h1 id="Vuex"><a href="#Vuex" class="headerlink" title="Vuex"></a>Vuex</h1><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p><code>npm install vues --save</code></p>
+<h2 id="导入"><a href="#导入" class="headerlink" title="导入"></a>导入</h2><p><code>import Vuex from &#39;vuex&#39;</code></p>
+<p><code>Vue.use(Vuex)</code></p>
+<h2 id="创建store对象"><a href="#创建store对象" class="headerlink" title="创建store对象"></a>创建store对象</h2><pre class="line-numbers language-js"><code class="language-js"><span class="token keyword">const</span> store <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vuex<span class="token punctuation">.</span>store</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// state 中存放的就是全局共享的数0据</span>
+    state<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        count<span class="token punctuation">:</span> <span class="token number">0</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="将store对象挂载到-vue-实例中"><a href="#将store对象挂载到-vue-实例中" class="headerlink" title="将store对象挂载到 vue 实例中"></a>将store对象挂载到 vue 实例中</h2><pre class="line-numbers language-js"><code class="language-js"><span class="token keyword">new</span> <span class="token class-name">Veu</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    el<span class="token punctuation">:</span> <span class="token string">'#app'</span><span class="token punctuation">,</span>
+    render<span class="token punctuation">:</span> h <span class="token operator">=</span><span class="token operator">></span> <span class="token function">h</span><span class="token punctuation">(</span>app<span class="token punctuation">)</span><span class="token punctuation">,</span>
+    router<span class="token punctuation">,</span>
+    <span class="token comment" spellcheck="true">//将创建的共享数据对象, 挂载到 Vue 实例中</span>
+    <span class="token comment" spellcheck="true">//所有的组件, 就可以直接从 store 中获取全局的数据了</span>
+    store
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><blockquote>
+<p>命令行输入 <code>vue ui</code></p>
+<p>选择路径</p>
+<p>点击创建 </p>
+<p>project folder 输入项目名称</p>
+<p>package manageer 选择包管理工具 <code>npm</code></p>
+<p>git repository 输入首次提交git的信息</p>
+<p>点击下一步</p>
+<p>选择手动选择依赖包 <code>Manual</code></p>
+<p>点击下一步</p>
+<p>选择 <code>babel -- router -- linter/formatter --use config files</code></p>
+<p>点击下一步</p>
+<p>选择lint on save , 右侧下拉选择standard config</p>
+<p>点击 create</p>
+<p>是否存为预设</p>
 </blockquote>
-<h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p><a href="https://www.typora.io/" target="_blank" rel="noopener">Typora</a>是一款支持实时预览的 Markdown 编辑器和阅读器，支持<code>Windows</code>、<code>macOS</code>、<code>Linux</code>三大平台。Typora 作为一款合格的 Markdown 编辑器，支持图片、列表、表格、代码、公式、目录等功能，同时这款软件还支持（一键）动态预览功能，让一切都变得如此干净、纯粹。并且有多种主题模板。<strong>typora-vue-theme就是参考了Vue文档风格而开发的一个 Typora 自定义主题</strong>。</p>
-<h2 id="安装主题"><a href="#安装主题" class="headerlink" title="安装主题"></a>安装主题</h2><ol>
-<li>下载本主题<strong><a href="https://github.com/ThirtyZhang/ypora-vue-theme" target="_blank" rel="noopener">typora-vue-theme</a></strong>中的<code>vue.css</code>、<code>vue-dark.css</code>文件和包含字体的<code>vue</code>文件夹；</li>
-<li>打开 Typora，点击“<strong>偏好设置</strong>” =&gt; “<strong>打开主题文件夹</strong>”按钮，将弹出 Typora 的主题文件夹；</li>
-<li>将下载好的<code>vue.css</code>和<code>vue-dark.css</code>文件和包含字体的<code>vue</code>文件夹放到 Typora 的主题文件夹中；</li>
-<li>关闭并重新打开 Typora，从菜单栏中选择 “<strong>主题</strong>” =&gt; “<strong>Vue</strong>” 或者 “<strong>Vue Dark</strong>” 即可。</li>
-</ol>
+<h2 id="组件中访问-State-中数据的方式"><a href="#组件中访问-State-中数据的方式" class="headerlink" title="组件中访问 State 中数据的方式"></a>组件中访问 State 中数据的方式</h2><p>第一种方式</p>
+<blockquote>
+<p><code>this.$store.state.数据名称</code></p>
+</blockquote>
+<p>第二种方式</p>
+<blockquote>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 1. 从 vuex 中按需导入 mapState 函数</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> mapState <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vuex'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>通过导入的 mapState 函数, 将当前组件需要的全局数据, 映射为当前组件的computed 计算属性</p>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 2. 将全局数据, 映射为当前组件的计算属性</span>
+computed<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span><span class="token function">mapState</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'count'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+</blockquote>
+<h2 id="组件中变更-store-中的数据"><a href="#组件中变更-store-中的数据" class="headerlink" title="组件中变更 store 中的数据"></a>组件中变更 store 中的数据</h2><blockquote>
+<p>只能通过mutation 变更 store 数据 , 不可以直接操作 store 中的数据</p>
+<p>通过这种方式虽然操作起来稍微繁琐一些, 但是可以集中监控所有的数据变化</p>
+<pre><code>// 定义 Mutation
+const store = new Veux.Store({
+    state: {
+        count: 0
+    },
+    mutations: {
+        add(state) {
+            // 变更状态
+            state.count++
+        }
+    }
+})</code></pre><pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 触发 mutation</span>
+methods<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    handle <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// 触发 mutations 的第一种方式</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span><span class="token function">commit</span><span class="token punctuation">(</span><span class="token string">'add'</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</blockquote>
+<h2 id="调用-mutation-时传递参数"><a href="#调用-mutation-时传递参数" class="headerlink" title="调用 mutation 时传递参数"></a>调用 mutation 时传递参数</h2><blockquote>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 定义 mutation</span>
+<span class="token keyword">const</span> store <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vuex<span class="token punctuation">.</span>Store</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+state<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      count<span class="token punctuation">:</span> <span class="token number">0</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  mutations<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token function">addN</span><span class="token punctuation">(</span>state<span class="token punctuation">,</span> step<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+          <span class="token comment" spellcheck="true">// 变更状态</span>
+          state<span class="token punctuation">.</span>count <span class="token operator">+</span><span class="token operator">=</span> step
+      <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-js"><code class="language-js">
+<span class="token comment" spellcheck="true">// 触发 mutation</span>
+methods<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+<span class="token function">handle2</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token comment" spellcheck="true">// 调用 commit 函数,</span>
+      <span class="token comment" spellcheck="true">// 触发 mutations 时携带参数</span>
+      <span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span><span class="token function">commit</span><span class="token punctuation">(</span><span class="token string">'addN'</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">// commit 的作用就是调用某个 mutation 函数</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</blockquote>
+<h2 id="调用-mutations-的第二种方式–-mapMutations"><a href="#调用-mutations-的第二种方式–-mapMutations" class="headerlink" title="调用 mutations 的第二种方式– mapMutations"></a>调用 mutations 的第二种方式– mapMutations</h2><blockquote>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 从 vuex 中按需导入 mapMutations 函数</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> mapMutations <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vuex'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 将指定的 mutations 函数, 映射为当前组件的 methods 函数</span>
+methods<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span><span class="token function">mapMutations</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'add'</span><span class="token punctuation">,</span> <span class="token string">'addN'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+</blockquote>
+<h2 id="Action"><a href="#Action" class="headerlink" title="Action"></a>Action</h2><blockquote>
+<p>mutation 不支持异步操作 ,  必须通过 action 用于处理异步任务, 但是在 action 中还是要通过触发 mutation 的方式间接变更数据, 没有直接修改 state 数据的权限</p>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 定义 action</span>
+<span class="token keyword">const</span> store <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vuex<span class="token punctuation">.</span>Store</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// ...省略一下其他代码</span>
+    mutations<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token function">add</span><span class="token punctuation">(</span>state<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            state<span class="token punctuation">.</span>count<span class="token operator">++</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    actions<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token function">addAsunc</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            setTimeout <span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+                context<span class="token punctuation">.</span><span class="token function">commit</span><span class="token punctuation">(</span><span class="token string">'add'</span><span class="token punctuation">)</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">1000</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 触发 action</span>
+methods<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token function">handle</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// 触发 actions 的第一种方式</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token string">'addAsync'</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">// 这里的dispatch 函数, 专门用来触发 action</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</blockquote>
+<h2 id="触发-Action-异步任务时携带参数"><a href="#触发-Action-异步任务时携带参数" class="headerlink" title="触发 Action 异步任务时携带参数"></a>触发 Action 异步任务时携带参数</h2><blockquote>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 定义 action</span>
+<span class="token keyword">const</span> store <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vuex<span class="token punctuation">.</span>Store</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// ...省略一下其他代码</span>
+    metations<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token function">addN</span><span class="token punctuation">(</span>state<span class="token punctuation">,</span> step<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            state<span class="token punctuation">.</span>count <span class="token operator">+</span><span class="token operator">=</span> step
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    actions<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token function">addNAsync</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> step<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+                context<span class="token punctuation">,</span><span class="token function">commit</span><span class="token punctuation">(</span><span class="token string">'addN'</span><span class="token punctuation">,</span> step<span class="token punctuation">)</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">1000</span><span class="token punctuation">)</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 触发 action</span>
+methods<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    handle <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// 调用 dispatch 函数,</span>
+        <span class="token comment" spellcheck="true">// 触发 actions 时携带参数</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span><span class="token function">dispatch</span><span class="token punctuation">(</span><span class="token string">'addNAsync'</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</blockquote>
+<h2 id="触发-Action-异步任务的另外一种方式"><a href="#触发-Action-异步任务的另外一种方式" class="headerlink" title="触发 Action 异步任务的另外一种方式"></a>触发 Action 异步任务的另外一种方式</h2><blockquote>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 1. 从 vuex 中按需导入 mapActions 函数</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> mapActions <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vuex'</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 2. 将指定的 actions 函数, 因设为当前组件的 methods 函数</span>
+method<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span><span class="token function">mapActions</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'addAsync'</span><span class="token punctuation">,</span> <span class="token string">'addNAsync'</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">// 映射后就相当于组件自己的方法, 可以直接使用</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+</blockquote>
+<h2 id="Getter"><a href="#Getter" class="headerlink" title="Getter"></a>Getter</h2><blockquote>
+<p>getter 用于对 store 中的数据进行加工处理形成新的数据</p>
+<blockquote>
+<p>getter 可以对 store 中已有的数据加工处理之后形成新的数据, 类似于 Vue 的计算属性</p>
+<p>store 中数据发生变化, getter的数据也会跟着变化</p>
+</blockquote>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 定义 getter</span>
+<span class="token keyword">const</span> store <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Vuex<span class="token punctuation">.</span>Store</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    state<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        count<span class="token punctuation">:</span> <span class="token number">0</span> 
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    getters<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        showNum<span class="token punctuation">:</span> state <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token string">'当前最新的数量是['</span> <span class="token operator">+</span> state<span class="token punctuation">.</span>count <span class="token operator">+</span><span class="token string">']'</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 使用方式第一种</span>
+<span class="token keyword">this</span><span class="token punctuation">.</span>$store<span class="token punctuation">.</span>getters<span class="token punctuation">.</span>showNum<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token comment" spellcheck="true">// 使用方式第二种</span>
+<span class="token keyword">import</span> <span class="token punctuation">{</span> mapGetters <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'vuex'</span>
+
+computed<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token operator">...</span><span class="token function">mapGetters</span><span class="token punctuation">(</span><span class="token punctuation">[</span><span class="token string">'showNum'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</blockquote>
 
             </div>
             <hr />
@@ -639,9 +803,9 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《Vue文档风格的Typora主题》
+                    《》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/01/21/vue-wen-dang-feng-ge-de-typora-zhu-ti/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/04/10/vuex/" property="cc:attributionName"
                rel="cc:attributionURL">
                 张磊
             </a> 采用
@@ -682,7 +846,7 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
         repo: 'thirtyzhang.github.io',
         owner: 'thirtyzhang',
         admin: "thirtyzhang",
-        id: '2020/01/21/vue-wen-dang-feng-ge-de-typora-zhu-ti/',
+        id: '2020/04/10/vuex/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -969,44 +1133,37 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/01/21/git-kuai-su-shang-shou/">
+                <a href="/2020/04/10/vuerouter-lu-you/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Git快速上手">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="">
                         
-                        <span class="card-title">Git快速上手</span>
+                        <span class="card-title"></span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Git是目前世界上最先进的分布式版本控制系统
+                            Vue-router路由的概念与原理
+路由的本质就是对应关系
+
+后端路由
+概念: 根据不同的URL请求, 返回不同的内容
+本质: URL 请求地址与服务器资源之间的对应关系
+
+SPA ( Single Page Application)
+后
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-01-21
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-10
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fa fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/效率/" class="post-category" target="_blank">
-                                    效率
-                                </a>
-                            
-                            
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/工具/" target="_blank">
-                        <span class="chip bg-color">工具</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -1018,31 +1175,38 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/01/21/hexo-da-jian-ge-ren-bo-ke/">
+                <a href="/2020/04/07/vue-xiang-guan-yi-nan/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Hexo搭建个人博客">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="Vue部分相关的面试题">
                         
-                        <span class="card-title">Hexo搭建个人博客</span>
+                        <span class="card-title">Vue部分相关的面试题</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Hexo 是一个快速、简洁且高效的博客框架
+                             
+# Vue部分相关的面试题
+
+如何在组件中监听Vuex的数据变化
+分析:   此题考查Vuex的应用及 Vue内部的监听数据变化的机制  
+
+
+解答:  首先确定 Vuex是为了解决什么问题而出现的 ?  Vuex是为了解决组件间状态共
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-01-21
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-07
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/效率/" class="post-category" target="_blank">
-                                    效率
+                            <a href="/categories/前端/" class="post-category" target="_blank">
+                                    前端
                                 </a>
                             
                             
@@ -1052,8 +1216,8 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/框架/" target="_blank">
-                        <span class="chip bg-color">框架</span>
+                    <a href="/tags/Vue/" target="_blank">
+                        <span class="chip bg-color">Vue</span>
                     </a>
                     
                 </div>
@@ -1200,13 +1364,6 @@ typora-vue-theme是 Typora Markdown 文档编辑器中一款类似Vue文档风�
 
 </main>
 
-
-<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
-    });
-</script>
 
     <footer class="page-footer bg-color">
     <div class="container row center-align">

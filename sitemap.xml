@@ -2,23 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-app-kai-fa-he-da-bao/</loc>
+    <loc>https://thirtyzhang.github.io/2020/04/10/vuerouter-lu-you/</loc>
     
-    <lastmod>2020-04-07T04:31:02.092Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-mvvm-shi-xian-yuan-li/</loc>
-    
-    <lastmod>2020-04-07T04:21:49.035Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-fu-wu-duan-xuan-ran-ssr/</loc>
-    
-    <lastmod>2020-04-07T04:15:38.489Z</lastmod>
+    <lastmod>2020-04-09T15:58:01.211Z</lastmod>
     
   </url>
   
@@ -30,9 +16,9 @@
   </url>
   
   <url>
-    <loc>https://thirtyzhang.github.io/2020/03/31/test/</loc>
+    <loc>https://thirtyzhang.github.io/2020/04/10/vuex/</loc>
     
-    <lastmod>2020-03-31T01:23:02.841Z</lastmod>
+    <lastmod>2020-03-17T15:32:29.980Z</lastmod>
     
   </url>
   
@@ -163,14 +149,14 @@
   </url>
   
   <url>
-    <loc>https://thirtyzhang.github.io/categories/index.html</loc>
+    <loc>https://thirtyzhang.github.io/archives/index.html</loc>
     
     <lastmod>2020-01-19T19:31:00.313Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://thirtyzhang.github.io/archives/index.html</loc>
+    <loc>https://thirtyzhang.github.io/categories/index.html</loc>
     
     <lastmod>2020-01-19T19:31:00.313Z</lastmod>
     

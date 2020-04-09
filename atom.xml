@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-04-07T04:31:02.092Z</updated>
+  <updated>2020-04-09T15:58:01.211Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>开发与打包</title>
-    <link href="https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-app-kai-fa-he-da-bao/"/>
-    <id>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-app-kai-fa-he-da-bao/</id>
-    <published>2020-04-07T04:01:56.000Z</published>
-    <updated>2020-04-07T04:31:02.092Z</updated>
+    <title></title>
+    <link href="https://thirtyzhang.github.io/2020/04/10/vuerouter-lu-you/"/>
+    <id>https://thirtyzhang.github.io/2020/04/10/vuerouter-lu-you/</id>
+    <published>2020-04-09T17:26:05.616Z</published>
+    <updated>2020-04-09T15:58:01.211Z</updated>
     
     <summary type="html">
     
@@ -29,17 +29,34 @@
       
         
         
-          &lt;h1 id=&quot;Vue进阶&quot;&gt;&lt;a href=&quot;#Vue进阶&quot; class=&quot;headerlink&quot; title=&quot;Vue进阶&quot;&gt;&lt;/a&gt;Vue进阶&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input disabled type=&quot;checkbox&quot;&gt;
+          &lt;h1 id=&quot;Vue-router&quot;&gt;&lt;a href=&quot;#Vue-router&quot; class=&quot;headerlink&quot; title=&quot;Vue-router&quot;&gt;&lt;/a&gt;Vue-router&lt;/h1&gt;&lt;h2 id=&quot;路由的概念与原理&quot;&gt;&lt;a href=&quot;#路由的概念与原理&quot;
         
       
     
     </summary>
     
-      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
     
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://thirtyzhang.github.io/2020/04/10/vuex/"/>
+    <id>https://thirtyzhang.github.io/2020/04/10/vuex/</id>
+    <published>2020-04-09T17:26:05.613Z</published>
+    <updated>2020-03-17T15:32:29.980Z</updated>
     
-      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Vuex&quot;&gt;&lt;a href=&quot;#Vuex&quot; class=&quot;headerlink&quot; title=&quot;Vuex&quot;&gt;&lt;/a&gt;Vuex&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
     
   </entry>
   
@@ -66,72 +83,6 @@
     
     
       <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>服务端渲染</title>
-    <link href="https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-fu-wu-duan-xuan-ran-ssr/"/>
-    <id>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-fu-wu-duan-xuan-ran-ssr/</id>
-    <published>2020-04-07T04:01:56.000Z</published>
-    <updated>2020-04-07T04:15:38.489Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;CSR演示和特点-客户端渲染&quot;&gt;&lt;a href=&quot;#CSR演示和特点-客户端渲染&quot; class=&quot;headerlink&quot; title=&quot;CSR演示和特点 - 客户端渲染&quot;&gt;&lt;/a&gt;CSR演示和特点 -
-        
-      
-    
-    </summary>
-    
-      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MVVM</title>
-    <link href="https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-mvvm-shi-xian-yuan-li/"/>
-    <id>https://thirtyzhang.github.io/2020/04/07/vue-jin-jie-vue-de-mvvm-shi-xian-yuan-li/</id>
-    <published>2020-04-07T04:01:56.000Z</published>
-    <updated>2020-04-07T04:21:49.035Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;MVVM-介绍和演示&quot;&gt;&lt;a href=&quot;#MVVM-介绍和演示&quot; class=&quot;headerlink&quot; title=&quot;MVVM-介绍和演示&quot;&gt;&lt;/a&gt;MVVM-介绍和演示&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;mvvm-3510948.png&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://thirtyzhang.github.io/2020/03/31/test/"/>
-    <id>https://thirtyzhang.github.io/2020/03/31/test/</id>
-    <published>2020-03-31T01:23:02.000Z</published>
-    <updated>2020-03-31T01:23:02.841Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
     
   </entry>
   
