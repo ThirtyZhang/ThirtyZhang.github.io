@@ -1,7 +1,7 @@
 ---
 title: GitHub国内访问加速
 top: false
-cover: true
+cover: false
 toc: true
 mathjax: true
 date: 2020-01-21 10:46:53

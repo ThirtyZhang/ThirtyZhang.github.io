@@ -1,12 +1,12 @@
 ---
-title: 标题
+title: 曲库
 date: 2018-01-22 12:32:09
 top: false
 cover: false
 password:
 toc: true
 mathjax: false
-summary: 副标题。
+summary: 
 tags:
 - 随笔
 categories:
@@ -15,4 +15,66 @@ categories:
 
 <div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=407679465&auto=1&height=66"></iframe></div>
 
-
+{
+		"name": "aloha heja he",
+		"artist": " - 群星",
+		"url": "/medias/music/1.m4a",
+		"cover": "/medias/music/avatars/7.jpg"
+	},
+	{
+		"name": "稻香",
+		"artist": "周杰伦",
+		"url": "/medias/music/daoxiang.mp3",
+		"cover": "/medias/music/avatars/1.jpg"
+	},{
+		"name": "最美的期待",
+		"artist": "周笔畅",
+		"url": "/medias/music/zuimeideqidai.flac",
+		"cover": "/medias/music/avatars/2.jpg"
+	},{
+		"name": "起床进行曲",
+		"artist": "钱晨航",
+		"url": "/medias/music/起床进行曲.m4a",
+		"cover": "/medias/music/avatars/3.jpg"
+	},{
+		"name": "像鱼",
+		"artist": "王贰浪",
+		"url": "/medias/music/xiangyu.flac",
+		"cover": "/medias/music/avatars/4.jpg"
+	},{
+		"name": "Turnin",
+		"artist": "Young Rising Sons",
+		"url": "/medias/music/Turnin.m4a",
+		"cover": "/medias/music/avatars/5.jpg"
+	},{
+		"name": "夜空中最亮的星",
+		"artist": "小果酱",
+		"url": "/medias/music/夜空中最亮的星.m4a",
+		"cover": "/medias/music/avatars/6.jpg"
+	}
+	,{
+		"name": "CountingStars",
+		"artist": "OneRepublic",
+		"url": "/medias/music/CountingStars.m4a",
+		"cover": "/medias/music/avatars/8.jpg"
+	},{
+		"name": "Still",
+		"artist": "Timirage",
+		"url": "/medias/music/Still.m4a",
+		"cover": "/medias/music/avatars/9.jpg"
+	},{
+		"name": "Canon(Cover Johann Pachelbel)",
+		"artist": "向晚丶",
+		"url": "/medias/music/10.mp3",
+		"cover": "/medias/music/avatars/10.jpg"
+	},{
+		"name": "#Lov3 #Ngẫu HứngCanon",
+		"artist": "Hoaprox",
+		"url": "/medias/music/11.m4a",
+		"cover": "/medias/music/avatars/11.jpg"
+	},{
+		"name": "Beautiful In White (Demo)",
+		"artist": "Shane Filan",
+		"url": "/medias/music/12.m4a",
+		"cover": "/medias/music/avatars/12.jpg"
+	}

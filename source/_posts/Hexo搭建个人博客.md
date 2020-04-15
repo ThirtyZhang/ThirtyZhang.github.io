@@ -1,7 +1,7 @@
 ---
 title: Hexo搭建个人博客
 top: true
-cover: true
+cover: false
 toc: true
 mathjax: true
 date: 2020-01-21 16:58:04

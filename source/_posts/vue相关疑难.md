@@ -1,6 +1,6 @@
 ---
 title: Vue部分相关的面试题
-top: true
+top: false
 cover: false
 toc: true
 mathjax: true
@@ -13,7 +13,6 @@ categories:
 - 前端
 ---
 
-<div align = "middle"> <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=28892385&auto=1&height=66"></iframe></div>
 # Vue部分相关的面试题
 
 ## 如何在组件中监听Vuex的数据变化
