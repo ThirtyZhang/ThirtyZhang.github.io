@@ -1,6 +1,8 @@
 /* Here is your custom css styles. */
 .nav-wrapper li:hover {
-    background-color: #fff;
+    /* background-color: #fff; */
+    border-radius: 25px;
+    display: block;
 }
 .nav-wrapper li:hover a {
     font-size: 1.5rem;
