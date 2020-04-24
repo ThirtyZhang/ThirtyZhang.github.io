@@ -294,7 +294,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/13.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -1381,34 +1381,36 @@ this.$route.query.id   // 取值<span aria-hidden="true" class="line-numbers-row
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/04/07/vue-xiang-guan-yi-nan/">
+                <a href="/2020/04/16/uni-app-v-show-bang-ding-list.length-shi-shi-xiao/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="Vue部分相关的面试题">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="v-show 绑定list.length时失效">
                         
-                        <span class="card-title">Vue部分相关的面试题</span>
+                        <span class="card-title">v-show 绑定list.length时失效</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Vue部分相关的面试题如何在组件中监听Vuex的数据变化
-分析:   此题考查Vuex的应用及 Vue内部的监听数据变化的机制  
+                            uni-app 微信小程序bug: v-show 绑定list.length时失效源头点击访问
+我的解决办法
 
+使用 v-if 代替
+嵌套一层view 在view中写v-show
+写在计算属性中, 总体思路是转化成布尔值Boolean
 
-解答:  首先确定 Vuex是为了解决什么问题而出现的 ?  Vuex是为了解决组件间状态共享而出现的一
+v
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-07
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-16
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -1421,12 +1423,11 @@ this.$route.query.id   // 取值<span aria-hidden="true" class="line-numbers-row
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Vue/" target="_blank">
-                        <span class="chip bg-color">Vue</span>
+                    <a href="/tags/uni-app/" target="_blank">
+                        <span class="chip bg-color">uni-app</span>
                     </a>
                     
                 </div>
@@ -1444,7 +1445,7 @@ this.$route.query.id   // 取值<span aria-hidden="true" class="line-numbers-row
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Vue-router">
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="Vue-router">
                         
                         <span class="card-title">Vue-router</span>
                     </div>
@@ -1645,7 +1646,7 @@ SPA ( Single Page Application)
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">26.4k</span>
+            <span class="white-color">29.8k</span>
             
 
             <br>

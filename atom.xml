@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-04-09T17:56:05.067Z</updated>
+  <updated>2020-04-23T14:09:10.682Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -15,6 +15,111 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>react-base-1</title>
+    <link href="https://thirtyzhang.github.io/2020/04/21/react-base-1/"/>
+    <id>https://thirtyzhang.github.io/2020/04/21/react-base-1/</id>
+    <published>2020-04-21T02:22:47.000Z</published>
+    <updated>2020-04-23T14:09:10.682Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;创建启动&quot;&gt;&lt;a href=&quot;#创建启动&quot; class=&quot;headerlink&quot; title=&quot;创建启动&quot;&gt;&lt;/a&gt;创建启动&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ThirtyZhang/myreactdemo&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="react" scheme="https://thirtyzhang.github.io/tags/react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>uni-app 基础知识</title>
+    <link href="https://thirtyzhang.github.io/2020/04/21/uni-app-ji-chu-zhi-shi/"/>
+    <id>https://thirtyzhang.github.io/2020/04/21/uni-app-ji-chu-zhi-shi/</id>
+    <published>2020-04-21T02:22:47.000Z</published>
+    <updated>2020-04-24T16:58:12.991Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;回顾-小程序-演示ugo&quot;&gt;&lt;a href=&quot;#回顾-小程序-演示ugo&quot; class=&quot;headerlink&quot; title=&quot;回顾 小程序-演示ugo&quot;&gt;&lt;/a&gt;回顾 小程序-演示ugo&lt;/h3&gt;&lt;p&gt;1 页面 结构   样式 我们会写  &lt;/p&gt;
+&lt;p&gt;2
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="uni-app" scheme="https://thirtyzhang.github.io/tags/uni-app/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>组织结构图插件</title>
+    <link href="https://thirtyzhang.github.io/2020/04/20/zu-zhi-jie-gou-tu-cha-jian/"/>
+    <id>https://thirtyzhang.github.io/2020/04/20/zu-zhi-jie-gou-tu-cha-jian/</id>
+    <published>2020-04-20T13:33:17.000Z</published>
+    <updated>2020-04-20T13:35:13.072Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://spiritree.github.io/vue-orgchart/#/zh-cn/quickstart&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>v-show 绑定list.length时失效</title>
+    <link href="https://thirtyzhang.github.io/2020/04/16/uni-app-v-show-bang-ding-list.length-shi-shi-xiao/"/>
+    <id>https://thirtyzhang.github.io/2020/04/16/uni-app-v-show-bang-ding-list.length-shi-shi-xiao/</id>
+    <published>2020-04-16T05:28:49.000Z</published>
+    <updated>2020-04-16T06:07:26.929Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;uni-app-微信小程序bug-v-show-绑定list-length时失效&quot;&gt;&lt;a href=&quot;#uni-app-微信小程序bug-v-show-绑定list-length时失效&quot; class=&quot;headerlink&quot; title=&quot;uni-app
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="uni-app" scheme="https://thirtyzhang.github.io/tags/uni-app/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue部分相关的面试题</title>
@@ -434,32 +539,6 @@
     
     
       <category term="学习" scheme="https://thirtyzhang.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>曲库</title>
-    <link href="https://thirtyzhang.github.io/2018/01/22/2017-conclusion/"/>
-    <id>https://thirtyzhang.github.io/2018/01/22/2017-conclusion/</id>
-    <published>2018-01-22T04:32:09.000Z</published>
-    <updated>2020-04-15T15:27:26.005Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;div align=&quot;middle&quot;&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="随笔" scheme="https://thirtyzhang.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="随笔" scheme="https://thirtyzhang.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
