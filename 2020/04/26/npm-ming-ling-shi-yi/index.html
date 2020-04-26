@@ -4,18 +4,15 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="JS定时器, 前端开发">
+    <meta name="keywords" content="npm命令释义, 前端开发">
     <meta name="baidu-site-verification" content>
     <meta name="google-site-verification" content>
     <meta name="360-site-verification" content>
-    <meta name="description" content="定时器
-都是全局对象window上的方法 , 内部函数this指向window
-注意:
-setInterval(&#34;console.log(&#39;a&#39;);&#34;, 1000);//每隔1000毫秒会打印一次字符串a
+    <meta name="description" content="本片为转载 - 底部附带原文地址备注：&amp;lt;=&amp;gt; 意为等价于；
+1、npm install &amp;lt;=&amp;gt; npm i
+ --save   &amp;lt;=&amp;gt; -S     
 
-
-设置循环定时器
-setInte">
+ --save-dev  &amp;lt;=&amp;gt; -D">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -23,7 +20,7 @@ setInte">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>JS定时器 | 张磊博客</title>
+    <title>npm命令释义 | 张磊博客</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -297,13 +294,13 @@ setInte">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        JS定时器
+                        npm命令释义
                     </div>
                 </div>
             </div>
@@ -414,8 +411,8 @@ setInte">
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/JavaScripe/" target="_blank">
-                            <span class="chip bg-color">JavaScripe</span>
+                        <a href="/tags/npm/" target="_blank">
+                            <span class="chip bg-color">npm</span>
                         </a>
                         
                     </div>
@@ -438,7 +435,7 @@ setInte">
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-02-13
+                    2020-04-26
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -452,7 +449,7 @@ setInte">
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    116
+                    419
                 </div>
                 
 
@@ -475,35 +472,32 @@ setInte">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="定时器"><a href="#定时器" class="headerlink" title="定时器"></a>定时器</h1><blockquote>
-<p>都是全局对象window上的方法 , 内部函数this指向window</p>
-<p>注意:</p>
-<pre class="line-numbers language-js"><code class="language-js"><span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token string">"console.log('a');"</span><span class="token punctuation">,</span> <span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token comment" spellcheck="true">//每隔1000毫秒会打印一次字符串a</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-</blockquote>
-<blockquote>
-<p>设置循环定时器</p>
-<p><code>setInterval</code></p>
-<pre class="line-numbers language-js"><code class="language-js"><span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+                <h2 id="本片为转载-底部附带原文地址"><a href="#本片为转载-底部附带原文地址" class="headerlink" title="本片为转载 - 底部附带原文地址"></a>本片为转载 - 底部附带原文地址</h2><p>备注：&lt;=&gt; 意为等价于；</p>
+<p>1、npm install &lt;=&gt; npm i</p>
+<pre><code> --save   &lt;=&gt; -S     
 
-<span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment" spellcheck="true">// 定时器时间不准</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<p>清除循环定时器</p>
-<p><code>clearInterval</code></p>
-<pre class="line-numbers language-js"><code class="language-js"><span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+ --save-dev  &lt;=&gt; -D 
 
-<span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token function">clearInterval</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-<p>设置单次执行定时器</p>
-<p><code>setTimeout</code></p>
-<pre class="line-numbers language-js"><code class="language-js"><span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  npm run start &lt;=&gt; npm start  // 对应&quot;scripts&quot;里的&quot;start&quot;命令
 
-<span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>   <span class="token comment" spellcheck="true">//延时1000毫秒执行,只执行一次</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-<p>清除单次执行定时器</p>
-<p><code>clearTimeout</code></p>
-<pre class="line-numbers language-js"><code class="language-js"><span class="token keyword">var</span> timer <span class="token operator">=</span> <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+  少敲几下键盘，何乐而不为</code></pre><p>2、npm i –save-dev  <packname>  </packname></p>
+<pre><code>  工程构建（开发时、“打包”时）依赖 ；例：xxx-cli , less-loader , babel-loader...</code></pre><p>3、npm i –save <packname> </packname></p>
+<pre><code>  项目（运行时、发布到生产环境时）依赖；例：antd , element,react...</code></pre><p>4、对应关系如下（至于我们啥时候用–save、啥时候用–save-dev 感觉是个规范问题，用反了项目一样可以跑起来（对于安装依赖正确时），但会给其他看你项目的人带来误解、可能会导致一些bug的出现，还有一些配置的错乱等）</p>
+<p>5、使用 npm i 安装package.json里的依赖时，两部分的包都会pull下来</p>
+<pre><code> 5-1、使用 --prod、
 
-<span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token number">1000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token function">clearTimeout</span><span class="token punctuation">(</span>timer<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-</blockquote>
+          npm i --prod &lt;=&gt; npm i --production  // 仅会拉取dependencies中的依赖
+
+ 5-2、设置NODE_DEV=production时            // 效果同上，仅会拉取dependencies中的依赖 (注意等号两边没空格)
+
+          5-2-1、命令行设置（注意不同环境时的&quot;分割符&quot;）
+
+                      window =&gt; cmd ：set NODE_ENV=production &amp;&amp; xxxx
+
+                      mac      =&gt; shell  : NODE_ENV=production 空格 xxxx
+
+          5-2-2、package.json=&gt;script命令中设置</code></pre><p>彩蛋：在新建package.json文件时，我们可以使用npm init -y 快速创建（yes 表示一路默认创建，还有 -f 表示 force）</p>
+<p>————————————————<br>版权声明：本文为CSDN博主「willon_」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br>原文链接：<a href="https://blog.csdn.net/jwl_willon/article/details/81054978" target="_blank" rel="noopener">https://blog.csdn.net/jwl_willon/article/details/81054978</a></p>
 
             </div>
             <hr />
@@ -662,9 +656,9 @@ setInte">
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《JS定时器》
+                    《npm命令释义》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/02/13/javascript-ding-shi-qi/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/04/26/npm-ming-ling-shi-yi/" property="cc:attributionName"
                rel="cc:attributionURL">
                 张磊
             </a> 采用
@@ -705,7 +699,7 @@ setInte">
         repo: 'thirtyzhang.github.io',
         owner: 'thirtyzhang',
         admin: "thirtyzhang",
-        id: '2020/02/13/javascript-ding-shi-qi/',
+        id: '2020/04/26/npm-ming-ling-shi-yi/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -988,32 +982,34 @@ setInte">
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2020/02/18/javascript-zheng-ze-biao-da-shi/">
+                <a href="/2020/04/26/npm-ming-ling-shi-yi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="JavaScript-正则表达式">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="npm命令释义">
                         
-                        <span class="card-title">JavaScript-正则表达式</span>
+                        <span class="card-title">npm命令释义</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            正则表达式(RegExp)创建
-var reg = /abc/igm;  //字面量定义规则
-var str = "abcd";
-reg.test(str);  // true   //正则表达式的方法 , 参数为字符串 , 如果符合则返回
+                            本片为转载 - 底部附带原文地址备注：&lt;=&gt; 意为等价于；
+1、npm install &lt;=&gt; npm i
+ --save   &lt;=&gt; -S     
+
+ --save-dev  &lt;=&gt; -D
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-02-18
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-26
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -1026,11 +1022,12 @@ reg.test(str);  // true   //正则表达式的方法 , 参数为字符串 , 如�
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/JavaScript/" target="_blank">
-                        <span class="chip bg-color">JavaScript</span>
+                    <a href="/tags/npm/" target="_blank">
+                        <span class="chip bg-color">npm</span>
                     </a>
                     
                 </div>
@@ -1044,24 +1041,29 @@ reg.test(str);  // true   //正则表达式的方法 , 参数为字符串 , 如�
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/02/05/javascript-mo-shi/">
+                <a href="/2020/04/21/react-base-1/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="JavaScript模式">
+                        <img src="/medias/featureimages/27.jpg" class="responsive-img" alt="react-base-1">
                         
-                        <span class="card-title">JavaScript模式</span>
+                        <span class="card-title">react-base-1</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            个人JavaScript学习笔记
+                            创建启动GitHub 地址
+初始化项目，命令： npx create-react-app myreact
+切换到项目根目录: cd myreact
+启动: npm start
+Demosrc/index.js 在文件中输入以下内容
+// 引
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-02-05
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-21
                             </span>
                         <span class="publish-author">
                             
@@ -1078,8 +1080,8 @@ reg.test(str);  // true   //正则表达式的方法 , 参数为字符串 , 如�
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/JavaScript/" target="_blank">
-                        <span class="chip bg-color">JavaScript</span>
+                    <a href="/tags/react/" target="_blank">
+                        <span class="chip bg-color">react</span>
                     </a>
                     
                 </div>

@@ -295,7 +295,7 @@ Demosrc/index.js 在文件中输入以下内容
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/5.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/27.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -450,14 +450,14 @@ Demosrc/index.js 在文件中输入以下内容
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    593
+                    956
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    4 分
                 </div>
                 
                 
@@ -502,7 +502,6 @@ ReactDOM<span class="token punctuation">.</span><span class="token function">ren
 <pre><code>加载完成....</code></pre><h2 id="样式"><a href="#样式" class="headerlink" title="样式"></a>样式</h2><p>在style里面我们通过对象的方式传递数据</p>
 <pre class="line-numbers language-react"><code class="language-react"><li key={item.id} style={{'color': 'red',"backgroundColor": 'pink'}}>{item.name}</li><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>这种方式比较的麻烦，不方便进行阅读，而且还会导致代码比较的繁琐</p>
-<p>##### </p>
 <p>创建CSS文件编写样式代码</p>
 <pre class="line-numbers language-css"><code class="language-css"><span class="token selector"><span class="token class">.container</span> </span><span class="token punctuation">{</span>
     <span class="token property">text-align</span><span class="token punctuation">:</span> center
@@ -612,7 +611,102 @@ ReactDOM<span class="token punctuation">.</span><span class="token function">ren
 <span class="token punctuation">}</span>
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> Parent<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="子传父"><a href="#子传父" class="headerlink" title="子传父"></a>子传父</h3>
+<h3 id="子传父"><a href="#子传父" class="headerlink" title="子传父"></a>子传父</h3><h2 id="好客租房项目"><a href="#好客租房项目" class="headerlink" title="好客租房项目"></a>好客租房项目</h2><h3 id="1-项目搭建"><a href="#1-项目搭建" class="headerlink" title="1.项目搭建"></a>1.项目搭建</h3><p>使用脚手架初始化项目 - 项目名称不能使用大写字母</p>
+<ol>
+<li><p><code>npx create-react-app my-hkzf</code>  </p>
+<blockquote>
+<p>如果安装过程中不动了, 可能用于鼠标在窗口滑动导致暂停了, 点击一下窗口, 并按一次 <code>Ctrl + C</code> 让项目开始</p>
+</blockquote>
+</li>
+<li><p><code>cd my-hkzf</code> </p>
+</li>
+<li><p><code>npm start</code></p>
+</li>
+<li><p>浏览器<code>localhost:3000</code>打开 - 多个项目可能会发生端口占用, 输入 y 即可自动切换端口号 <code>3001</code></p>
+</li>
+<li><p>后面写react项目 发送ajax 请求 <a href="http://api-haoke-dev.itheima.net/" target="_blank" rel="noopener">http://api-haoke-dev.itheima.net/</a> 拿数据</p>
+</li>
+</ol>
+<h3 id="2-项目目录结构"><a href="#2-项目目录结构" class="headerlink" title="2.项目目录结构"></a>2.项目目录结构</h3><blockquote>
+<table>
+<thead>
+<tr>
+<th>目录</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>public/</td>
+<td>公共资源</td>
+</tr>
+<tr>
+<td>index.html</td>
+<td>首页页面(必须)</td>
+</tr>
+<tr>
+<td>manifest.json</td>
+<td>PWA 应用的元数据</td>
+</tr>
+<tr>
+<td>src/</td>
+<td>项目源码, 写项目功能代码</td>
+</tr>
+<tr>
+<td>assets/</td>
+<td>资源(图片, 字体图标等)</td>
+</tr>
+<tr>
+<td>components/</td>
+<td>公共组件</td>
+</tr>
+<tr>
+<td>utils/</td>
+<td>工具</td>
+</tr>
+<tr>
+<td>App.js</td>
+<td>根组件(配置路由信息)</td>
+</tr>
+<tr>
+<td>index.css</td>
+<td>全局样式(去除浏览器自带样式)</td>
+</tr>
+<tr>
+<td>index.js</td>
+<td>项目入口文件(渲染根组件, 导入组件库等)</td>
+</tr>
+</tbody></table>
+</blockquote>
+<h3 id="3-antd-mobile-组件库"><a href="#3-antd-mobile-组件库" class="headerlink" title="3.antd-mobile 组件库"></a>3.antd-mobile 组件库</h3><p><a href="https://mobile.ant.design/index-cn" target="_blank" rel="noopener">antd-mobile 组件库文档</a></p>
+<blockquote>
+<p>vue  移动端 vant mint-ui（饿了么vue移动端）</p>
+<p>vue pc端 element-ui 后台管理系统经常用</p>
+<p><strong>ant  design</strong></p>
+<p>react  移动端   antd-mobile  阿里巴巴  蚂蚁金服   </p>
+</blockquote>
+<h4 id="快速上手"><a href="#快速上手" class="headerlink" title="快速上手"></a>快速上手</h4><ul>
+<li><p>安装</p>
+<ul>
+<li>cnpm i antd-mobile -S</li>
+</ul>
+</li>
+<li><p>使用</p>
+<ul>
+<li>导入组件</li>
+<li>在index.js导入样式 </li>
+</ul>
+<pre><code>// 引入 antd-mobile的样式
+import &#39;antd-mobile/dist/antd-mobile.css&#39;; </code></pre><ul>
+<li>App.js使用Button</li>
+</ul>
+<pre class="line-numbers language-react"><code class="language-react">// 导入组件
+import { Button } from 'antd-mobile';
+ <Button type="primary">按钮啊啊啊</Button>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+</li>
+</ul>
+<p>## </p>
+
             </div>
             <hr />
 
@@ -1096,35 +1190,33 @@ ReactDOM<span class="token punctuation">.</span><span class="token function">ren
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/04/21/react-base-1/">
+                <a href="/2020/04/26/npm-ming-ling-shi-yi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="react-base-1">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="npm命令释义">
                         
-                        <span class="card-title">react-base-1</span>
+                        <span class="card-title">npm命令释义</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            创建启动GitHub 地址
-初始化项目，命令： npx create-react-app myreact
-切换到项目根目录: cd myreact
-启动: npm start
-Demosrc/index.js 在文件中输入以下内容
-// 引
+                            本片为转载 - 底部附带原文地址备注：&lt;=&gt; 意为等价于；
+1、npm install &lt;=&gt; npm i
+ --save   &lt;=&gt; -S     
+
+ --save-dev  &lt;=&gt; -D
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-21
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-26
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -1137,12 +1229,11 @@ Demosrc/index.js 在文件中输入以下内容
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/react/" target="_blank">
-                        <span class="chip bg-color">react</span>
+                    <a href="/tags/npm/" target="_blank">
+                        <span class="chip bg-color">npm</span>
                     </a>
                     
                 </div>
@@ -1160,7 +1251,7 @@ Demosrc/index.js 在文件中输入以下内容
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/25.jpg" class="responsive-img" alt="uni-app 基础知识">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="uni-app 基础知识">
                         
                         <span class="card-title">uni-app 基础知识</span>
                     </div>
@@ -1358,7 +1449,7 @@ Demosrc/index.js 在文件中输入以下内容
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">29.8k</span>
+            <span class="white-color">30.6k</span>
             
 
             <br>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://thirtyzhang.github.io/"/>
-  <updated>2020-04-23T14:09:10.682Z</updated>
+  <updated>2020-04-26T15:34:00.597Z</updated>
   <id>https://thirtyzhang.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>npm命令释义</title>
+    <link href="https://thirtyzhang.github.io/2020/04/26/npm-ming-ling-shi-yi/"/>
+    <id>https://thirtyzhang.github.io/2020/04/26/npm-ming-ling-shi-yi/</id>
+    <published>2020-04-26T15:31:14.000Z</published>
+    <updated>2020-04-26T15:34:00.597Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;本片为转载-底部附带原文地址&quot;&gt;&lt;a href=&quot;#本片为转载-底部附带原文地址&quot; class=&quot;headerlink&quot; title=&quot;本片为转载 - 底部附带原文地址&quot;&gt;&lt;/a&gt;本片为转载 - 底部附带原文地址&lt;/h2&gt;&lt;p&gt;备注：&amp;lt;=&amp;gt;
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="npm" scheme="https://thirtyzhang.github.io/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
     <title>react-base-1</title>
     <link href="https://thirtyzhang.github.io/2020/04/21/react-base-1/"/>
     <id>https://thirtyzhang.github.io/2020/04/21/react-base-1/</id>
     <published>2020-04-21T02:22:47.000Z</published>
-    <updated>2020-04-23T14:09:10.682Z</updated>
+    <updated>2020-04-26T15:37:50.371Z</updated>
     
     <summary type="html">
     
@@ -148,32 +174,6 @@
   </entry>
   
   <entry>
-    <title>Vue-router</title>
-    <link href="https://thirtyzhang.github.io/2020/04/07/vuerouter-lu-you/"/>
-    <id>https://thirtyzhang.github.io/2020/04/07/vuerouter-lu-you/</id>
-    <published>2020-04-06T17:01:56.000Z</published>
-    <updated>2020-04-09T17:56:29.698Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Vue-router&quot;&gt;&lt;a href=&quot;#Vue-router&quot; class=&quot;headerlink&quot; title=&quot;Vue-router&quot;&gt;&lt;/a&gt;Vue-router&lt;/h1&gt;&lt;h2 id=&quot;路由的概念与原理&quot;&gt;&lt;a href=&quot;#路由的概念与原理&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Vuex</title>
     <link href="https://thirtyzhang.github.io/2020/04/07/vuex/"/>
     <id>https://thirtyzhang.github.io/2020/04/07/vuex/</id>
@@ -187,6 +187,32 @@
         
         
           &lt;h1 id=&quot;Vuex&quot;&gt;&lt;a href=&quot;#Vuex&quot; class=&quot;headerlink&quot; title=&quot;Vuex&quot;&gt;&lt;/a&gt;Vuex&lt;/h1&gt;&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://thirtyzhang.github.io/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="Vue" scheme="https://thirtyzhang.github.io/tags/Vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue-router</title>
+    <link href="https://thirtyzhang.github.io/2020/04/07/vuerouter-lu-you/"/>
+    <id>https://thirtyzhang.github.io/2020/04/07/vuerouter-lu-you/</id>
+    <published>2020-04-06T17:01:56.000Z</published>
+    <updated>2020-04-09T17:56:29.698Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Vue-router&quot;&gt;&lt;a href=&quot;#Vue-router&quot; class=&quot;headerlink&quot; title=&quot;Vue-router&quot;&gt;&lt;/a&gt;Vue-router&lt;/h1&gt;&lt;h2 id=&quot;路由的概念与原理&quot;&gt;&lt;a href=&quot;#路由的概念与原理&quot;
         
       
     
@@ -513,32 +539,6 @@
     
     
       <category term="工具" scheme="https://thirtyzhang.github.io/tags/%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>预习路线</title>
-    <link href="https://thirtyzhang.github.io/2020/01/20/yu-xi-lu-xian/"/>
-    <id>https://thirtyzhang.github.io/2020/01/20/yu-xi-lu-xian/</id>
-    <published>2020-01-19T21:41:09.000Z</published>
-    <updated>2020-01-20T20:21:18.900Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;div align=&quot;middle&quot;&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="学习" scheme="https://thirtyzhang.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="学习" scheme="https://thirtyzhang.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
