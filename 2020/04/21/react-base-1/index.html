@@ -295,7 +295,7 @@ Demosrc/index.js 在文件中输入以下内容
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/27.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -450,14 +450,14 @@ Demosrc/index.js 在文件中输入以下内容
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    956
+                    2.8k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    4 分
+                    11 分
                 </div>
                 
                 
@@ -575,7 +575,13 @@ ReactDOM<span class="token punctuation">.</span><span class="token function">ren
     <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h2 id="组件传值"><a href="#组件传值" class="headerlink" title="组件传值"></a>组件传值</h2><h3 id="父传子"><a href="#父传子" class="headerlink" title="父传子"></a>父传子</h3><pre class="line-numbers language-js"><code class="language-js"><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+<h2 id="组件传值"><a href="#组件传值" class="headerlink" title="组件传值"></a>组件传值</h2><h3 id="父传子"><a href="#父传子" class="headerlink" title="父传子"></a>父传子</h3><blockquote>
+<ul>
+<li>在子组件对应的子组件标签中添加属性<code>&lt;Child age = {this.state.age} arr={this.state.arr}&gt;&lt;/Child&gt;</code></li>
+<li>然后子组件通过<code>this.state.age</code> 接收</li>
+</ul>
+</blockquote>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token keyword">import</span> React <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
 <span class="token keyword">class</span> <span class="token class-name">Parent</span> <span class="token keyword">extends</span> <span class="token class-name">React<span class="token punctuation">.</span>Component</span><span class="token punctuation">{</span>
     state<span class="token operator">=</span> <span class="token punctuation">{</span>
         age<span class="token punctuation">:</span> <span class="token number">18</span><span class="token punctuation">,</span>
@@ -585,7 +591,7 @@ ReactDOM<span class="token punctuation">.</span><span class="token function">ren
     render <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
         <span class="token keyword">return</span> <span class="token operator">&lt;</span>div className <span class="token operator">=</span> <span class="token string">"parent"</span><span class="token operator">></span>
             <span class="token operator">&lt;</span>p<span class="token operator">></span>父组件<span class="token operator">&lt;</span><span class="token operator">/</span>p<span class="token operator">></span>
-            <span class="token operator">&lt;</span>Child age <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>age<span class="token punctuation">}</span> arr<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>arr<span class="token punctuation">}</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>Child<span class="token operator">></span> 
+            <span class="token operator">&lt;</span>Child age <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>age<span class="token punctuation">}</span> arr<span class="token operator">=</span><span class="token punctuation">{</span><span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>arr<span class="token punctuation">}</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>Child<span class="token operator">></span>  <span class="token comment" spellcheck="true">//</span>
         <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
     <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
@@ -611,7 +617,147 @@ ReactDOM<span class="token punctuation">.</span><span class="token function">ren
 <span class="token punctuation">}</span>
 
 <span class="token keyword">export</span> <span class="token keyword">default</span> Parent<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="子传父"><a href="#子传父" class="headerlink" title="子传父"></a>子传父</h3><h2 id="好客租房项目"><a href="#好客租房项目" class="headerlink" title="好客租房项目"></a>好客租房项目</h2><h3 id="1-项目搭建"><a href="#1-项目搭建" class="headerlink" title="1.项目搭建"></a>1.项目搭建</h3><p>使用脚手架初始化项目 - 项目名称不能使用大写字母</p>
+<h3 id="子传父"><a href="#子传父" class="headerlink" title="子传父"></a>子传父</h3><blockquote>
+<p>和父传子相似, 只不过在父组件中定义一个方法传到子, 子组件通过 <code>this.props.方法名(参数)</code> </p>
+<p>把自己的数据通过参数传给父组件的方法</p>
+</blockquote>
+<h3 id="兄弟组件传递"><a href="#兄弟组件传递" class="headerlink" title="兄弟组件传递"></a>兄弟组件传递</h3><ul>
+<li><p>将共享状态(数据)提升到最近的公共父组件中，由公共父组件管理这个状态</p>
+</li>
+<li><p>这个称为状态提升</p>
+</li>
+<li><p>公共父组件职责：1. 提供共享状态 2.提供操作共享状态的方法</p>
+</li>
+<li><p>要通讯的子组件只需要通过props接收状态或操作状态的方法</p>
+</li>
+<li><p><strong>个人感觉就像是 父传子 子传父 的结合 , 父组件把参数传递给其中一个子组件, 在定义一个操作这个数据的方法传给另一个子组件 , 通过方法传参修改, 然后另外一个子组件对应会做更新</strong></p>
+</li>
+<li><h4 id="示例demo"><a href="#示例demo" class="headerlink" title="示例demo"></a>示例demo</h4><ul>
+<li>定义布局结构，一个Counter里面包含两个子组件，一个是计数器的提示，一个是按钮</li>
+</ul>
+<pre class="line-numbers language-react"><code class="language-react">class Counter extends React.Component {
+    render() {
+        return (<div>
+            <Child1 />
+            <Child2 />
+        </div>
+        )
+    }
+}
+class Child1 extends React.Component {
+    render() {
+        return (
+            <h1>Child1 儿子1 计数器：</h1>
+        )
+    }
+}
+class Child2 extends React.Component {
+    render() {
+        return (
+            <button>Child2儿子2 +1</button>
+        )
+    }
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ul>
+<li>在父组件里定义共享状态，把这个状态传递给第一个子组件</li>
+</ul>
+<pre class="line-numbers language-react"><code class="language-react">class Counter extends React.Component {
+    // 提供共享的状态
+    state = {
+        count: 0
+    }
+    render() {
+        return (<div>
+            {/* 把状态提供给第一个子组件 */}
+            <Child1 count={this.state.count}/>
+            <Child2 />
+        </div>
+        )
+    }
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ul>
+<li>在第一个子组件里面就能通过props获取到</li>
+</ul>
+<pre class="line-numbers language-react"><code class="language-react">class Child1 extends React.Component {
+    render() {
+        return (
+            <h1>计数器：{this.props.count}</h1>
+        )
+    }
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ul>
+<li>在父组件中提供共享方法，通过属性传递给第二个子组件，方便第二个子组件来进行调用</li>
+</ul>
+<pre class="line-numbers language-react"><code class="language-react">    // 提供共享方法
+    onIncrement = (res) => {
+        // 只要第二个子组件调用了这个函数，就会执行里面代码
+        this.setState({
+            count: this.state.count + res
+        })
+    }
+    render() {
+        return (<div>
+            ...
+            {/* 把共享方法提供给第二个子组件 */}
+            <Child2 onIncrement={this.onIncrement} />
+        </div>
+        )
+    }<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<ul>
+<li>在第二个子组件里面通过props来获取到对应函数，然后进行调用</li>
+</ul>
+<pre class="line-numbers language-react"><code class="language-react">class Child2 extends React.Component {
+    handleClick = () => {
+        // 这里一旦调用，就会执行父组件里面 onIncrement函数
+        this.props.onIncrement(2)
+    }
+    render() {
+        return (
+            <button onClick={this.handleClick}>+</button>
+        )
+    }
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+</ul>
+<h3 id="render-props模式-就是父传子类似（★★★）"><a href="#render-props模式-就是父传子类似（★★★）" class="headerlink" title="render-props模式 -就是父传子类似（★★★）"></a>render-props模式 -就是父传子类似（★★★）</h3><blockquote>
+<p>就是通过父传子传递函数到子, 函数 return 对应的 html 代码, </p>
+<p>函数名叫 render , 然后对应子组件通过 <code>this.props.render()</code> 调用渲染到子组件上</p>
+</blockquote>
+<h3 id="复杂的传值建议直接使用-redux"><a href="#复杂的传值建议直接使用-redux" class="headerlink" title="复杂的传值建议直接使用 redux"></a>复杂的传值建议直接使用 redux</h3><blockquote>
+<p>类似于 vue 中的 vuex</p>
+</blockquote>
+<h2 id="生命周期"><a href="#生命周期" class="headerlink" title="生命周期"></a>生命周期</h2><p><code>componentWillMount</code> 挂载前 用来数据初始化</p>
+<p><code>componentDidMount</code> 挂载后 用来发送异步请求</p>
+<blockquote>
+<p>用的最多的，一般用在进入页面后，数据初始化 </p>
+</blockquote>
+<pre class="line-numbers language-js"><code class="language-js">componentWillMount <span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">)</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">setState</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+            selectedTab<span class="token punctuation">:</span> <span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>location<span class="token punctuation">.</span>pathname  <span class="token comment" spellcheck="true">// 根据请求地址, 重新给选中的Tab赋值, 解决浏览器刷新后, tab栏高亮的值与地址也不一致</span>
+        <span class="token punctuation">}</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h2 id="高阶组件"><a href="#高阶组件" class="headerlink" title="高阶组件"></a>高阶组件</h2><blockquote>
+<p>个人理解就是把组件放在函数里, 这个函数的返回值是一个组件, 哪里需要就调用这个函数就好了</p>
+</blockquote>
+<h2 id="好客租房项目"><a href="#好客租房项目" class="headerlink" title="好客租房项目"></a>好客租房项目</h2><h3 id="控制台报错"><a href="#控制台报错" class="headerlink" title="控制台报错"></a>控制台报错</h3><p><code>[Intervention] Unable to preventDefault inside passive event listener due to target being treated as</code></p>
+<blockquote>
+<p>解决办法: </p>
+<p>在<code>index.js</code> 中引入公共样式添加以下</p>
+<pre class="line-numbers language-css"><code class="language-css"><span class="token selector">* </span><span class="token punctuation">{</span>
+    <span class="token property">touch-action</span><span class="token punctuation">:</span> pan-y<span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p><a href="https://www.fxyh97.com/index.php/archives/173/" target="_blank" rel="noopener">https://www.fxyh97.com/index.php/archives/173/</a> </p>
+</blockquote>
+<h3 id="0-优化开发篇"><a href="#0-优化开发篇" class="headerlink" title="0. 优化开发篇"></a>0. 优化开发篇</h3><pre class="line-numbers language-js"><code class="language-js"> <span class="token comment" spellcheck="true">// 将要更新UI的时候会执行这个钩子函数</span>
+    <span class="token function">shouldComponentUpdate</span><span class="token punctuation">(</span>nextProps<span class="token punctuation">,</span>nextState<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+         <span class="token comment" spellcheck="true">// 判断一下当前生成的 值是否与页面的值相等 , 来决定页面时候重现渲染</span>
+         <span class="token keyword">if</span><span class="token punctuation">(</span>nextState<span class="token punctuation">.</span>number <span class="token operator">!==</span> <span class="token keyword">this</span><span class="token punctuation">.</span>state<span class="token punctuation">.</span>number<span class="token punctuation">)</span><span class="token punctuation">{</span>
+             <span class="token keyword">return</span> <span class="token boolean">true</span>
+         <span class="token punctuation">}</span>
+         <span class="token keyword">return</span> <span class="token boolean">false</span>
+    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="1-项目搭建"><a href="#1-项目搭建" class="headerlink" title="1.项目搭建"></a>1.项目搭建</h3><p>使用脚手架初始化项目 - 项目名称不能使用大写字母</p>
 <ol>
 <li><p><code>npx create-react-app my-hkzf</code>  </p>
 <blockquote>
@@ -627,6 +773,36 @@ ReactDOM<span class="token punctuation">.</span><span class="token function">ren
 <li><p>后面写react项目 发送ajax 请求 <a href="http://api-haoke-dev.itheima.net/" target="_blank" rel="noopener">http://api-haoke-dev.itheima.net/</a> 拿数据</p>
 </li>
 </ol>
+<h4 id="谷歌上网助手"><a href="#谷歌上网助手" class="headerlink" title="谷歌上网助手"></a>谷歌上网助手</h4><p>链接：<a href="https://pan.baidu.com/s/15nBX-Wc7yCsVUKA37j6hsw" target="_blank" rel="noopener">https://pan.baidu.com/s/15nBX-Wc7yCsVUKA37j6hsw</a><br>提取码：k7vn </p>
+<blockquote>
+<p>简单易用的《谷歌上网助手》，可以解决chrome扩展无法自动更新的问题，同时可以访问谷歌google搜索，gmail邮箱，google+等谷歌服务。</p>
+<p>不用设置任何主页即可免费使用 – google.com 谷歌搜索  – mail.google.com gmail邮箱  – chrome商店访问；</p>
+<p><strong>注意：使用此插件会和本地ss、vpn冲突，请关闭其他代理后在使用。</strong></p>
+</blockquote>
+<p><strong>操作使用方法：</strong></p>
+<blockquote>
+<p>1.下载安装</p>
+<p>2.注册登录后自动开启加速</p>
+<p>3.访问网站 谷歌搜索、邮箱、商店</p>
+</blockquote>
+<h4 id="react-devtools-安装"><a href="#react-devtools-安装" class="headerlink" title="react-devtools 安装"></a>react-devtools 安装</h4><p><strong>在线安装</strong></p>
+<ul>
+<li>有条件的直接打开 <a href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi" target="_blank" rel="noopener">https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi</a> 点击添加至Chrome</li>
+</ul>
+<p><strong>离线安装</strong></p>
+<ul>
+<li><strong>可以直接拿到文件夹中的 unpacked目录 直接使用</strong><ul>
+<li>链接：<a href="https://pan.baidu.com/s/1iRgSjPP0Pp6fK7e1_jAmlQ" target="_blank" rel="noopener">https://pan.baidu.com/s/1iRgSjPP0Pp6fK7e1_jAmlQ</a><br>提取码：1ft4</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul>
+<li>1 打开Chrome输入 chrome://extensions/ 进入扩展程序设置页面</li>
+<li>2 开启 开发者模式</li>
+<li>3 加载已解压的扩展程序 选择第4步的unpacked目录， 确认安装即可</li>
+</ul>
+<h4 id="VSCode-插件"><a href="#VSCode-插件" class="headerlink" title="VSCode - 插件"></a>VSCode - 插件</h4><p><code>Simple React Snippets</code>  </p>
 <h3 id="2-项目目录结构"><a href="#2-项目目录结构" class="headerlink" title="2.项目目录结构"></a>2.项目目录结构</h3><blockquote>
 <table>
 <thead>
@@ -677,14 +853,18 @@ ReactDOM<span class="token punctuation">.</span><span class="token function">ren
 </tr>
 </tbody></table>
 </blockquote>
-<h3 id="3-antd-mobile-组件库"><a href="#3-antd-mobile-组件库" class="headerlink" title="3.antd-mobile 组件库"></a>3.antd-mobile 组件库</h3><p><a href="https://mobile.ant.design/index-cn" target="_blank" rel="noopener">antd-mobile 组件库文档</a></p>
+<h3 id="3-antd-mobile-组件库"><a href="#3-antd-mobile-组件库" class="headerlink" title="3.antd-mobile 组件库"></a>3.antd-mobile 组件库</h3><ul>
+<li>react 移动端 UI组件库</li>
+</ul>
+<p><a href="https://mobile.ant.design/index-cn" target="_blank" rel="noopener">antd-mobile 组件库文档</a></p>
 <blockquote>
 <p>vue  移动端 vant mint-ui（饿了么vue移动端）</p>
 <p>vue pc端 element-ui 后台管理系统经常用</p>
 <p><strong>ant  design</strong></p>
 <p>react  移动端   antd-mobile  阿里巴巴  蚂蚁金服   </p>
 </blockquote>
-<h4 id="快速上手"><a href="#快速上手" class="headerlink" title="快速上手"></a>快速上手</h4><ul>
+<p><strong>快速上手</strong></p>
+<ul>
 <li><p>安装</p>
 <ul>
 <li>cnpm i antd-mobile -S</li>
@@ -695,17 +875,132 @@ ReactDOM<span class="token punctuation">.</span><span class="token function">ren
 <li>导入组件</li>
 <li>在index.js导入样式 </li>
 </ul>
-<pre><code>// 引入 antd-mobile的样式
+<pre><code>// 引入 antd-mobile的样式  // 引入写在 组件导入的前边, 写后边的话有可能覆盖自己写的样式
 import &#39;antd-mobile/dist/antd-mobile.css&#39;; </code></pre><ul>
 <li>App.js使用Button</li>
 </ul>
 <pre class="line-numbers language-react"><code class="language-react">// 导入组件
-import { Button } from 'antd-mobile';
+import { Button } from 'antd-mobile';  // 按需引入
  <Button type="primary">按钮啊啊啊</Button>
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 </li>
 </ul>
-<p>## </p>
+<h3 id="4-路由配置"><a href="#4-路由配置" class="headerlink" title="4.  路由配置"></a>4.  路由配置</h3><p><strong>下载</strong></p>
+<p><code>cnpm i react-router-dom -S</code></p>
+<p><strong>导入</strong></p>
+<p>App.js</p>
+<p><code>import { BrowserRouter as Router, Route, Link} from &#39;react-router-dom&#39;</code> </p>
+<p>– 这里引入时给 BrowserRouter 起个别名 Router 名字简短些</p>
+<p><strong>使用</strong></p>
+<p>App.js</p>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token keyword">class</span> <span class="token class-name">App</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+    state <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+    <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">(</span>
+            <span class="token operator">&lt;</span>Router<span class="token operator">></span> <span class="token comment" spellcheck="true">// 使用Router包裹</span>
+                <span class="token operator">&lt;</span>div<span class="token operator">></span>
+                <span class="token operator">&lt;</span>Link to<span class="token operator">=</span><span class="token string">"/home"</span><span class="token operator">></span>点击显示首页<span class="token operator">&lt;</span><span class="token operator">/</span>Link<span class="token operator">></span> 
+                <span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">"/home"</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Home<span class="token punctuation">}</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">></span>
+            <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+            <span class="token operator">&lt;</span><span class="token operator">/</span>Router<span class="token operator">></span>
+
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><strong>重定向</strong></p>
+<pre class="line-numbers language-js"><code class="language-js">
+<span class="token operator">&lt;</span>Route
+    exact
+    path<span class="token operator">=</span><span class="token string">"/"</span>
+    render<span class="token operator">=</span><span class="token punctuation">{</span>props <span class="token operator">=</span><span class="token operator">></span> <span class="token punctuation">{</span>
+    <span class="token comment" spellcheck="true">// console.log('render-props模式：', props)</span>
+    <span class="token comment" spellcheck="true">// Redirect 组件：是路由的重定向组件，通过 to 属性，来指定要重定向到的路由地址</span>
+    <span class="token keyword">return</span> <span class="token operator">&lt;</span>Redirect to<span class="token operator">=</span><span class="token string">"/home"</span> <span class="token operator">/</span><span class="token operator">></span>
+    <span class="token punctuation">}</span><span class="token punctuation">}</span>
+ <span class="token operator">/</span><span class="token operator">></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><strong>编程式导航</strong></p>
+<p><code>this.props.history.push(&quot;/home&quot;)</code></p>
+<p><strong>默认地址</strong></p>
+<p><code>&lt;Route path=&quot;/&quot; component={Home}&gt;&lt;/Route&gt;</code></p>
+<p><strong>精确匹配</strong></p>
+<p><code>exact</code></p>
+<p><strong>路由参数</strong></p>
+<p><code>&lt;Route path=&quot;/home/:id&quot; component={Home}&gt;&lt;/Route&gt;</code></p>
+<p>地址栏输入<code>/home/1</code></p>
+<p> 在<code>Home</code> 组件中 通过<code>this.props.match.params</code>接收 </p>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token function">componentDidMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+    console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">.</span>props<span class="token punctuation">.</span>match<span class="token punctuation">.</span>params<span class="token punctuation">.</span>id<span class="token punctuation">)</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p><strong>嵌套路由</strong></p>
+<p><code>App.js</code>  – 父</p>
+<pre class="line-numbers language-ks"><code class="language-ks"> import Home from './pages/home/home'
+ import { BrowserRouter as Router, Route, Link} from 'react-router-dom' 
+
+ render() {
+        return (
+            <Router>
+                <div>
+                <Route exact path="/" component={Home}></Route>
+                <Route path="/home" component={Home}></Route>
+            </div>
+            </Router>
+        );
+    }<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><code>home.js</code> – 子</p>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> Route <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react-router-dom'</span>
+
+
+<span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">"/home/index"</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Index<span class="token punctuation">}</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">></span>
+<span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">"/home/news"</span> component<span class="token operator">=</span><span class="token punctuation">{</span>News<span class="token punctuation">}</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">></span>
+<span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">"/home/profile"</span> component<span class="token operator">=</span><span class="token punctuation">{</span>Profile<span class="token punctuation">}</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">></span>
+<span class="token operator">&lt;</span>Route path<span class="token operator">=</span><span class="token string">"/home/houselist"</span> component<span class="token operator">=</span><span class="token punctuation">{</span>HouseList<span class="token punctuation">}</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>Route<span class="token operator">></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="5-图标库"><a href="#5-图标库" class="headerlink" title="5.  图标库"></a>5.  图标库</h3><p><a href="https://www.iconfont.cn/home/index?spm=a313x.7781069.1998910419.2" target="_blank" rel="noopener">阿里妈妈 - iconfont</a></p>
+<blockquote>
+<ol>
+<li>登录后搜索对应图标</li>
+<li>加入购物车</li>
+<li>添加到项目</li>
+<li>下载到本地 - 解压 - 前面两个 <code>demo</code> 文件可以删除掉</li>
+<li>放到 <code>src</code> 下的静态文件夹</li>
+<li>在 <code>index.js</code> 中引入 <code>import &#39;./assets/fonts/iconfont.css&#39;</code></li>
+<li>使用</li>
+</ol>
+<pre class="line-numbers language-js"><code class="language-js"><span class="token operator">&lt;</span>i <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"iconfont"</span><span class="token operator">></span><span class="token operator">&amp;</span>#x33<span class="token punctuation">;</span><span class="token operator">&lt;</span><span class="token operator">/</span>i<span class="token operator">></span>
+<span class="token comment" spellcheck="true">// 或者</span>
+<span class="token operator">&lt;</span>i <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"iconfont icon-xxx"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>i<span class="token operator">></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+</blockquote>
+<h3 id="6-使用-axios-进行接口请求调取数据"><a href="#6-使用-axios-进行接口请求调取数据" class="headerlink" title="6.使用 axios 进行接口请求调取数据"></a>6.使用 axios 进行接口请求调取数据</h3><blockquote>
+<ul>
+<li><code>cnpm i axios -S</code>  - 安装到运行时依赖</li>
+<li>在Index组件中导入axios  <code>import axios from &#39;axios&#39;</code></li>
+</ul>
+</blockquote>
+<h3 id="7-使用-sass–less-CSS扩展语言"><a href="#7-使用-sass–less-CSS扩展语言" class="headerlink" title="7.使用 sass–less  CSS扩展语言"></a>7.使用 sass–less  CSS扩展语言</h3><blockquote>
+<p><strong>使用步骤</strong></p>
+<p>1  下载 <code>cnpm i node-sass -S</code></p>
+<p>2  新建<code>xx.scss</code>文件  sass文件 在里面和less一样写样式  – 注意文件后缀名是 <code>.scss</code></p>
+<p>3 在哪用就导入即可</p>
+</blockquote>
+<h3 id="8-百度地图API"><a href="#8-百度地图API" class="headerlink" title="8.百度地图API"></a>8.百度地图API</h3><blockquote>
+<ul>
+<li><a href="http://lbsyun.baidu.com/apiconsole/key/create" target="_blank" rel="noopener">访问地址</a></li>
+<li>注册账号</li>
+<li>申请AK<ul>
+<li>应用名称: 随便填, 不能与之前的重复</li>
+<li>应用里类型: 浏览器端</li>
+<li>Referer 白名单: 上线的话请填写域名, 如果只是测试可以直接填 * 表示全都可以</li>
+</ul>
+</li>
+<li>AK<ul>
+<li><code>N2YsAtKhLtggksmM1mfXofWnT0UzPozr</code></li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<h3 id="9-引入图片"><a href="#9-引入图片" class="headerlink" title="9. 引入图片"></a>9. 引入图片</h3><blockquote>
+<p><code>import nav1 from &#39;../../assets/images/nav-1.png&#39;</code></p>
+<p>react 图片不能直接使用现对路径, 需要引入, 或者直接使用服务器地址</p>
+</blockquote>
 
             </div>
             <hr />
@@ -1194,28 +1489,24 @@ import { Button } from 'antd-mobile';
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/04/26/npm-ming-ling-shi-yi/">
+                <a href="/2020/04/21/less/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="npm命令释义">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="less">
                         
-                        <span class="card-title">npm命令释义</span>
+                        <span class="card-title">less</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            本片为转载 - 底部附带原文地址备注：&lt;=&gt; 意为等价于；
-1、npm install &lt;=&gt; npm i
- --save   &lt;=&gt; -S     
-
- --save-dev  &lt;=&gt; -D
+                            css 的扩展语言 相似的还有 sass 等等
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-26
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-21
                         </span>
                         <span class="publish-author">
                             
@@ -1232,8 +1523,8 @@ import { Button } from 'antd-mobile';
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/npm/" target="_blank">
-                        <span class="chip bg-color">npm</span>
+                    <a href="/tags/less/" target="_blank">
+                        <span class="chip bg-color">less</span>
                     </a>
                     
                 </div>
@@ -1251,7 +1542,7 @@ import { Button } from 'antd-mobile';
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="uni-app 基础知识">
+                        <img src="/medias/featureimages/24.jpg" class="responsive-img" alt="uni-app 基础知识">
                         
                         <span class="card-title">uni-app 基础知识</span>
                     </div>
@@ -1449,7 +1740,7 @@ import { Button } from 'antd-mobile';
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">30.6k</span>
+            <span class="white-color">33.4k</span>
             
 
             <br>

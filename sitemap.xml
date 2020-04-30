@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://thirtyzhang.github.io/2020/04/21/flex-bu-ju/</loc>
+    
+    <lastmod>2020-04-30T14:24:20.316Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thirtyzhang.github.io/2020/04/21/git-fen-zhi-xie-zuo/</loc>
+    
+    <lastmod>2020-04-30T14:20:18.451Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thirtyzhang.github.io/2020/04/21/less/</loc>
+    
+    <lastmod>2020-04-30T14:18:32.423Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://thirtyzhang.github.io/2020/04/21/react-base-1/</loc>
     
-    <lastmod>2020-04-26T15:37:50.371Z</lastmod>
+    <lastmod>2020-04-30T14:10:09.061Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://thirtyzhang.github.io/2020/02/05/javascript-mo-shi/</loc>
+    
+    <lastmod>2020-04-28T13:49:24.843Z</lastmod>
     
   </url>
   
@@ -124,13 +152,6 @@
     <loc>https://thirtyzhang.github.io/2020/02/13/javascript-ding-shi-qi/</loc>
     
     <lastmod>2020-02-13T08:04:28.858Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://thirtyzhang.github.io/2020/02/05/javascript-mo-shi/</loc>
-    
-    <lastmod>2020-02-05T15:16:35.547Z</lastmod>
     
   </url>
   
