@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://thirtyzhang.github.io/2020/01/21/git-kuai-su-shang-shou/</loc>
+    <lastmod>2020-04-30</lastmod>
+  </url>  <url>
+    <loc>https://thirtyzhang.github.io/2020/01/21/github-guo-nei-fang-wen-jia-su/</loc>
+    <lastmod>2020-04-30</lastmod>
+  </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/04/21/flex-bu-ju/</loc>
     <lastmod>2020-04-30</lastmod>
   </url>  <url>
@@ -29,9 +35,6 @@
     <lastmod>2020-04-16</lastmod>
   </url>  <url>
     <loc>https://thirtyzhang.github.io/2018/01/22/2017-conclusion/</loc>
-    <lastmod>2020-04-15</lastmod>
-  </url>  <url>
-    <loc>https://thirtyzhang.github.io/2020/01/21/github-guo-nei-fang-wen-jia-su/</loc>
     <lastmod>2020-04-15</lastmod>
   </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/01/21/hexo-da-jian-ge-ren-bo-ke/</loc>
@@ -69,9 +72,6 @@
   </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/01/23/javascript-tong-bu-he-yi-bu/</loc>
     <lastmod>2020-01-31</lastmod>
-  </url>  <url>
-    <loc>https://thirtyzhang.github.io/2020/01/21/git-kuai-su-shang-shou/</loc>
-    <lastmod>2020-01-21</lastmod>
   </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/01/20/yu-xi-lu-xian/</loc>
     <lastmod>2020-01-20</lastmod>
