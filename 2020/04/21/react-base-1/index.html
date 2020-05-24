@@ -295,7 +295,7 @@ Demosrc/index.js 在文件中输入以下内容
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/27.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -450,14 +450,14 @@ Demosrc/index.js 在文件中输入以下内容
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.8k
+                    3.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    11 分
+                    13 分
                 </div>
                 
                 
@@ -740,7 +740,10 @@ class Child2 extends React.Component {
 <h2 id="高阶组件"><a href="#高阶组件" class="headerlink" title="高阶组件"></a>高阶组件</h2><blockquote>
 <p>个人理解就是把组件放在函数里, 这个函数的返回值是一个组件, 哪里需要就调用这个函数就好了</p>
 </blockquote>
-<h2 id="好客租房项目"><a href="#好客租房项目" class="headerlink" title="好客租房项目"></a>好客租房项目</h2><h3 id="控制台报错"><a href="#控制台报错" class="headerlink" title="控制台报错"></a>控制台报错</h3><p><code>[Intervention] Unable to preventDefault inside passive event listener due to target being treated as</code></p>
+<h2 id="好客租房项目"><a href="#好客租房项目" class="headerlink" title="好客租房项目"></a>好客租房项目</h2><h3 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h3><blockquote>
+<p><code>React</code> 框架 + <code>Ant Design Mobile</code> UI组件库</p>
+</blockquote>
+<h3 id="控制台报错"><a href="#控制台报错" class="headerlink" title="控制台报错"></a>控制台报错</h3><p><code>[Intervention] Unable to preventDefault inside passive event listener due to target being treated as</code></p>
 <blockquote>
 <p>解决办法: </p>
 <p>在<code>index.js</code> 中引入公共样式添加以下</p>
@@ -757,7 +760,10 @@ class Child2 extends React.Component {
          <span class="token punctuation">}</span>
          <span class="token keyword">return</span> <span class="token boolean">false</span>
     <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<h3 id="1-项目搭建"><a href="#1-项目搭建" class="headerlink" title="1.项目搭建"></a>1.项目搭建</h3><p>使用脚手架初始化项目 - 项目名称不能使用大写字母</p>
+<h3 id="1-项目搭建"><a href="#1-项目搭建" class="headerlink" title="1.项目搭建"></a>1.项目搭建</h3><blockquote>
+<p>react 中 html 和 javascript 是</p>
+</blockquote>
+<p>使用脚手架初始化项目 - 项目名称不能使用大写字母</p>
 <ol>
 <li><p><code>npx create-react-app my-hkzf</code>  </p>
 <blockquote>
@@ -983,23 +989,117 @@ import { Button } from 'antd-mobile';  // 按需引入
 </blockquote>
 <h3 id="8-百度地图API"><a href="#8-百度地图API" class="headerlink" title="8.百度地图API"></a>8.百度地图API</h3><blockquote>
 <ul>
-<li><a href="http://lbsyun.baidu.com/apiconsole/key/create" target="_blank" rel="noopener">访问地址</a></li>
-<li>注册账号</li>
-<li>申请AK<ul>
+<li><p><a href="http://lbsyun.baidu.com/apiconsole/key/create" target="_blank" rel="noopener">访问地址</a></p>
+</li>
+<li><p>注册账号</p>
+</li>
+<li><p>申请AK</p>
+<ul>
 <li>应用名称: 随便填, 不能与之前的重复</li>
 <li>应用里类型: 浏览器端</li>
 <li>Referer 白名单: 上线的话请填写域名, 如果只是测试可以直接填 * 表示全都可以</li>
 </ul>
 </li>
-<li>AK<ul>
+<li><p>AK</p>
+<ul>
 <li><code>N2YsAtKhLtggksmM1mfXofWnT0UzPozr</code></li>
 </ul>
 </li>
+<li><p>使用</p>
+<ul>
+<li><p><a href="http://lbsyun.baidu.com/index.php?title=jspopular3.0/guide/helloworld" target="_blank" rel="noopener">官方文档 </a></p>
+</li>
+<li><p>引用百度地图API文件<code>public/index.html</code></p>
+<pre class="line-numbers language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>text/javascript<span class="token punctuation">"</span></span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>http://api.map.baidu.com/api?v<span class="token punctuation">=</span>3.0&amp;ak<span class="token punctuation">=</span>您的密钥<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>地图容器</p>
+<pre class="line-numbers language-js"><code class="language-js"> <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">(</span>
+            <span class="token operator">&lt;</span>div className<span class="token operator">=</span><span class="token string">'map'</span><span class="token operator">></span>
+                <span class="token operator">&lt;</span>div id<span class="token operator">=</span><span class="token string">'container'</span><span class="token operator">></span>
+
+                <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+            <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><p>在页面渲染完成的生命周期函数中渲染地图</p>
+<pre class="line-numbers language-js"><code class="language-js">  <span class="token function">componentDidMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// 1 创建地图 放到对应div</span>
+        <span class="token keyword">var</span> map <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">BMap<span class="token punctuation">.</span>Map</span><span class="token punctuation">(</span><span class="token string">"container"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">// 2 移动地图到中心点经纬度    116.404, 39.915 天安门</span>
+        <span class="token keyword">var</span> point <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">BMap<span class="token punctuation">.</span>Point</span><span class="token punctuation">(</span><span class="token number">116.404</span><span class="token punctuation">,</span> <span class="token number">39.915</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">// 3 缩放地图</span>
+        map<span class="token punctuation">.</span><span class="token function">centerAndZoom</span><span class="token punctuation">(</span>point<span class="token punctuation">,</span> <span class="token number">15</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">//15 数字 越大 地图就会放大 看到的就更精确 放大缩小</span>
+    <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+<li><p>整个组件代码</p>
+</li>
+<li><pre class="line-numbers language-js"><code class="language-js"><span class="token keyword">import</span> React<span class="token punctuation">,</span> <span class="token punctuation">{</span> Component <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'react'</span><span class="token punctuation">;</span>
+<span class="token keyword">import</span> <span class="token string">'./map.scss'</span>
+<span class="token keyword">let</span> BMap<span class="token operator">=</span>window<span class="token punctuation">.</span>BMap  <span class="token comment" spellcheck="true">// 这里调用 BMap 需要使用 this 统一设置下</span>
+<span class="token keyword">class</span> <span class="token class-name">Map</span> <span class="token keyword">extends</span> <span class="token class-name">Component</span> <span class="token punctuation">{</span>
+    state <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+    <span class="token function">componentDidMount</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+        <span class="token keyword">this</span><span class="token punctuation">.</span><span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">map</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token comment" spellcheck="true">// 1 创建地图 放到对应div</span>
+        <span class="token keyword">var</span> map <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">BMap<span class="token punctuation">.</span>Map</span><span class="token punctuation">(</span><span class="token string">"container"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">// 2 移动地图到中心点经纬度    116.404, 39.915 天安门</span>
+        <span class="token keyword">var</span> point <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">BMap<span class="token punctuation">.</span>Point</span><span class="token punctuation">(</span><span class="token number">116.404</span><span class="token punctuation">,</span> <span class="token number">39.915</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">// 3 缩放地图</span>
+        map<span class="token punctuation">.</span><span class="token function">centerAndZoom</span><span class="token punctuation">(</span>point<span class="token punctuation">,</span> <span class="token number">15</span><span class="token punctuation">)</span><span class="token punctuation">;</span>  <span class="token comment" spellcheck="true">//15 数字 越大 地图就会放大 看到的就更精确 放大缩小</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">render</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token punctuation">(</span>
+            <span class="token operator">&lt;</span>div className<span class="token operator">=</span><span class="token string">'map'</span><span class="token operator">></span>
+                <span class="token operator">&lt;</span>div id<span class="token operator">=</span><span class="token string">'container'</span><span class="token operator">></span>
+
+                <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+            <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
+        <span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> Map<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+<li><p><a href="http://lbsyun.baidu.com/index.php?title=jspopular3.0/guide/geolocation" target="_blank" rel="noopener">IP定位 </a></p>
+</li>
+<li></li>
+<li></li>
 </ul>
 </blockquote>
 <h3 id="9-引入图片"><a href="#9-引入图片" class="headerlink" title="9. 引入图片"></a>9. 引入图片</h3><blockquote>
 <p><code>import nav1 from &#39;../../assets/images/nav-1.png&#39;</code></p>
 <p>react 图片不能直接使用现对路径, 需要引入, 或者直接使用服务器地址</p>
+</blockquote>
+<h3 id="10-px-转-vw"><a href="#10-px-转-vw" class="headerlink" title="10. px 转 vw"></a>10. px 转 vw</h3><blockquote>
+<p>安装插件<code>px2vw</code></p>
+<p>使用:</p>
+<ul>
+<li>自动提示</li>
+<li><code>cmd + shift + p</code> 调出命令行全局替换 (mac 快捷键)，输入 <code>px2vw</code></li>
+<li>px2vw.width 宽度默认：750，可根据设计稿自己通过 <code>cmd + ,</code>打开设置 搜索 <code>px2vw.width</code> 进行更改</li>
+<li><strong>配置好后莫阿斯需要重新打开 VS Code 才能生效</strong></li>
+</ul>
+</blockquote>
+<h3 id="11-长列表渲染-可视化加载"><a href="#11-长列表渲染-可视化加载" class="headerlink" title="11.长列表渲染 - 可视化加载"></a>11.长列表渲染 - 可视化加载</h3><blockquote>
+<p><a href="https://github.com/bvaughn/react-virtualized" target="_blank" rel="noopener">GitHub - 地址</a></p>
+<ul>
+<li>安装: <code>npm install react-virtualized --save</code></li>
+<li><a href="https://github.com/bvaughn/react-virtualized/tree/master/docs" target="_blank" rel="noopener">使用文档</a></li>
+<li><a href="https://bvaughn.github.io/react-virtualized/#/components/List" target="_blank" rel="noopener">示例</a></li>
+<li>引入: <code>import { List } from &#39;react-virtualized&#39;;</code></li>
+<li></li>
+</ul>
 </blockquote>
 
             </div>
@@ -1489,19 +1589,24 @@ import { Button } from 'antd-mobile';  // 按需引入
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/04/21/flex-bu-ju/">
+                <a href="/2020/04/21/uni-app-ji-chu-zhi-shi/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="flex 布局">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="uni-app 基础知识">
                         
-                        <span class="card-title">flex 布局</span>
+                        <span class="card-title">uni-app 基础知识</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            flex 布局, 可以简便、完整、响应式地实现各种页面布局
+                            回顾 小程序-演示ugo1 页面 结构   样式 我们会写  
+2 点击事件  绑定和修改数据 等  我们会写
+3 发送请求 我们会写 
+4 顶部导航与底部tab栏 我们会配置
+5 页面跳转 会写
+我们完全可以用原生的小程序语法 来写一个完
                         
                     </div>
                     <div class="publish-info">
@@ -1523,8 +1628,8 @@ import { Button } from 'antd-mobile';  // 按需引入
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/flex/" target="_blank">
-                        <span class="chip bg-color">flex</span>
+                    <a href="/tags/uni-app/" target="_blank">
+                        <span class="chip bg-color">uni-app</span>
                     </a>
                     
                 </div>
@@ -1538,29 +1643,25 @@ import { Button } from 'antd-mobile';  // 按需引入
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2020/04/21/uni-app-ji-chu-zhi-shi/">
+                <a href="/2020/04/20/zu-zhi-jie-gou-tu-cha-jian/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/24.jpg" class="responsive-img" alt="uni-app 基础知识">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="组织结构图插件">
                         
-                        <span class="card-title">uni-app 基础知识</span>
+                        <span class="card-title">组织结构图插件</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            回顾 小程序-演示ugo1 页面 结构   样式 我们会写  
-2 点击事件  绑定和修改数据 等  我们会写
-3 发送请求 我们会写 
-4 顶部导航与底部tab栏 我们会配置
-5 页面跳转 会写
-我们完全可以用原生的小程序语法 来写一个完
+                            vue-orgchart
+
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-21
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-20
                             </span>
                         <span class="publish-author">
                             
@@ -1577,8 +1678,8 @@ import { Button } from 'antd-mobile';  // 按需引入
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/uni-app/" target="_blank">
-                        <span class="chip bg-color">uni-app</span>
+                    <a href="/tags/Vue/" target="_blank">
+                        <span class="chip bg-color">Vue</span>
                     </a>
                     
                 </div>
@@ -1740,7 +1841,7 @@ import { Button } from 'antd-mobile';  // 按需引入
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">33.4k</span>
+            <span class="white-color">33.9k</span>
             
 
             <br>

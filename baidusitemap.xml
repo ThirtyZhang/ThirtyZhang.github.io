@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://thirtyzhang.github.io/2020/04/07/vue-xiang-guan-yi-nan/</loc>
+    <lastmod>2020-05-24</lastmod>
+  </url>  <url>
+    <loc>https://thirtyzhang.github.io/2020/04/21/react-base-1/</loc>
+    <lastmod>2020-05-08</lastmod>
+  </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/01/21/git-kuai-su-shang-shou/</loc>
     <lastmod>2020-04-30</lastmod>
   </url>  <url>
@@ -14,9 +20,6 @@
     <lastmod>2020-04-30</lastmod>
   </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/04/21/less/</loc>
-    <lastmod>2020-04-30</lastmod>
-  </url>  <url>
-    <loc>https://thirtyzhang.github.io/2020/04/21/react-base-1/</loc>
     <lastmod>2020-04-30</lastmod>
   </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/02/05/javascript-mo-shi/</loc>
@@ -41,9 +44,6 @@
     <lastmod>2020-04-15</lastmod>
   </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/04/07/vuerouter-lu-you/</loc>
-    <lastmod>2020-04-09</lastmod>
-  </url>  <url>
-    <loc>https://thirtyzhang.github.io/2020/04/07/vue-xiang-guan-yi-nan/</loc>
     <lastmod>2020-04-09</lastmod>
   </url>  <url>
     <loc>https://thirtyzhang.github.io/2020/04/07/vuex/</loc>
