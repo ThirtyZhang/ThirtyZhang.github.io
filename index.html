@@ -524,6 +524,31 @@ $(function () {
     
     
     <div class="col s12 m6" >
+        <div class="post-card" style="background-image: url('/medias/featureimages/19.jpg')">
+            <div class="post-body">
+                <div class="post-categories">
+                    
+                    <a href="/categories/前端/" class="category" target="_blank">前端</a>
+                    
+                </div>
+                <a href="/2018/01/23/javascript-tong-bu-he-yi-bu/" target="_blank">
+                    <h3 class="post-title">JavaScript同步和异步</h3>
+                </a>
+                <p class="post-description">
+                    
+                        发送一个请求,不等待返回,随时可以再发送下一个请求
+                    
+                </p>
+                <a href="/2018/01/23/javascript-tong-bu-he-yi-bu/" target="_blank"
+                        class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)">
+                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="col s12 m6" data-aos="zoom-in-up">
         <div class="post-card" style="background-image: url('/medias/featureimages/9.jpg')">
             <div class="post-body">
                 <div class="post-categories">
@@ -544,31 +569,6 @@ imply globle 暗示全局变量 :  未声明直接赋值的的变量归window所
                     
                 </p>
                 <a href="/2018/02/22/javascript-yu-bian-yi/" target="_blank"
-                        class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #EF4DB6 0%, #C643FC 100%)">
-                    <i class="icon fa fa-eye fa-fw"></i>阅读更多
-                </a>
-            </div>
-        </div>
-    </div>
-    
-    
-    <div class="col s12 m6" data-aos="zoom-in-up">
-        <div class="post-card" style="background-image: url('/medias/featureimages/19.jpg')">
-            <div class="post-body">
-                <div class="post-categories">
-                    
-                    <a href="/categories/前端/" class="category" target="_blank">前端</a>
-                    
-                </div>
-                <a href="/2018/01/23/javascript-tong-bu-he-yi-bu/" target="_blank">
-                    <h3 class="post-title">JavaScript同步和异步</h3>
-                </a>
-                <p class="post-description">
-                    
-                        发送一个请求,不等待返回,随时可以再发送下一个请求
-                    
-                </p>
-                <a href="/2018/01/23/javascript-tong-bu-he-yi-bu/" target="_blank"
                         class="read-more btn waves-effect waves-light" style="background: linear-gradient(to right, #1AD6FD 0%, #1D62F0 100%)">
                     <i class="icon fa fa-eye fa-fw"></i>阅读更多
                 </a>
@@ -1328,8 +1328,8 @@ Vue.use(Vuex)
     $(document).ready(function () {
 
         var int = setInterval(fixCount, 50);
-        var pvcountOffset = 100;
-        var uvcountOffset = 10;
+        var pvcountOffset = 6666;
+        var uvcountOffset = 666;
 
         function fixCount() {
             if (document.getElementById("busuanzi_container_site_pv").style.display != "none") {
