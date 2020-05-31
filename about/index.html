@@ -511,7 +511,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 name: '文章篇数',
                 type: 'line',
                 color: ['#6772e5'],
-                data: [0,0,0,0,0,0,0,0,8,4,1,11,0],
+                data: [0,0,0,0,0,0,0,0,0,0,0,0,0],
                 markPoint: {
                     symbolSize: 45,
                     color: ['#fa755a','#3ecf8e','#82d3f4'],
@@ -553,7 +553,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"随笔","value":1},{"name":"工具","value":2},{"name":"前端","value":17},{"name":"效率","value":3},{"name":"学习","value":1},{"name":"音乐","value":1}],
+                data: [{"name":"随笔","value":1},{"name":"前端","value":17},{"name":"工具","value":2},{"name":"效率","value":3},{"name":"音乐","value":1},{"name":"学习","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -577,7 +577,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         xAxis: [
             {
                 type: 'category',
-                data: ["JavaScript","工具","Vue","Git","uni-app","随笔","JavaScripe","框架","less","npm"]
+                data: ["JavaScript","工具","Vue","Git","uni-app","随笔","框架","JavaScripe","flex","less"]
             }
         ],
         yAxis: [
@@ -746,6 +746,12 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             
             
+            <a href="/tags/框架/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">框架</span>
+            </a>
+            
+            
+            
             <a href="/tags/JavaScripe/" target="_blank">
                 <span class="chip center-align waves-effect waves-light chip-default">JavaScripe</span>
             </a>
@@ -758,14 +764,14 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             
             
-            <a href="/tags/框架/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">框架</span>
+            <a href="/tags/Vue/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">Vue</span>
             </a>
             
             
             
-            <a href="/tags/Vue/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">Vue</span>
+            <a href="/tags/flex/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">flex</span>
             </a>
             
             
@@ -782,26 +788,20 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
             
             
             
-            <a href="/tags/flex/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">flex</span>
-            </a>
-            
-            
-            
             <a href="/tags/uni-app/" target="_blank">
                 <span class="chip center-align waves-effect waves-light chip-default">uni-app</span>
             </a>
             
             
             
-            <a href="/tags/学习/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">学习</span>
+            <a href="/tags/react/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">react</span>
             </a>
             
             
             
-            <a href="/tags/react/" target="_blank">
-                <span class="chip center-align waves-effect waves-light chip-default">react</span>
+            <a href="/tags/学习/" target="_blank">
+                <span class="chip center-align waves-effect waves-light chip-default">学习</span>
             </a>
             
             
@@ -837,7 +837,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
     <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
-            &copy; 2020 张磊. All Rights Reserved.
+            &copy; 2018 张磊. All Rights Reserved.
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
@@ -947,7 +947,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         minutes - 0-59之间的整数，做为date对象的分钟数
         seconds - 0-59之间的整数，做为date对象的秒数
         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-        var t1 = Date.UTC(2020, 01, 18, 00, 00, 00); //北京时间2018-2-13 00:00:00
+        var t1 = Date.UTC(2018, 01, 18, 00, 00, 00); //北京时间2018-2-13 00:00:00
         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
         var diff = t2 - t1;
         var diffYears = Math.floor(diff / years);
